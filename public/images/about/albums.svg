@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="pb-albums" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<a href="http://albums.patternbased.com/" target="_blank">
+<style type="text/css">
+	.bg1, .bg2{fill:#F6F6F6;}
+        svg:hover .bg2{fill:#bdbdbd;}
+	.ob1{fill:none; stroke:#000000;stroke-miterlimit:10;}
+	.ob2{stroke:#000000;stroke-miterlimit:10;}
+  #record{animation-name:record-rotate;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  transform-origin:50% 50%;
+  animation-timing-function: linear;
+  animation-play-state: running;}
+@keyframes record-rotate {
+            0%   { transform: rotate(0deg); }
+            100% { transform: rotate(360deg);}
+  }
+ svg:hover #record {
+  animation-play-state: paused;
+}
+</style>
+<g>
+	<rect class="bg1" width="120" height="120"/>
+</g>
+<g>
+	<path class="bg2" d="M15,114.5c-5.24,0-9.5-4.26-9.5-9.5V15c0-5.24,4.26-9.5,9.5-9.5h90c5.24,0,9.5,4.26,9.5,9.5v90
+		c0,5.24-4.26,9.5-9.5,9.5H15z"/>
+	<path d="M105,6c4.96,0,9,4.04,9,9v90c0,4.96-4.04,9-9,9H15c-4.96,0-9-4.04-9-9V15c0-4.96,4.04-9,9-9H105 M105,5H15
+		C9.48,5,5,9.48,5,15v90c0,5.52,4.48,10,10,10h90c5.52,0,10-4.48,10-10V15C115,9.48,110.52,5,105,5L105,5z"/>
+</g>
+<g>
+	<circle cx="101.5" cy="18.5" r="4.5"/>
+	<circle cx="18.5" cy="18.5" r="4.5"/>
+	<circle cx="101.5" cy="101.5" r="4.5"/>
+	<circle cx="18.5" cy="101.5" r="4.5"/>
+</g>
+<g id="record">
+	<circle class="ob1" cx="60" cy="60" r="42"/>
+	<path class="ob1" d="M24.5,54C27.35,36.97,42.16,24,60,24c7.4,0,14.28,2.23,20,6.06"/>
+	<path class="ob1" d="M96,59.62c0.07,6.31-1.51,12.71-4.93,18.55c-10.04,17.16-32.08,22.94-49.25,12.91"/>
+	<path class="ob1" d="M31.99,49.25C36.33,38,47.25,30,60,30c3.75,0,7.34,0.69,10.65,1.95"/>
+	<path class="ob1" d="M88.66,68.89c-0.66,2.14-1.58,4.24-2.76,6.26C79.2,86.6,66.01,91.98,53.69,89.33"/>
+	<path class="ob1" d="M36.29,56.28C38.08,44.81,48.03,36,60,36c4.96,0,9.58,1.51,13.41,4.1"/>
+	<path class="ob1" d="M83.84,62.8c-0.37,3.19-1.39,6.36-3.12,9.31c-6.68,11.42-21.41,15.28-32.83,8.6"/>
+	<path class="ob1" d="M44.79,50.39C47.98,45.35,53.61,42,60,42c2.4,0,4.68,0.47,6.78,1.32"/>
+	<path class="ob1" d="M75.54,69.09c-3.91,6.68-11.48,9.91-18.69,8.64"/>
+	<circle class="ob1" cx="60" cy="60" r="12"/>
+	<circle class="ob2" cx="60" cy="60" r="4.5"/>
+</g>
+<g>
+	<path d="M97,64H83.5c-2.49,0-4.5-2.01-4.5-4.5v0c0-2.49,2.01-4.5,4.5-4.5H97V64z"/>
+	<line class="ob1" x1="101.5" y1="18.5" x2="96.5" y2="63.5"/>
+</g>
+</a>
+</svg>

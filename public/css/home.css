@@ -1,0 +1,104 @@
+      /*//////////////  Home page  //////////////*/
+
+      .homeHero {
+        padding: 0;
+        width: 100%;
+        position: relative;
+      }
+      
+      .homeSlides {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 100px 0;
+        animation:fading 5s infinite;
+        letter-spacing: 0.2em;
+      
+      }
+      
+      @keyframes fading {
+        0% {opacity:0}
+        20%, 80% {opacity:1}
+        100%{opacity:0}
+      }
+      
+      .homeSlides h4 {
+        width: max-content;
+        max-width: 90%;
+        margin: 0 auto;
+        /* padding-top: 100px; */
+        position: relative;
+      }
+      
+      .homeSlides h4::before {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #FFFFFF;
+        position: absolute;
+        bottom: -6px;
+      }
+      
+      .homeSlidesDark h4::before {
+        background: #222222;
+      }
+      
+      .homeSlides h2 {
+        font-size: 1.6em;
+      }
+      
+      .sliderSideButtons {
+        width: 20px;
+        height: 20px;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: calc(50% - 25px);
+        color: #222222;
+        padding: 15px;
+        opacity: 0.3;
+        cursor: pointer;
+      }
+      
+      .sliderSideButtons:hover {
+        opacity: 1;
+        transition-duration: 300ms;
+      }
+      
+      .slideLeft {
+        left: 0;
+        border-radius: 0 4px 4px 0;
+      
+      }
+      
+      .slideRight {
+        right: 0;
+        border-radius: 4px 0 0 4px;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .sliderSideButtons {
+          display: none;
+        }
+      }
+      
+      #homeslide-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pages/UNScreening_slider.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      #homeslide-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pages/daewonSong_slider.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      
+      #homeslide-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/pages/cheertunes_slider.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }

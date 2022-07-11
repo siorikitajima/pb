@@ -1,0 +1,79 @@
+  /*//////////////  About page  //////////////*/
+
+  .coreMediums object {
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .coreMediums h3 {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
+  .goatMessage {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/about/donnie-rosie-lF41VAs6rPI-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10px 20px;
+    max-height: auto;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    .goatMessage {
+      background-attachment: scroll;
+      background-position: center center;
+    }
+  }
+  
+  .goatMessage object {
+    width: 80px;
+    display: block;
+    margin: 20px auto 10px auto;
+  }
+  
+  .testimonial, .testimonialName {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .testimonial::before, .testimonial::after {
+    content: "";
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    display: inline-block;
+    background-size: 24px 24px;
+    background-position: center center;
+  }
+  
+  .testimonial::before {
+    background-image: url(../images/global/quote-before.png);
+  }
+  
+  .testimonial::after {
+    background-image: url(../images/global/quote-after.png);
+  }
+  
+  .testimonialName {
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+ .listTwoRows {
+    height: 360px;
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .listTwoRows {
+      height: 720px;
+    }
+  }

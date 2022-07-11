@@ -1,0 +1,92 @@
+.artists, .collaborations, .portfolio, .merchWrap {
+    height: 140px;
+    padding: 10px 0;
+    margin: 10px;
+    position: relative;
+    border-radius: 4px;
+  }
+
+  .portfolio, .merch {
+    width: 220px;
+    height: 220px;
+    float: left;
+    padding: 0;
+  }
+
+  .merch {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    float: none;
+    border-radius: 4px;
+  }
+
+  .merchWrap {
+    float: left;
+    width: 220px;
+    height: 320px;
+  }
+  
+  .collaborations {
+    margin: 5px 10px;
+  }
+  
+  .artists:hover, .collaborations:hover, .portfolio:hover, .merch:hover {
+    opacity: 0.6;
+    transition-duration: 400ms;
+  }
+  
+  .artists h3, .collaborations h3, .portfolio h3 {
+    font-size: 1.1em;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+  }
+
+  .merchWrap h3, .merchWrap p {
+    color: #000000;
+    margin: 10px;
+  }
+
+  .merchWrap h3 {
+    margin-top: 16px;
+  }
+
+  .merchWrap p {
+    font-size: 0.8em;
+    opacity: 0.5;
+  }
+
+  .collaborations {
+      background-color: #836767;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .portfolio, .merch {
+      width: calc(50vw - 10px);
+      height: calc(50vw - 10px);
+      padding: 0;
+      margin: 5px;
+    }
+    .merch {
+      margin: 0;
+    }
+    .merchWrap {
+      width: calc(50vw - 10px);
+      padding: 0;
+      margin: 5px 5px 10px 5px;
+    }
+    .merchWrap h3 {
+      font-size: 1em;
+    }
+    .merchWrap h3, .merchWrap p {
+      margin: 10px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .merchWrap {
+      height: 300px;
+    }
+  }

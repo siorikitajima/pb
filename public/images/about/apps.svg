@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="pb-multimediadesign" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<a href="https://patternbased.com/portfolio/index.html?category=code" target="_parent">
+<style type="text/css">
+	.mld-st0{clip-path:url(#mld-SVGID_2_);}
+	.mld-st1{fill:#808080;}
+	.mld-st2{fill:#F6F6F6;}
+#blk-outline {fill:#F6F6F6;}
+svg:hover #blk-outline, svg:hover .mld-st2 {fill:#BDBDBD;}
+	.mld-st3{fill:none;stroke:#cccccc;stroke-miterlimit:10;}
+	.mld-st4{fill:#F6F6F6;stroke:#000000;stroke-miterlimit:10;}
+	.mld-st5{fill:#F6F6F6;stroke:#000000;stroke-width:1.1832;stroke-miterlimit:10;}
+	.mld-st6{clip-path:url(#mld-SVGID_4_);}
+	.mld-st7{clip-path:url(#mld-SVGID_6_);}
+	.mld-st8{clip-path:url(#mld-SVGID_8_);}
+	.mld-st9{clip-path:url(#mld-SVGID_10_);}
+	.mld-st10{clip-path:url(#mld-SVGID_12_);}
+	.mld-st11{clip-path:url(#mld-SVGID_14_);}
+  #dvc01 {animation-name: dvc01;}
+  #dvc02 {animation-name: dvc02;}
+  #dvc03 {animation-name: dvc03;}
+  #dvc04 {animation-name: dvc04;}
+  #mld-frames {animation-name: mld-frames;
+  fill:#000000;}
+  #dvc01, #dvc02, #dvc03, #dvc04, #mld-frames {animation-duration: 10s;
+  animation-iteration-count:infinite;
+  transform-origin:50% 50%;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;}
+  svg:hover #dvc01, svg:hover #dvc02, svg:hover #dvc03, svg:hover #dvc04, svg:hover #mld-frames { animation-play-state: paused;}
+  @keyframes dvc01 {
+    0%, 28% {opacity:1;}
+    33%, 70% {opacity:0;}
+    82%, 100% {opacity:1;}}
+  @keyframes dvc02 {
+    0%, 18% {opacity:0;}
+    22%, 82% {opacity:1;}
+    90%, 100% {opacity:0;}}
+  @keyframes dvc03 {
+    0%, 17% {transform: translate(0, 0); opacity:0;}
+    19%, 38% {transform: translate(0, 0); opacity:1;}
+    48%, 71% {transform: translate(0, 23px); opacity:1;}
+    77%, 82% {transform: translate(0, 0); opacity:1;}
+    90%, 100% {transform: translate(0, 0); opacity:0;}}
+  @keyframes dvc04 {
+    0%, 18% {transform: translate(0, 0); opacity:0;}
+    20%, 36% {transform: translate(0, 0); opacity:1;}
+    46%, 72% {transform: translate(0, -30px); opacity:1;}
+    78%, 82% {transform: translate(0, 0); opacity:1;}
+    90%, 100% {transform: translate(0, 0); opacity:0;}}
+  @keyframes mld-frames {
+    0%, 78% {opacity:0;}
+    80%, 90% {transform: rotate(0deg); opacity:1;}
+    100% {transform: rotate(90deg); opacity:0;}}
+  </style>
+<circle cx="60" cy="60" r="55" stroke="none" id="blk-outline"/>
+<g id="dvc01">
+	<defs>
+		<path id="mld-SVGID_1_" d="M60,115L60,115C29.62,115,5,90.38,5,60v0C5,29.62,29.62,5,60,5h0c30.38,0,55,24.62,55,55v0
+			C115,90.38,90.38,115,60,115z"/>
+	</defs>
+	<clipPath id="mld-SVGID_2_">
+		<use xlink:href="#mld-SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="mld-st0">
+		<g>
+			<path class="mld-st1" d="M60,5L60,5C29.96,5,5.56,29.09,5.03,59h109.95C114.44,29.09,90.04,5,60,5z"/>
+			<path class="mld-st2" d="M5.03,59C5.02,59.33,5,59.66,5,60v0c0,30.38,24.62,55,55,55h0c30.38,0,55-24.62,55-55v0
+				c0-0.34-0.02-0.67-0.03-1H5.03z"/>
+		</g>
+		<g>
+			<g>
+				<g>
+					<polygon class="mld-st1" points="59.5,58.5 59.5,3.5 40.24,6.98 					"/>
+				</g>
+				<g>
+					<polygon class="mld-st1" points="59.5,58.5 78.76,6.98 95.58,16.99 					"/>
+				</g>
+				<g>
+					<polygon class="mld-st1" points="59.5,58.5 113.96,50.85 107.83,32.26 					"/>
+				</g>
+				<g>
+					<polygon class="mld-st1" points="59.5,58.5 23.42,16.99 11.5,32.5 					"/>
+				</g>
+				<g>
+					<polygon class="mld-st1" points="59.5,58.5 6.44,51.04 4,58.5 					"/>
+				</g>
+			</g>
+			<g>
+				<line class="mld-st3" x1="59.5" y1="3.5" x2="59.5" y2="58.5"/>
+				<line class="mld-st3" x1="78.76" y1="6.98" x2="59.5" y2="58.5"/>
+				<line class="mld-st3" x1="95.58" y1="16.99" x2="59.5" y2="58.5"/>
+				<line class="mld-st3" x1="107.83" y1="32.26" x2="59.5" y2="58.5"/>
+				<line class="mld-st3" x1="113.96" y1="50.85" x2="59.5" y2="58.5"/>
+				<line class="mld-st3" x1="40.24" y1="6.98" x2="59.5" y2="58.5"/>
+				<line class="mld-st3" x1="23.42" y1="16.99" x2="59.5" y2="58.5"/>
+				<line class="mld-st3" x1="11.5" y1="32.5" x2="59.5" y2="58.5"/>
+				<line class="mld-st3" x1="6.44" y1="51.04" x2="59.5" y2="58.5"/>
+			</g>
+			<line class="mld-st4" x1="5.5" y1="58.5" x2="114.5" y2="58.5"/>
+		</g>
+		<line class="mld-st3" x1="46.5" y1="61.5" x2="59.5" y2="61.5"/>
+		<line class="mld-st3" x1="51" y1="65.5" x2="64" y2="65.5"/>
+		<line class="mld-st3" x1="55.5" y1="69.5" x2="68.5" y2="69.5"/>
+		<line class="mld-st3" x1="45" y1="74.5" x2="58" y2="74.5"/>
+		<line class="mld-st3" x1="34.5" y1="79.5" x2="47.5" y2="79.5"/>
+		<line class="mld-st3" x1="38" y1="81.5" x2="51" y2="81.5"/>
+		<line class="mld-st3" x1="54.5" y1="76.5" x2="67.5" y2="76.5"/>
+		<line class="mld-st3" x1="68" y1="81.5" x2="81" y2="81.5"/>
+	</g>
+</g>
+<g>
+	<path d="M60,6c29.78,0,54,24.22,54,54c0,29.78-24.22,54-54,54C30.22,114,6,89.78,6,60C6,30.22,30.22,6,60,6 M60,5L60,5
+		C29.62,5,5,29.62,5,60v0c0,30.38,24.62,55,55,55h0c30.38,0,55-24.62,55-55v0C115,29.62,90.38,5,60,5L60,5z"/>
+</g>
+<g id="dvc02">
+	<g>
+		<defs>
+			<path id="mld-SVGID_3_" d="M98,90H22c-2.21,0-4-1.79-4-4V34c0-2.21,1.79-4,4-4h76c2.21,0,4,1.79,4,4v52C102,88.21,100.21,90,98,90z"
+				/>
+		</defs>
+		<clipPath id="mld-SVGID_4_">
+			<use xlink:href="#mld-SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="mld-st6">
+			<defs>
+				<path id="mld-SVGID_5_" d="M60,115L60,115C29.62,115,5,90.38,5,60v0C5,29.62,29.62,5,60,5h0c30.38,0,55,24.62,55,55v0
+					C115,90.38,90.38,115,60,115z"/>
+			</defs>
+			<clipPath id="mld-SVGID_6_">
+				<use xlink:href="#mld-SVGID_5_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="mld-st7">
+				<g>
+					<path class="mld-st1" d="M60,5L60,5C29.96,5,5.56,29.09,5.03,59h109.95C114.44,29.09,90.04,5,60,5z"/>
+					<path class="mld-st2" d="M5.03,59C5.02,59.33,5,59.66,5,60v0c0,30.38,24.62,55,55,55h0c30.38,0,55-24.62,55-55v0
+						c0-0.34-0.02-0.67-0.03-1H5.03z"/>
+				</g>
+				<g>
+					<g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 59.5,3.5 40.24,6.98 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 78.76,6.98 95.58,16.99 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 113.96,50.85 107.83,32.26 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 23.42,16.99 11.5,32.5 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 6.44,51.04 4,58.5 							"/>
+						</g>
+					</g>
+					<g>
+						<line class="mld-st3" x1="59.5" y1="3.5" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="78.76" y1="6.98" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="95.58" y1="16.99" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="107.83" y1="32.26" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="113.96" y1="50.85" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="40.24" y1="6.98" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="23.42" y1="16.99" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="11.5" y1="32.5" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="6.44" y1="51.04" x2="59.5" y2="58.5"/>
+					</g>
+					<line class="mld-st4" x1="5.5" y1="58.5" x2="114.5" y2="58.5"/>
+				</g>
+				<line class="mld-st3" x1="46.5" y1="61.5" x2="59.5" y2="61.5"/>
+				<line class="mld-st3" x1="51" y1="65.5" x2="64" y2="65.5"/>
+				<line class="mld-st3" x1="55.5" y1="69.5" x2="68.5" y2="69.5"/>
+				<line class="mld-st3" x1="45" y1="74.5" x2="58" y2="74.5"/>
+				<line class="mld-st3" x1="34.5" y1="79.5" x2="47.5" y2="79.5"/>
+				<line class="mld-st3" x1="38" y1="81.5" x2="51" y2="81.5"/>
+				<line class="mld-st3" x1="54.5" y1="76.5" x2="67.5" y2="76.5"/>
+				<line class="mld-st3" x1="68" y1="81.5" x2="81" y2="81.5"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path d="M98,32c1.1,0,2,0.9,2,2v52c0,1.1-0.9,2-2,2H22c-1.1,0-2-0.9-2-2V34c0-1.1,0.9-2,2-2H98 M98,30H22c-2.21,0-4,1.79-4,4v52
+			c0,2.21,1.79,4,4,4h76c2.21,0,4-1.79,4-4V34C102,31.79,100.21,30,98,30L98,30z"/>
+	</g>
+</g>
+<g id="dvc03">
+	<g>
+		<defs>
+			<path id="mld-SVGID_7_" d="M83,81H37c-2.21,0-4-1.79-4-4V43c0-2.21,1.79-4,4-4H83c2.21,0,4,1.79,4,4V77C87,79.21,85.21,81,83,81z"/>
+		</defs>
+		<clipPath id="mld-SVGID_8_">
+			<use xlink:href="#mld-SVGID_7_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="mld-st8">
+			<defs>
+				<path id="mld-SVGID_9_" d="M60,115L60,115C29.62,115,5,90.38,5,60v0C5,29.62,29.62,5,60,5h0c30.38,0,55,24.62,55,55v0
+					C115,90.38,90.38,115,60,115z"/>
+			</defs>
+			<clipPath id="mld-SVGID_10_">
+				<use xlink:href="#mld-SVGID_9_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="mld-st9">
+				<g>
+					<path class="mld-st1" d="M60,5L60,5C29.96,5,5.56,29.09,5.03,59h109.95C114.44,29.09,90.04,5,60,5z"/>
+					<path class="mld-st2" d="M5.03,59C5.02,59.33,5,59.66,5,60v0c0,30.38,24.62,55,55,55h0c30.38,0,55-24.62,55-55v0
+						c0-0.34-0.02-0.67-0.03-1H5.03z"/>
+				</g>
+				<g>
+					<g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 59.5,3.5 40.24,6.98 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 78.76,6.98 95.58,16.99 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 113.96,50.85 107.83,32.26 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 23.42,16.99 11.5,32.5 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 6.44,51.04 4,58.5 							"/>
+						</g>
+					</g>
+					<g>
+						<line class="mld-st3" x1="59.5" y1="3.5" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="78.76" y1="6.98" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="95.58" y1="16.99" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="107.83" y1="32.26" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="113.96" y1="50.85" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="40.24" y1="6.98" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="23.42" y1="16.99" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="11.5" y1="32.5" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="6.44" y1="51.04" x2="59.5" y2="58.5"/>
+					</g>
+					<line class="mld-st4" x1="5.5" y1="58.5" x2="114.5" y2="58.5"/>
+				</g>
+				<line class="mld-st3" x1="46.5" y1="61.5" x2="59.5" y2="61.5"/>
+				<line class="mld-st3" x1="51" y1="65.5" x2="64" y2="65.5"/>
+				<line class="mld-st3" x1="55.5" y1="69.5" x2="68.5" y2="69.5"/>
+				<line class="mld-st3" x1="45" y1="74.5" x2="58" y2="74.5"/>
+				<line class="mld-st3" x1="34.5" y1="79.5" x2="47.5" y2="79.5"/>
+				<line class="mld-st3" x1="38" y1="81.5" x2="51" y2="81.5"/>
+				<line class="mld-st3" x1="54.5" y1="76.5" x2="67.5" y2="76.5"/>
+				<line class="mld-st3" x1="68" y1="81.5" x2="81" y2="81.5"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<path d="M83,41c1.1,0,2,0.9,2,2V77c0,1.1-0.9,2-2,2H37c-1.1,0-2-0.9-2-2V43c0-1.1,0.9-2,2-2H83 M83,39H37c-2.21,0-4,1.79-4,4V77
+					c0,2.21,1.79,4,4,4H83c2.21,0,4-1.79,4-4V43C87,40.79,85.21,39,83,39L83,39z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="dvc04">
+	<g>
+		<defs>
+			<path id="mld-SVGID_11_" d="M66.5,76.5H53.5c-2.21,0-4-1.79-4-4V47.5c0-2.21,1.79-4,4-4H66.5c2.21,0,4,1.79,4,4V72.5
+				C70.5,74.71,68.71,76.5,66.5,76.5z"/>
+		</defs>
+		<clipPath id="mld-SVGID_12_">
+			<use xlink:href="#mld-SVGID_11_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="mld-st10">
+			<defs>
+				<path id="mld-SVGID_13_" d="M60,115L60,115C29.62,115,5,90.38,5,60v0C5,29.62,29.62,5,60,5h0c30.38,0,55,24.62,55,55v0
+					C115,90.38,90.38,115,60,115z"/>
+			</defs>
+			<clipPath id="mld-SVGID_14_">
+				<use xlink:href="#mld-SVGID_13_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="mld-st11">
+				<g>
+					<path class="mld-st1" d="M60,5L60,5C29.96,5,5.56,29.09,5.03,59h109.95C114.44,29.09,90.04,5,60,5z"/>
+					<path class="mld-st2" d="M5.03,59C5.02,59.33,5,59.66,5,60v0c0,30.38,24.62,55,55,55h0c30.38,0,55-24.62,55-55v0
+						c0-0.34-0.02-0.67-0.03-1H5.03z"/>
+				</g>
+				<g>
+					<g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 59.5,3.5 40.24,6.98 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 78.76,6.98 95.58,16.99 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 113.96,50.85 107.83,32.26 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 23.42,16.99 11.5,32.5 							"/>
+						</g>
+						<g>
+							<polygon class="mld-st1" points="59.5,58.5 6.44,51.04 4,58.5 							"/>
+						</g>
+					</g>
+					<g>
+						<line class="mld-st3" x1="59.5" y1="3.5" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="78.76" y1="6.98" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="95.58" y1="16.99" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="107.83" y1="32.26" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="113.96" y1="50.85" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="40.24" y1="6.98" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="23.42" y1="16.99" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="11.5" y1="32.5" x2="59.5" y2="58.5"/>
+						<line class="mld-st3" x1="6.44" y1="51.04" x2="59.5" y2="58.5"/>
+					</g>
+					<line class="mld-st4" x1="5.5" y1="58.5" x2="114.5" y2="58.5"/>
+				</g>
+				<line class="mld-st3" x1="46.5" y1="61.5" x2="59.5" y2="61.5"/>
+				<line class="mld-st3" x1="51" y1="65.5" x2="64" y2="65.5"/>
+				<line class="mld-st3" x1="55.5" y1="69.5" x2="68.5" y2="69.5"/>
+				<line class="mld-st3" x1="45" y1="74.5" x2="58" y2="74.5"/>
+				<line class="mld-st3" x1="34.5" y1="79.5" x2="47.5" y2="79.5"/>
+				<line class="mld-st3" x1="38" y1="81.5" x2="51" y2="81.5"/>
+				<line class="mld-st3" x1="54.5" y1="76.5" x2="67.5" y2="76.5"/>
+				<line class="mld-st3" x1="68" y1="81.5" x2="81" y2="81.5"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path d="M66.5,45.5c1.1,0,2,0.9,2,2V72.5c0,1.1-0.9,2-2,2H53.5c-1.1,0-2-0.9-2-2V47.5c0-1.1,0.9-2,2-2H66.5 M66.5,43.5H53.5
+				c-2.21,0-4,1.79-4,4V72.5c0,2.21,1.79,4,4,4H66.5c2.21,0,4-1.79,4-4V47.5C70.5,45.29,68.71,43.5,66.5,43.5L66.5,43.5z"/>
+		</g>
+	</g>
+</g>
+<g id="mld-frames">
+		<path d="M98,32c1.1,0,2,0.9,2,2v52c0,1.1-0.9,2-2,2H22c-1.1,0-2-0.9-2-2V34c0-1.1,0.9-2,2-2H98 M98,30H22c-2.21,0-4,1.79-4,4v52
+			c0,2.21,1.79,4,4,4h76c2.21,0,4-1.79,4-4V34C102,31.79,100.21,30,98,30L98,30z"/>
+				<path d="M83,41c1.1,0,2,0.9,2,2v34c0,1.1-0.9,2-2,2H37c-1.1,0-2-0.9-2-2V43c0-1.1,0.9-2,2-2H83 M83,39H37c-2.21,0-4,1.79-4,4v34
+					c0,2.21,1.79,4,4,4h46c2.21,0,4-1.79,4-4V43C87,40.79,85.21,39,83,39L83,39z"/>
+			<path d="M66.5,45.5c1.1,0,2,0.9,2,2v25c0,1.1-0.9,2-2,2h-13c-1.1,0-2-0.9-2-2v-25c0-1.1,0.9-2,2-2H66.5 M66.5,43.5h-13
+				c-2.21,0-4,1.79-4,4v25c0,2.21,1.79,4,4,4h13c2.21,0,4-1.79,4-4v-25C70.5,45.29,68.71,43.5,66.5,43.5L66.5,43.5z"/>
+</g>
+</a>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="pb-sounddesign" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<a href="https://patternbased.com/portfolio/index.html?category=sounddesign" target="_parent">
+<style type="text/css">
+	.sd-st0{fill:#F6F6F6;}
+         svg:hover .sd-st0{fill:#BDBDBD;}
+	.sd-st1{stroke:#000000;stroke-miterlimit:10;}
+  #sd-line {animation-name: sd-line;}
+  #sd-circ-01 {animation-name: sd-circ-01;}
+  #sd-circ-02 {animation-name: sd-circ-02;}
+#sd-line, #sd-circ-01, #sd-circ-02{ animation-duration: 6s;
+  animation-iteration-count:infinite;
+  transform-origin: 50% 40%;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;}
+svg:hover #sd-line, svg:hover #sd-circ-01, svg:hover #sd-circ-02{ animation-play-state: paused;}
+  @keyframes sd-circ-01 {
+    0%, 49% {transform: translate(0, 0);}
+    53%, 83% {transform: translate(0, -10px);}
+    87%, 100% {transform: translate(0, 0);} }
+  @keyframes sd-circ-02 {
+    0%, 50% {transform: translate(0, 0);}
+    54%, 87% {transform: translate(0, 10px);}
+    91%, 100% {transform: translate(0, 0);} }
+  @keyframes sd-line {
+    0% {transform: scaleY(0.5);}
+    6% {transform: scaleY(0.9);}
+    12% {transform: scaleY(0.5);}
+    18% {transform: scaleY(1);}
+    25% {transform: scaleY(0.3);}
+    31% {transform: scaleY(0.8);}
+    37% {transform: scaleY(0.5);}
+    43% {transform: scaleY(1.1);}
+    50% {transform: scaleY(0.3);}
+    56% {transform: scaleY(0.5);}
+    62% {transform: scaleY(0.3);}
+    68% {transform: scaleY(0.6);}
+    75% {transform: scaleY(0.3);}
+    81% {transform: scaleY(0.5);}
+    87% {transform: scaleY(0.3);}
+    94% {transform: scaleY(0.6);}
+    100% {transform: scaleY(0.5);}}
+</style>
+<g>
+	<path class="sd-st0" d="M15,114.5c-5.24,0-9.5-4.26-9.5-9.5V15c0-5.24,4.26-9.5,9.5-9.5h90c5.24,0,9.5,4.26,9.5,9.5v90
+		c0,5.24-4.26,9.5-9.5,9.5H15z"/>
+	<path d="M105,6c4.96,0,9,4.04,9,9v90c0,4.96-4.04,9-9,9H15c-4.96,0-9-4.04-9-9V15c0-4.96,4.04-9,9-9H105 M105,5H15
+		C9.48,5,5,9.48,5,15v90c0,5.52,4.48,10,10,10h90c5.52,0,10-4.48,10-10V15C115,9.48,110.52,5,105,5L105,5z"/>
+</g>
+<line class="sd-st1" x1="5" y1="81.7" x2="115" y2="81.7"/>
+<line class="sd-st1" x1="25.5" y1="81.7" x2="25.5" y2="114.2"/>
+<line class="sd-st1" x1="48.5" y1="81.7" x2="48.5" y2="114.2"/>
+<line class="sd-st1" x1="71.5" y1="81.7" x2="71.5" y2="114.2"/>
+<line class="sd-st1" x1="93.5" y1="81.7" x2="93.5" y2="114.2"/>
+<g>
+	<circle cx="25.5" cy="93.5" r="4.5"/>
+	<circle id="sd-circ-01" cx="48.5" cy="103.5" r="4.5"/>
+	<circle cx="71.5" cy="98.5" r="4.5"/>
+	<circle id="sd-circ-02" cx="93.5" cy="93.5" r="4.5"/>
+</g>
+<line id="sd-line" class="sd-st1" x1="9.5" y1="33" x2="9.5" y2="57"/>
+<line id="sd-line" class="sd-st1" x1="15.5" y1="26.5" x2="15.5" y2="63.5"/>
+<line id="sd-line" class="sd-st1" x1="21.5" y1="19.5" x2="21.5" y2="70.5"/>
+<line id="sd-line" class="sd-st1" x1="27.5" y1="13" x2="27.5" y2="72"/>
+<line id="sd-line" class="sd-st1" x1="33.5" y1="11" x2="33.5" y2="78"/>
+<line id="sd-line" class="sd-st1" x1="39.5" y1="15.5" x2="39.5" y2="74.5"/>
+<line id="sd-line" class="sd-st1" x1="45.5" y1="19.5" x2="45.5" y2="70.5"/>
+<line id="sd-line" class="sd-st1" x1="51.5" y1="24.5" x2="51.5" y2="65.5"/>
+<line id="sd-line" class="sd-st1" x1="57.5" y1="30.5" x2="57.5" y2="59"/>
+<line id="sd-line" class="sd-st1" x1="63.5" y1="38" x2="63.5" y2="51"/>
+<line id="sd-line" class="sd-st1" x1="69.5" y1="41.5" x2="69.5" y2="48"/>
+<line id="sd-line" class="sd-st1" x1="75.5" y1="40" x2="75.5" y2="50"/>
+<line id="sd-line" class="sd-st1" x1="81.5" y1="36" x2="81.5" y2="54"/>
+<line id="sd-line" class="sd-st1" x1="87.5" y1="32" x2="87.5" y2="57.5"/>
+<line id="sd-line" class="sd-st1" x1="93.5" y1="28.5" x2="93.5" y2="61.5"/>
+<line id="sd-line" class="sd-st1" x1="99.5" y1="34" x2="99.5" y2="56"/>
+<line id="sd-line" class="sd-st1" x1="105.5" y1="40" x2="105.5" y2="50"/>
+<line id="sd-line" class="sd-st1" x1="111.5" y1="42.5" x2="111.5" y2="47.5"/>
+</a>
+</svg>

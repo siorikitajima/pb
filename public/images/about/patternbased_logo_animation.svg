@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="pb-about-hero" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 200" xml:space="preserve" preserveAspectRatio="xMaxYMax meet"  overflow="hidden">
+<style type="text/css">
+	.st0{fill:#222222;}
+	.st1, .st3{fill:#C92D55;}
+	.st2, .st4{fill:#818382;}
+  .st1, .st2, .st3, .st4 {
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            transform-origin: 50% 50%;
+            animation-direction: alternate reverse;}
+  .st1 {animation-name: dot-red-hrz;}
+  .st2 {animation-name: dot-grey-hrz;}
+  .st3 {animation-name: dot-red-ver;}
+  .st4 {animation-name: dot-grey-ver;}
+  @keyframes dot-red-hrz {
+            0%, 28%, 50%, 78% { transform: translate(0, 0);  opacity:1;}
+            10%, 18% { transform: translate(-500px, 0); opacity:0;}
+            60%, 68% { transform: translate(500px, 0); opacity:0;}
+        }
+  @keyframes dot-grey-hrz {
+            0%, 28%, 50%, 78% { transform: translate(0, 0);  opacity:1;}
+            10%, 18% { transform: translate(500px, 0); opacity:0;}
+            60%, 68% { transform: translate(-500px, 0); opacity:0;}
+        }
+   @keyframes dot-red-ver {
+            0%, 28%, 50%, 78% { transform: translate(0, 0);  opacity:1;}
+            10%, 18% { transform: translate(0, -100px); opacity:0;}
+            60%, 68% { transform: translate(0, 100px); opacity:0;}
+        }
+   @keyframes dot-grey-ver {
+            0%, 28%, 50%, 78% { transform: translate(0, 0);  opacity:1;}
+            10%, 18% { transform: translate(0, 100px); opacity:0;}
+            60%, 68% { transform: translate(0, -100px); opacity:0;}
+        }
+  .dl1 {animation-delay: 0.1s;}
+    .dl2 {animation-delay: 0.2s;}
+    .dl3 {animation-delay: 0.3s;}
+    .dl4 {animation-delay: 0.4s;}
+</style>
+<rect class="st0"/>
+
+		<circle class="st1 dl1" cx="410" cy="77.5" r="4.5"/>
+		<circle class="st1 dl2" cx="410" cy="122.5" r="4.5"/>
+		<circle class="st1 dl3" cx="387.5" cy="100" r="4.5"/>
+		<circle class="st2 dl1" cx="410" cy="100" r="4.5"/>
+		<circle class="st1 dl4" cx="432.5" cy="100" r="4.5"/>
+
+		<circle class="st2 dl2" cx="477.5" cy="77.5" r="4.5"/>
+		<circle class="st1 dl1" cx="500" cy="77.5" r="4.5"/>
+		<circle class="st2 dl3" cx="522.5" cy="77.5" r="4.5"/>
+		<circle class="st2 dl4" cx="477.5" cy="122.5" r="4.5"/>
+		<circle class="st1 dl2" cx="500" cy="122.5" r="4.5"/>
+		<circle class="st2 dl1" cx="522.5" cy="122.5" r="4.5"/>
+		<circle class="st1 dl3" cx="477.5" cy="100" r="4.5"/>
+		<circle class="st2 dl2" cx="500" cy="100" r="4.5"/>
+		<circle class="st1 dl4" cx="522.5" cy="100" r="4.5"/>
+
+		<circle class="st2 dl3" cx="567.5" cy="77.5" r="4.5"/>
+		<circle class="st1 dl1" cx="590" cy="77.5" r="4.5"/>
+		<circle class="st1 dl2" cx="590" cy="122.5" r="4.5"/>
+		<circle class="st2 dl4" cx="612.5" cy="122.5" r="4.5"/>
+		<circle class="st1 dl3" cx="567.5" cy="100" r="4.5"/>
+		<circle class="st2 dl1" cx="590" cy="100" r="4.5"/>
+		<circle class="st1 dl4" cx="612.5" cy="100" r="4.5"/>
+  
+  
+  	<circle class="st3 dl1" cx="410" cy="77.5" r="4.5"/>
+		<circle class="st3 dl2" cx="410" cy="122.5" r="4.5"/>
+		<circle class="st3 dl3" cx="387.5" cy="100" r="4.5"/>
+		<circle class="st4 dl1" cx="410" cy="100" r="4.5"/>
+		<circle class="st3 dl4" cx="432.5" cy="100" r="4.5"/>
+
+		<circle class="st4 dl2" cx="477.5" cy="77.5" r="4.5"/>
+		<circle class="st3 dl1" cx="500" cy="77.5" r="4.5"/>
+		<circle class="st4 dl3" cx="522.5" cy="77.5" r="4.5"/>
+		<circle class="st4 dl4" cx="477.5" cy="122.5" r="4.5"/>
+		<circle class="st3 dl2" cx="500" cy="122.5" r="4.5"/>
+		<circle class="st4 dl1" cx="522.5" cy="122.5" r="4.5"/>
+		<circle class="st3 dl3" cx="477.5" cy="100" r="4.5"/>
+		<circle class="st4 dl2" cx="500" cy="100" r="4.5"/>
+		<circle class="st3 dl4" cx="522.5" cy="100" r="4.5"/>
+
+		<circle class="st4 dl3" cx="567.5" cy="77.5" r="4.5"/>
+		<circle class="st3 dl1" cx="590" cy="77.5" r="4.5"/>
+		<circle class="st3 dl2" cx="590" cy="122.5" r="4.5"/>
+		<circle class="st4 dl4" cx="612.5" cy="122.5" r="4.5"/>
+		<circle class="st3 dl3" cx="567.5" cy="100" r="4.5"/>
+		<circle class="st4 dl1" cx="590" cy="100" r="4.5"/>
+		<circle class="st3 dl4" cx="612.5" cy="100" r="4.5"/>
+</svg>

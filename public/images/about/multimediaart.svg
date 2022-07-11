@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="pb-visualart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<a href="https://patternbased.com/art/" target="_parent">
+<style type="text/css">
+	.va-st0{fill:none;}
+  svg:hover #va-out-crc, svg:hover .va-st3 {fill:#BDBDBD;}
+	.va-st1{fill:#000000;}
+	.va-st2{fill:#F6F6F6;}
+	.va-st3{fill:#F6F6F6;stroke:#000000;stroke-miterlimit:10;}
+	.va-st4{fill:url(#SVGID_1_);}
+	.va-st5{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.va-st6{stroke:#000000;stroke-miterlimit:10;}
+	.va-st7{fill:url(#SVGID_2_);}
+#l-dots, #s-dots, #wh-rct-mdl, #wh-rct-edg, #blk-rct, #str-rct-vr, #str-rct-tlt, #crsd-rct {animation-duration: 6s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;}
+svg:hover #l-dots, svg:hover #s-dots, svg:hover #wh-rct-mdl, svg:hover #wh-rct-edg, svg:hover #blk-rct, svg:hover #str-rct-vr, svg:hover #str-rct-tlt, svg:hover #crsd-rct { animation-play-state: paused;}
+  #l-dots {animation-name:l-dots;
+  transform-origin:83px 46px;}
+  #s-dots {animation-name:s-dots;
+  transform-origin:36px 55px;  }
+  #wh-rct-mdl {animation-name:wh-rct-mdl;}
+  #wh-rct-edg {animation-name:wh-rct-edg;}
+  #blk-rct {animation-name:blk-rct;}
+  #str-rct-vr {animation-name:str-rct-vr;}
+  #str-rct-tlt {animation-name:str-rct-tlt;
+  transform-origin:63px 71px;}
+  #str-rct-tlt-ol {animation-name:str-rct-tlt-ol;}
+  #crsd-rct {animation-name:crsd-rct;}
+  @keyframes l-dots {
+    0%, 10% {transform: rotate(0deg);}
+    15%, 55% {transform: rotate(90deg);}
+    60%, 100% {transform: rotate(0deg);}
+  }
+  @keyframes s-dots {
+    0%, 13% {transform: rotate(0deg);}
+    18%, 60% {transform: rotate(-90deg);}
+    70%, 100% {transform: rotate(0deg);}
+  }
+  @keyframes crsd-rct {
+    0%, 18% {transform: translate(0, 0);}
+    23%, 62% {transform: translate(19px, -71px);}
+    67%, 100% {transform: translate(0, 0);}
+  }
+  @keyframes blk-rct {
+    0%, 14% {transform: translate(0, 0);}
+    19%, 59% {transform: translate(49px, -9px);}
+    64%, 100% {transform: translate(0, 0);}
+  }
+  @keyframes wh-rct-edg {
+    0%, 18% {transform: translate(0, 0);}
+    23%, 60% {transform: translate(-40px, -8px);}
+    65%, 100% {transform: translate(0, 0);}
+  }
+  @keyframes str-rct-tlt {
+    0%, 20% {transform: rotate(0deg) scaleX(1);}
+    25%, 57% {transform: rotate(90deg) scaleX(0.85);}
+    62%, 100% {transform: rotate(0deg) scaleX(1);}
+</style>
+<pattern  width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="_x31_0_dpi_40_x25_" viewBox="2.88 -31.68 28.8 28.8" style="overflow:visible;">
+	<g>
+		<rect x="2.88" y="-31.68" class="va-st0" width="28.8" height="28.8"/>
+		<g>
+			<path class="va-st1" d="M31.68,0c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				C28.8-1.29,30.09,0,31.68,0z"/>
+			<path class="va-st1" d="M17.28,0c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				C14.4-1.29,15.69,0,17.28,0z"/>
+			<path class="va-st1" d="M31.68-14.4c1.59,0,2.88-1.29,2.88-2.88s-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				S30.09-14.4,31.68-14.4z"/>
+			<path class="va-st1" d="M17.28-14.4c1.59,0,2.88-1.29,2.88-2.88s-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				S15.69-14.4,17.28-14.4z"/>
+			<path class="va-st1" d="M10.08-7.2c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				C7.2-8.49,8.49-7.2,10.08-7.2z"/>
+			<path class="va-st1" d="M24.48-7.2c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				C21.6-8.49,22.89-7.2,24.48-7.2z"/>
+			<path class="va-st1" d="M10.08-21.6c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				C7.2-22.89,8.49-21.6,10.08-21.6z"/>
+			<path class="va-st1" d="M24.48-21.6c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				C21.6-22.89,22.89-21.6,24.48-21.6z"/>
+		</g>
+		<g>
+			<path class="va-st1" d="M2.88,0c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88C1.29-5.76,0-4.47,0-2.88
+				C0-1.29,1.29,0,2.88,0z"/>
+			<path class="va-st1" d="M2.88-14.4c1.59,0,2.88-1.29,2.88-2.88s-1.29-2.88-2.88-2.88C1.29-20.16,0-18.87,0-17.28
+				S1.29-14.4,2.88-14.4z"/>
+		</g>
+		<g>
+			<path class="va-st1" d="M31.68-28.8c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				C28.8-30.09,30.09-28.8,31.68-28.8z"/>
+			<path class="va-st1" d="M17.28-28.8c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88c-1.59,0-2.88,1.29-2.88,2.88
+				C14.4-30.09,15.69-28.8,17.28-28.8z"/>
+		</g>
+		<g>
+			<path class="va-st1" d="M2.88-28.8c1.59,0,2.88-1.29,2.88-2.88c0-1.59-1.29-2.88-2.88-2.88C1.29-34.56,0-33.27,0-31.68
+				C0-30.09,1.29-28.8,2.88-28.8z"/>
+		</g>
+	</g>
+</pattern>
+<pattern  width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="_x31_0_dpi_60_x25_" viewBox="4.32 -33.12 28.8 28.8" style="overflow:visible;">
+	<g>
+		<rect  x="4.32" y="-33.12" class="va-st0" width="28.8" height="28.8"/>
+		<g>
+			<path class="va-st1" d="M33.12,0c2.38,0,4.32-1.93,4.32-4.32s-1.93-4.32-4.32-4.32c-2.39,0-4.32,1.93-4.32,4.32S30.73,0,33.12,0z"/>
+			<path class="va-st1" d="M18.72,0c2.38,0,4.32-1.93,4.32-4.32s-1.94-4.32-4.32-4.32c-2.39,0-4.32,1.93-4.32,4.32S16.33,0,18.72,0z"/>
+			<path class="va-st1" d="M33.12-14.4c2.38,0,4.32-1.93,4.32-4.32c0-2.38-1.93-4.32-4.32-4.32c-2.39,0-4.32,1.93-4.32,4.32
+				C28.8-16.33,30.73-14.4,33.12-14.4z"/>
+			<path class="va-st1" d="M18.72-14.4c2.38,0,4.32-1.93,4.32-4.32c0-2.38-1.94-4.32-4.32-4.32c-2.39,0-4.32,1.93-4.32,4.32
+				C14.4-16.33,16.33-14.4,18.72-14.4z"/>
+			<path class="va-st1" d="M11.52-7.2c2.38,0,4.32-1.93,4.32-4.32c0-2.39-1.94-4.32-4.32-4.32c-2.38,0-4.32,1.93-4.32,4.32
+				C7.2-9.13,9.14-7.2,11.52-7.2z"/>
+			<path class="va-st1" d="M25.92-7.2c2.38,0,4.32-1.93,4.32-4.32c0-2.39-1.94-4.32-4.32-4.32s-4.32,1.93-4.32,4.32
+				C21.6-9.13,23.54-7.2,25.92-7.2z"/>
+			<path class="va-st1" d="M11.52-21.6c2.38,0,4.32-1.93,4.32-4.32c0-2.39-1.94-4.32-4.32-4.32c-2.38,0-4.32,1.93-4.32,4.32
+				C7.2-23.54,9.14-21.6,11.52-21.6z"/>
+			<path class="va-st1" d="M25.92-21.6c2.38,0,4.32-1.93,4.32-4.32c0-2.39-1.94-4.32-4.32-4.32s-4.32,1.93-4.32,4.32
+				C21.6-23.54,23.54-21.6,25.92-21.6z"/>
+		</g>
+		<g>
+			<path class="va-st1" d="M4.32,0c2.38,0,4.32-1.93,4.32-4.32S6.71-8.64,4.32-8.64C1.93-8.64,0-6.71,0-4.32S1.93,0,4.32,0z"/>
+			<path class="va-st1" d="M4.32-14.4c2.38,0,4.32-1.93,4.32-4.32c0-2.38-1.93-4.32-4.32-4.32C1.93-23.04,0-21.11,0-18.72
+				C0-16.33,1.93-14.4,4.32-14.4z"/>
+		</g>
+		<g>
+			<path class="va-st1" d="M33.12-28.8c2.38,0,4.32-1.93,4.32-4.32c0-2.39-1.93-4.32-4.32-4.32c-2.39,0-4.32,1.93-4.32,4.32
+				C28.8-30.73,30.73-28.8,33.12-28.8z"/>
+			<path class="va-st1" d="M18.72-28.8c2.38,0,4.32-1.93,4.32-4.32c0-2.39-1.94-4.32-4.32-4.32c-2.39,0-4.32,1.93-4.32,4.32
+				C14.4-30.73,16.33-28.8,18.72-28.8z"/>
+		</g>
+		<g>
+			<path class="va-st1" d="M4.32-28.8c2.38,0,4.32-1.93,4.32-4.32c0-2.39-1.93-4.32-4.32-4.32C1.93-37.44,0-35.51,0-33.12
+				C0-30.73,1.93-28.8,4.32-28.8z"/>
+		</g>
+	</g>
+</pattern>
+<g>
+	<circle id="va-out-crc" class="va-st2" cx="60" cy="60" r="54.5"/>
+	<path d="M60,6c29.78,0,54,24.22,54,54c0,29.78-24.22,54-54,54C30.22,114,6,89.78,6,60C6,30.22,30.22,6,60,6 M60,5L60,5
+		C29.62,5,5,29.62,5,60v0c0,30.38,24.62,55,55,55h0c30.38,0,55-24.62,55-55v0C115,29.62,90.38,5,60,5L60,5z"/>
+</g>
+<g id="l-dots">
+	<rect x="72.5" y="29.5" class="va-st3" width="21" height="27"/>
+	<pattern  id="SVGID_1_" xlink:href="#_x31_0_dpi_60_x25_" patternTransform="matrix(1 0 0 1 10.0194 12.3994)">
+	</pattern>
+	<rect x="72.5" y="29.5" class="va-st4" width="21" height="27"/>
+</g>
+<rect id="wh-rct-mdl" x="53.5" y="43.5" class="va-st5" width="13" height="13"/>
+<rect id="blk-rct" x="27.5" y="72.5" class="va-st6" width="20" height="20"/>
+<g id="s-dots">
+	<rect x="16.5" y="43.5" class="va-st3" width="31" height="23"/>
+	<pattern  id="SVGID_2_" xlink:href="#_x31_0_dpi_40_x25_" patternTransform="matrix(0.5 0 0 0.5 -4052.6677 -4011.8555)">
+	</pattern>
+	<rect x="16.5" y="43.5" class="va-st7" width="31" height="23"/>
+</g>
+<rect id="wh-rct-edg" x="73.5" y="87.5" class="va-st5" width="14" height="14"/>
+<g id="str-rct-vr">
+	<rect x="40.5" y="16.5" class="va-st5" width="26" height="22"/>
+	<line class="va-st6" x1="40.5" y1="21.67" x2="66.5" y2="21.67"/>
+	<line class="va-st6" x1="41" y1="27.5" x2="67" y2="27.5"/>
+	<line class="va-st6" x1="40.5" y1="33.33" x2="66.5" y2="33.33"/>
+</g>
+<g id="str-rct-tlt">
+	<rect x="53.5" y="62.5" class="va-st5" width="48" height="19"/>
+	<line class="va-st6" x1="60.83" y1="62.5" x2="53.67" y2="69.67"/>
+	<line class="va-st6" x1="65.83" y1="62.5" x2="53.67" y2="74.67"/>
+	<line class="va-st6" x1="70.83" y1="62.5" x2="53.67" y2="79.67"/>
+	<line class="va-st6" x1="75.83" y1="62.5" x2="57.17" y2="81.17"/>
+	<line class="va-st6" x1="80.83" y1="62.5" x2="62.17" y2="81.17"/>
+	<line class="va-st6" x1="85.83" y1="62.5" x2="67.17" y2="81.17"/>
+	<line class="va-st6" x1="90.83" y1="62.5" x2="72.17" y2="81.17"/>
+	<line class="va-st6" x1="95.83" y1="62.5" x2="77.17" y2="81.17"/>
+	<line class="va-st6" x1="100.83" y1="62.5" x2="82.17" y2="81.17"/>
+	<line class="va-st6" x1="101.67" y1="66.67" x2="87.17" y2="81.17"/>
+	<line class="va-st6" x1="101.67" y1="71.67" x2="92.17" y2="81.17"/>
+	<line class="va-st6" x1="101.67" y1="76.67" x2="97.17" y2="81.17"/>
+</g>
+<g id="crsd-rct">
+	<rect x="53.5" y="87.5" class="va-st5" width="14" height="14"/>
+	<line class="va-st5" x1="67.42" y1="87.42" x2="53.92" y2="100.92"/>
+	<line class="va-st5" x1="53.5" y1="87.5" x2="67.5" y2="101.5"/>
+</g>
+</a>
+</svg>
