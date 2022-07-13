@@ -1,0 +1,120 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body class="frontpage">
+  <%- include('./partials/nav.ejs') %>
+  
+    <div class="content fullWidthBanner homeHero">
+      
+      <% for (let s = 0; s < pageData.home.slider.length; s++) { 
+        let id = 'slider-' + (s + 1); %>
+        <div class="homeSlides" style="<%= pageData.home.slider[s].image %>">
+          <h4><%= pageData.home.slider[s].h4 %></h4>
+          <h2 class="multiLang"><%= pageData.home.slider[s].h2[l] %></h2>        
+          <a href="<%= pageData.home.slider[s].url %>" target="_blank" style="text-decoration: none;">
+          <button class="buttonStroke smallButton"><%= pageData.home.slider[s].cta %></button></a>
+        </div>
+      <% } %>
+      
+
+      <div class="sliderSideButtons slideLeft" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="sliderSideButtons slideRight" onclick="plusDivs(+1)">&#10095;</div>
+    </div>
+
+    <div class="spacerM"></div>
+
+  <div class="bodyWideContainer">
+    <h2 class="textCenter"><%= pageData.home.pfTitle[l] %></h2>
+    <div class="filters" id="filterContainer">
+      <button class="filterItem" id="all">ALL</button>
+      <button class="filterItem" id="music">Music</button>
+      <button class="filterItem" id="scores">Scores</button>
+      <button class="filterItem" id="ads">Ads</button>
+      <button class="filterItem" id="album">Album</button>
+      <button class="filterItem" id="art">Art</button>
+      <button class="filterItem" id="code">Code</button>
+      <button class="filterItem active" id="featured">Featured</button>
+    </div>
+  </div>
+
+  <div class="gridWideBlock" id="portfolioList">
+    <% for (let p = 0; p < 8; p++) { %>
+      <a href="#">
+        <div class="portfolio portfolioClasses" id="portfolioId" style="background:#111; background-size:cover;">
+          <h3>PortfolioName</h3>
+        </div>
+      </a>
+    <% } %>
+  </div>
+
+  <div class="spacerS"></div>
+
+  <%- include('./partials/cta-pbcatalog.ejs') %>
+
+  <div class="spacerM"></div>
+
+  <div class="bodyTextContainer">
+    <img class="logoHeightSmall" src="/images/global/PatternBased_Logo_FB3640.svg">
+  </div>
+  <div class="bodyTextContainer">
+      <p class="textCenter"><%- pageData.home.about[l] %></p>
+  </div>
+
+<div class="spacerS"></div>
+
+<%- include('./partials/core-mediums.ejs') %>
+
+<div class="spacerS"></div>
+
+<div class="bodyTextContainer">
+  <a href="about/artists.html" style="text-decoration: none;"><button class="buttonFill largeButton"><%- pageData.about.meetArtists[l] %></button></a>
+</div>
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+<script>
+var slideIndex = 0;
+
+var frontPageCondition = $('body').is('.frontpage');
+if (frontPageCondition == true) {
+  carousel();
+  showDivs(slideIndex);
+} else {}
+
+function carousel() {
+  var i;
+  var homeSlides = document.getElementsByClassName("homeSlides");
+  for (i = 0; i < homeSlides.length; i++) {
+    homeSlides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > homeSlides.length) {slideIndex = 1}
+  homeSlides[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var homeSlides = document.getElementsByClassName("homeSlides");
+  if (n > homeSlides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = homeSlides.length}
+  for (i = 0; i < homeSlides.length; i++) {
+    homeSlides[i].style.display = "none";  
+  }
+  homeSlides[slideIndex-1].style.display = "block";  
+};
+
+</script>
+
+</body>
+</html>

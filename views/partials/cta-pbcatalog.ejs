@@ -1,6 +1,8 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
 <div class="fullWidthBanner catalogSearchBanner">
-    <p class="smallTitleCTA">PB APP : CATALOG</p>
-    <p class="mainCopyCTA">Search Music with the Feeling</p>
+    <p class="smallTitleCTA"><%= pageData.global.cta.pbc.subTitle[l] %></p>
+    <p class="mainCopyCTA"><%= pageData.global.cta.pbc.mainCopy[l] %></p>
     <a href="http://catalog.patternbased.com/" target="_blank" style="text-decoration: none;">
     <button class="buttonStroke smallButton">TRY BETA</button></a>
 </div>

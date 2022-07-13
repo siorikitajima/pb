@@ -1,0 +1,24 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body class="frontpage">
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="content">
+
+    <div>
+        <%= pageData.about.meetArtists[l] %>
+    </div>
+
+</div>
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+</body>
+</html>

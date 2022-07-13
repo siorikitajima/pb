@@ -1,6 +1,8 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
 <nav>
     <div class="headeritem" id="pbLogo">
-        <a href="/">
+        <a href="/<%=language%>">
             <img src="/images/global/PatternBased_Logo_FB3640.svg" alt="PatternBased">
         </a>
     </div>
@@ -14,12 +16,12 @@
         <div class="dropdownNav">
           <button class="dropbtnNav"><a class="navMusic" href="">Music</a></button>
           <div class="dropContentNav">
-            <a class="navMusic" href="">Music</a>
-            <a class="dim" href="http://albums.patternbased.com/" target="_blank">Albums</a>
-            <a class="dim" href="http://catalog.patternbased.com/" target="_blank">Catalog</a>
+            <a class="navMusic" href=""><%= pageData.global.nav.music[l] %></a>
+            <a class="dim" href="http://albums.patternbased.com/" target="_blank"><%= pageData.global.nav.album[l] %></a>
+            <a class="dim" href="http://catalog.patternbased.com/" target="_blank"><%= pageData.global.nav.catalog[l] %></a>
           </div>
         </div>
-        <a class="navArt navItem" href="">Multimedia</a>
+        <a class="navArt navItem" href="">Art</a>
         <!-- <div class="dropdownNav">
           <button class="dropbtnNav">
             <a class="navArt" href="">Art</a>
@@ -31,19 +33,39 @@
           </div>
         </div> -->
         <div class="dropdownNav">
-          <button class="dropbtnNav"><a class="navAbout" href="">About</a></button>
+          <button class="dropbtnNav"><a class="navAbout" href="/about/<%=language%>">About</a></button>
           <div class="dropContentNav">
-            <a class="navAbout" href="">About PB</a>
-            <a id="navArtists" class="dim" href="">Artists</a class="dim">
-            <a id="navTools" class="dim" href="">Tools</a class="dim">
+            <a class="navAbout" href=""><%= pageData.global.nav.aboutPB[l] %></a>
+            <a id="navArtists" class="dim" href=""><%= pageData.global.nav.artists[l] %></a class="dim">
+            <a id="navTools" class="dim" href=""><%= pageData.global.nav.tools[l] %></a class="dim">
           </div>
         </div>
           <a id="navMerch" class="navItem" href="http://patternbased.com/merch/">Merch</a>
           <a id="navContact" class="navItem" href="http://patternbased.com/contact/">Contact</a>
       </div>
       <div class="headeritem language">
-        <img id="English" src="/images/global/English-SL.svg" alt="English">
-        <img id="japanese" src="/images/global/Japanese.svg" alt="Japanese">
+          <a id="EngLink" href="">
+            <% if (language == 'en') { %>
+                <img id="English" src="/images/global/English-SL.svg" alt="English">
+            <% } else { %>
+              <img id="English" src="/images/global/English.svg" alt="English">
+            <% } %> 
+          </a>
+          <a id="JpnLink" href="">
+            <% if (language == 'en') { %>
+              <img id="Japanese" src="/images/global/Japanese.svg" alt="Japanese">
+            <% } else { %>
+              <img id="Japanese" src="/images/global/Japanese-SL.svg" alt="Japanese">
+            <% } %> 
+          </a>
       </div>
-
 </nav>
+<script>
+  let ogUrl = location.href; 
+  let offset = ogUrl.length - 2;
+  let newUrl = ogUrl.slice(0, offset) ;
+  console.log(ogUrl, offset, newUrl);
+      $('#EngLink').attr('href', newUrl + 'en');
+      $('#JpnLink').attr('href', newUrl + 'jp');
+
+</script>

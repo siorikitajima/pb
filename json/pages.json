@@ -1,0 +1,67 @@
+{
+    "global" : {
+        "nav" : {
+            "music" : ["Music", "音楽"],
+            "album" : ["Album", "アルバム"],
+            "catalog" : ["Catalog", "PBカタログ"],
+            "aboutPB" : ["About PB", "PBについて"],
+            "artists" : ["Artists", "アーティスト"],
+            "tools" : ["Tools", "道具"],
+            "merch" : ["Merch", "グッズ"],
+            "portfolio" : ["Portfolio", "作品"],
+            "pbApps" : ["PB APPS", "PBアプリ"]
+        },
+        "cta" : {
+            "pbc" : {
+                "subTitle" : ["PB APP : CATALOG", "オリジナルアプリ : PBカタログ"],
+                "mainCopy" : ["Search Music with the Feeling", "雰囲気やムードに合う曲を、すぐに探せる"]
+            }
+        }
+    },
+    "home" : {
+        "slider" : [
+            {
+                "h4" : "FEATURED APP : PB CATALOG",
+                "h2" : ["Explore, Play, Share and License",
+                        "感覚的に探せる、音楽ライセンスカタログ"],
+                "url" : "http://catalog.patternbased.com/",
+                "cta" : "TRY BETA",
+                "image" : "background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/pages/UNScreening_slider.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; "
+            },
+            {
+                "h4" : "FEATURED SOUNDTRACK : DAEWON SUMMER",
+                "h2" : ["Scored for the doc vid 'Daewon'",
+                        "ドキュメンタリー「Daewon」サウンドトラック"],
+                "url" : "http://patternbased.com/portfolio/daewon.html",
+                "cta" : "WATCH & LISTEN",
+                "image" : "background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/pages/daewonSong_slider.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; "
+            },
+            {
+                "h4" : "FEATURED SOUNDTRACK : CHEER TUNES",
+                "h2" : ["Scored for Netflix 'CHEER Season2'",
+                        "Netflix「チアの女王 S2」サウンドトラック"],
+                "url" : "http://strangersinmyhead.info/",
+                "cta" : "WATCH & LISTEN",
+                "image" : "background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/pages/cheertunes_slider.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; "
+            }
+        ],
+        "pfTitle" : ["Work and Collaborations",
+        "最近の作品・コラボレーション"],
+        "about" : ["PatternBased is Music and Art.<br/>We compose, create and design music, sound, visual art, apps, objects, and experiences.<br/>We love challenges and unknowns, as well as our go-to core mediums.",
+        "PatternBasedは、作曲・音楽プロデュース・サウンドデザインから、ビジュアルアート・デザイン・マルチメディア・アプリ・インタラクティブまで、クリエイティブのジャンルを超えた作品を提供します。未知への挑戦も大好物ながら、以下のメディアを特に得意としています。"]
+    },
+    "about" : {
+        "mediums" : {
+            "composition" : ["Composition", "作曲・映画音楽"],
+            "soundDesign" : ["Sound Design", "サウンドデザイン"],
+            "albums" : ["Albums", "アルバム制作"],
+            "catalog" : ["Catalog", "音楽カタログ"],
+            "multimediaArt" : ["Multimedia Art", "マルチメディアアート"],
+            "dataViz" : ["Data Viz", "インフォグラフィック"],
+            "apps" : ["Apps / UX", "アプリ・UI/UX"],
+            "design" : ["Design", "グラフィックデザイン"]
+        },
+        "meetArtists" : ["MEET ARTISTS", "アーティスト一覧"]
+    }
+         
+}
