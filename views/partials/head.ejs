@@ -1,15 +1,14 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta property="og:title" content="PatternBased | <%= title %>" />
-    <meta property="og:url" content="https://patternbased.com/<%= slug %>/" />
-    <meta property="og:image" content="https://patternbased.com/images/PatternBased_Logo_DA2D5E.svg" />
-    <meta property="og:description" name="og:description" content="PatternBased is Music and Art.
-    We compose, create and design music, sound, visual art, apps, objects, and experiences.">
-    <meta property="description" name="description" content="PatternBased is Music and Art.
-    We compose, create and design music, sound, visual art, apps, objects, and experiences.">
+  
+  <meta property="og:title" content="PatternBased | <%= title %>" />
+
+    <meta property="og:description" name="og:description" content="<%= pageData.global.description[l] %>">
+    <meta property="description" name="description" content="<%= pageData.global.description[l] %>">
     <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
@@ -17,12 +16,16 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FB3640"> -->
 
     <% if (nav == 'home') { %>
+      <meta property="og:image" content="images/global/patternbased_1200x630.jpg" />
+      <meta property="og:url" content="https://patternbased.com/<%= language %>" />
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/home.css">
       <link rel="stylesheet" href="css/grid.css">
       <link rel="stylesheet" href="css/pages.css">
       <script src="js/ejs.js"></script>
     <% } else { %>
+      <meta property="og:image" content="../images/global/patternbased_1200x630.jpg" />
+      <meta property="og:url" content="https://patternbased.com/<%= slug %>/<%= language %>" />
       <link rel="stylesheet" href="../css/style.css">
       <link rel="stylesheet" href="../css/home.css">
       <link rel="stylesheet" href="../css/grid.css">

@@ -1,0 +1,96 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body>
+  <%- include('./partials/nav.ejs') %>
+  
+    <div class="content fullWidthBanner musicHero">
+    </div>
+
+    <div class="spacerM"></div>
+
+<div class="bodyWideContainer">
+    <img class="logoHeight" src="../images/pages/PatternBased-Music_Logo.png">
+</div>
+
+<div class="gridFour">
+    <div class="oneFour coreMediums">
+      <object type="image/svg+xml" data="../images/about/composition.svg"></object>
+      <h3><%- pageData.about.mediums.composition[l] %></h3>
+    </div>
+    <div class="oneFour coreMediums">
+      <object type="image/svg+xml" data="../images/about/sounddesign.svg"></object>
+      <h3><%- pageData.about.mediums.soundDesign[l] %></h3>
+    </div>
+    <div class="oneFour coreMediums">
+      <object type="image/svg+xml" data="../images/about/albums.svg"></object>
+      <h3><%- pageData.about.mediums.albums[l] %></h3>
+    </div>
+    <div class="oneFour coreMediums">
+      <object type="image/svg+xml" data="../images/about/catalogsearch.svg"></object>
+      <h3><%- pageData.about.mediums.catalog[l] %></h3>
+    </div>
+</div>
+
+<div class="spacerM"></div>
+
+<div class="bodyWideContainer">
+    <div class="filters" id="filterContainer">
+      <button class="filterItem active" id="music">Music</button>
+      <button class="filterItem" id="scores">Scores</button>
+      <button class="filterItem" id="ads">Ads</button>
+      <button class="filterItem" id="album">Album</button>
+    </div>
+  </div>
+
+  <div class="gridWideBlock" id="portfolioList">
+    <% for (let p = 0; p < 8; p++) { %>
+      <a href="#">
+        <div class="portfolio portfolioClasses" id="portfolioId" style="background:#111; background-size:cover;">
+          <h3>PortfolioName</h3>
+        </div>
+      </a>
+    <% } %>
+  </div>
+
+  <div class="spacerM"></div>
+
+  <%- include('./partials/cta-onomatopedal.ejs') %>
+
+  <div class="spacerM"></div>
+
+  <%- include('./partials/music-acc.ejs') %>
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+<script>
+    /* ========== Accordion ========== */
+    
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.display = "none";
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.display = "block";
+          panel.style.maxHeight = panel.scrollHeight + "px";
+          $('html, body').animate({
+            scrollTop: $(this).offset().top - 100
+          }, 400);
+        }
+      });
+    }
+</script>
+</body>
+</html>

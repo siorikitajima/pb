@@ -3,8 +3,8 @@
 	 viewBox="0 0 1000 200" xml:space="preserve" preserveAspectRatio="xMaxYMax meet"  overflow="hidden">
 <style type="text/css">
 	.st0{fill:#222222;}
-	.st1, .st3{fill:#C92D55;}
-	.st2, .st4{fill:#818382;}
+	.st1, .st3{fill:#FB3640;}
+	.st2, .st4{fill:#F5F4F5;}
   .st1, .st2, .st3, .st4 {
             animation-duration: 12s;
             animation-iteration-count: infinite;
@@ -47,23 +47,23 @@
 		<circle class="st2 dl1" cx="410" cy="100" r="4.5"/>
 		<circle class="st1 dl4" cx="432.5" cy="100" r="4.5"/>
 
-		<circle class="st2 dl2" cx="477.5" cy="77.5" r="4.5"/>
+		<circle class="st1 dl2" cx="477.5" cy="77.5" r="4.5"/>
 		<circle class="st1 dl1" cx="500" cy="77.5" r="4.5"/>
-		<circle class="st2 dl3" cx="522.5" cy="77.5" r="4.5"/>
-		<circle class="st2 dl4" cx="477.5" cy="122.5" r="4.5"/>
+		<circle class="st1 dl3" cx="522.5" cy="77.5" r="4.5"/>
+		<circle class="st1 dl4" cx="477.5" cy="122.5" r="4.5"/>
 		<circle class="st1 dl2" cx="500" cy="122.5" r="4.5"/>
-		<circle class="st2 dl1" cx="522.5" cy="122.5" r="4.5"/>
-		<circle class="st1 dl3" cx="477.5" cy="100" r="4.5"/>
+		<circle class="st1 dl1" cx="522.5" cy="122.5" r="4.5"/>
+		<circle class="st2 dl3" cx="477.5" cy="100" r="4.5"/>
 		<circle class="st2 dl2" cx="500" cy="100" r="4.5"/>
-		<circle class="st1 dl4" cx="522.5" cy="100" r="4.5"/>
+		<circle class="st2 dl4" cx="522.5" cy="100" r="4.5"/>
 
-		<circle class="st2 dl3" cx="567.5" cy="77.5" r="4.5"/>
-		<circle class="st1 dl1" cx="590" cy="77.5" r="4.5"/>
-		<circle class="st1 dl2" cx="590" cy="122.5" r="4.5"/>
-		<circle class="st2 dl4" cx="612.5" cy="122.5" r="4.5"/>
-		<circle class="st1 dl3" cx="567.5" cy="100" r="4.5"/>
-		<circle class="st2 dl1" cx="590" cy="100" r="4.5"/>
-		<circle class="st1 dl4" cx="612.5" cy="100" r="4.5"/>
+		<circle class="st1 dl3" cx="567.5" cy="77.5" r="4.5"/>
+		<circle class="st2 dl1" cx="590" cy="77.5" r="4.5"/>
+		<circle class="st2 dl2" cx="590" cy="122.5" r="4.5"/>
+		<circle class="st1 dl4" cx="612.5" cy="122.5" r="4.5"/>
+		<circle class="st2 dl3" cx="567.5" cy="100" r="4.5"/>
+		<circle class="st1 dl1" cx="590" cy="100" r="4.5"/>
+		<circle class="st2 dl4" cx="612.5" cy="100" r="4.5"/>
   
   
   	<circle class="st3 dl1" cx="410" cy="77.5" r="4.5"/>
@@ -72,21 +72,21 @@
 		<circle class="st4 dl1" cx="410" cy="100" r="4.5"/>
 		<circle class="st3 dl4" cx="432.5" cy="100" r="4.5"/>
 
-		<circle class="st4 dl2" cx="477.5" cy="77.5" r="4.5"/>
+		<circle class="st3 dl2" cx="477.5" cy="77.5" r="4.5"/>
 		<circle class="st3 dl1" cx="500" cy="77.5" r="4.5"/>
-		<circle class="st4 dl3" cx="522.5" cy="77.5" r="4.5"/>
-		<circle class="st4 dl4" cx="477.5" cy="122.5" r="4.5"/>
+		<circle class="st3 dl3" cx="522.5" cy="77.5" r="4.5"/>
+		<circle class="st3 dl4" cx="477.5" cy="122.5" r="4.5"/>
 		<circle class="st3 dl2" cx="500" cy="122.5" r="4.5"/>
-		<circle class="st4 dl1" cx="522.5" cy="122.5" r="4.5"/>
-		<circle class="st3 dl3" cx="477.5" cy="100" r="4.5"/>
+		<circle class="st3 dl1" cx="522.5" cy="122.5" r="4.5"/>
+		<circle class="st4 dl3" cx="477.5" cy="100" r="4.5"/>
 		<circle class="st4 dl2" cx="500" cy="100" r="4.5"/>
-		<circle class="st3 dl4" cx="522.5" cy="100" r="4.5"/>
+		<circle class="st4 dl4" cx="522.5" cy="100" r="4.5"/>
 
-		<circle class="st4 dl3" cx="567.5" cy="77.5" r="4.5"/>
-		<circle class="st3 dl1" cx="590" cy="77.5" r="4.5"/>
-		<circle class="st3 dl2" cx="590" cy="122.5" r="4.5"/>
-		<circle class="st4 dl4" cx="612.5" cy="122.5" r="4.5"/>
-		<circle class="st3 dl3" cx="567.5" cy="100" r="4.5"/>
-		<circle class="st4 dl1" cx="590" cy="100" r="4.5"/>
-		<circle class="st3 dl4" cx="612.5" cy="100" r="4.5"/>
+		<circle class="st3 dl3" cx="567.5" cy="77.5" r="4.5"/>
+		<circle class="st4 dl1" cx="590" cy="77.5" r="4.5"/>
+		<circle class="st4 dl2" cx="590" cy="122.5" r="4.5"/>
+		<circle class="st3 dl4" cx="612.5" cy="122.5" r="4.5"/>
+		<circle class="st4 dl3" cx="567.5" cy="100" r="4.5"/>
+		<circle class="st3 dl1" cx="590" cy="100" r="4.5"/>
+		<circle class="st4 dl4" cx="612.5" cy="100" r="4.5"/>
 </svg>

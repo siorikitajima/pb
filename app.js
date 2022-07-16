@@ -20,8 +20,12 @@ app.use(express.urlencoded({ limit: "50mb", extended: false }));
 // Req without Lang param >> Detects Japan based on IP
 app.get('/', redirectController.home_get);
 app.get('/about', redirectController.about_get);
+app.get('/music', redirectController.music_get);
+app.get('/art', redirectController.art_get);
 
 // Req with Lang param
 app.get('/:lang', pageCotroller.home_get);
 app.get('/about/:lang', pageCotroller.about_get);
+app.get('/music/:lang', pageCotroller.music_get);
+app.get('/art/:lang', pageCotroller.art_get);
 

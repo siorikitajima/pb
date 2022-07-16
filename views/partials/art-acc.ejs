@@ -1,0 +1,15 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<div class="bodyTextContainer">
+    <% for (let w = 0; w < pageData.about.accordion.musicacc.panel.length; w++) { %>
+        <div class="accordion accordionBtn">
+            <h3><%- pageData.about.accordion.artacc.panel[w].title[l] %></h3>
+        </div>
+        <div class="panel">
+            <p><%- pageData.about.accordion.artacc.panel[w].body[l] %></p>
+            <%- pageData.about.accordion.artacc.panel[w].images %>
+        </div>
+    <% } %>
+</div>
+
+<div class="spacerS"></div>

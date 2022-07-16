@@ -22,7 +22,31 @@ const about_get = async (req, res) => {
     res.redirect( url );
 };
 
+const music_get = async (req, res) => {
+    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/music/' + lang;
+    res.redirect( url );
+};
+
+const art_get = async (req, res) => {
+    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/art/' + lang;
+    res.redirect( url );
+};
+
 module.exports = {
     home_get,
-    about_get
+    about_get,
+    music_get,
+    art_get
 }

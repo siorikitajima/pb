@@ -1,0 +1,316 @@
+{
+    "artists" : [
+        {
+            "artistId": "pba-ThePatternBasedCorporation",
+            "artistName":"The PatternBased Corporation",
+            "url":"https://catalog.patternbased.com/project/the-patternbased-corporation",
+            "bgImage": "carrie-yang-1n6OS3HbDlk-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-PuffyShapes",
+            "artistName":"Puffy Shapes",
+            "url":"https://catalog.patternbased.com/project/puffy-shapes",
+            "bgImage": "patrick-tomasso-1S-PanVaJmU-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-LowintheSky",
+            "artistName":"Low in the Sky",
+            "url":"https://catalog.patternbased.com/project/low-in-the-sky",
+            "bgImage": "kenrick-mills-MF9Wy1NA55I-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-Gnosotros",
+            "artistName":"Gnosotros",
+            "url":"https://catalog.patternbased.com/project/gnosotros",
+            "bgImage": "pawel-czerwinski-vFFi_RZ0Kow-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-oqlolpo",
+            "artistName":"oqlOlpo",
+            "url":"https://www.oqlolpo.com/",
+            "bgImage": "oqlolpo-rolling-stones.jpg"
+        },
+        {
+            "artistId": "pba-HillSleepers",
+            "artistName":"Hill Sleepers",
+            "url":"https://catalog.patternbased.com/project/hill-sleepers",
+            "bgImage": "daniel-genser-PzPbh-faPgU-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-InsectSounds",
+            "artistName":"Insect Sounds",
+            "url":"https://catalog.patternbased.com/project/insect-sounds",
+            "bgImage": "danny-howe-vESk46kcm9g-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-TokyoShapiro",
+            "artistName":"Tokyo Shapiro",
+            "url":"https://catalog.patternbased.com/project/tokyo-shapiro",
+            "bgImage": "ricardo-gomez-angel-RjnaOfeU6Fg-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-Microstructures",
+            "artistName":"Microstructures",
+            "url":"https://catalog.patternbased.com/project/microstructures",
+            "bgImage": "antoine-boissonot-rGBGNiBlAqM-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JosephMinadeoandMichaelTolan",
+            "artistName":"Joseph Minadeo and Michael Tolan",
+            "url":"https://catalog.patternbased.com/project/joseph-minadeo-and-michael-tolan",
+            "bgImage": "fred-kearney-19-3KdSRvqk-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JosephMinadeoandCurtBrown",
+            "artistName":"Joseph Minadeo and Curt Brown",
+            "url":"https://catalog.patternbased.com/project/joseph-minadeo-and-curt-brown",
+            "bgImage": "dan-gold-H0Jp8pX-0zw-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-Solver",
+            "artistName":"Solver",
+            "url":"https://catalog.patternbased.com/project/solver",
+            "bgImage": "vladimir-malyavko-oz0162pyJDg-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-Amehuru",
+            "artistName":"Amehuru",
+            "url":"https://catalog.patternbased.com/project/amehuru",
+            "bgImage": "amefuru_project.jpg"
+        },
+        {
+            "artistId": "pba-OnomatoPedal",
+            "artistName":"OnomatoPedal",
+            "url":"https://catalog.patternbased.com/project/onomatopedal",
+            "bgImage": "onomatopedal_project.jpg"
+        },
+        {
+            "artistId": "pba-JosephMinadeo",
+            "artistName":"Joseph Minadeo",
+            "url":"https://catalog.patternbased.com/project/joseph-minadeo",
+            "bgImage": "martin-sattler-8peGuud5cEw-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JosephMinadeoandShinyaSugimoto",
+            "artistName":"Joseph Minadeo and Shinya Sugimoto",
+            "url":"https://catalog.patternbased.com/project/joseph-minadeo-and-shinya-sugimoto",
+            "bgImage": "markus-spiske-hwbgjJXuVqc-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-DeliaNakamura",
+            "artistName":"Delia Nakamura",
+            "url":"https://catalog.patternbased.com/artist/delia-nakamura",
+            "bgImage": "alex-wong-l5Tzv1alcps-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-SioriKitajima",
+            "artistName":"Siori Kitajima",
+            "url":"http://www.siorikitajima.com/",
+            "bgImage": "siorikitajima_numberzero.jpg"
+        },
+        {
+            "artistId": "pba-CoreyFarrow",
+            "artistName":"Corey Farrow",
+            "url":"https://catalog.patternbased.com/artist/corey-farrow",
+            "bgImage": "ricardo-rocha-oA5ROA_2QLg-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-PatrickMcNulty",
+            "artistName":"Patrick McNulty",
+            "url":"https://catalog.patternbased.com/artist/patrick-mcnulty",
+            "bgImage": "jr-korpa-4QleKCXLxzI-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-CurtBrown",
+            "artistName":"Curt Brown",
+            "url":"https://catalog.patternbased.com/artist/curt-brown",
+            "bgImage": "pawel-czerwinski-4x3VAM19wDA-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-AdamBerk",
+            "artistName":"Adam Berk",
+            "url":"https://catalog.patternbased.com/artist/adam-berk",
+            "bgImage": "ren-ran-O-8Fmpx7HqQ-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-BillyDixon",
+            "artistName":"Billy Dixon",
+            "url":"https://catalog.patternbased.com/artist/billy-dixon",
+            "bgImage": "artiom-vallat-SBapPARYIdQ-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-MelanieBass",
+            "artistName":"Melanie Bass",
+            "url":"https://www.mbass-art.com/",
+            "bgImage": "MelanieBass_The-Well-Tempered-Machine.jpg"
+        },
+        {
+            "artistId": "pba-MichaelTolan",
+            "artistName":"Michael Tolan",
+            "url":"https://catalog.patternbased.com/artist/michael-tolan",
+            "bgImage": "j-berengar-solter-VJtUbwVCRGo-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-BenVehorn",
+            "artistName":"Ben Vehorn",
+            "url":"https://catalog.patternbased.com/artist/ben-vehorn",
+            "bgImage": "sharon-mccutcheon-WqPAETBU2G8-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-StephenClements",
+            "artistName":"Stephen Clements",
+            "url":"https://catalog.patternbased.com/artist/stephen-clements",
+            "bgImage": "luca-bravo-bTxMLuJOff4-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JacobTrombetta",
+            "artistName":"Jacob Trombetta",
+            "url":"https://catalog.patternbased.com/artist/jacob-trombetta",
+            "bgImage": "jorge-rosal-hATVm3yDjHM-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JoshWeatherspoon",
+            "artistName":"Josh Weatherspoon",
+            "url":"https://catalog.patternbased.com/artist/josh-weatherspoon",
+            "bgImage": "antoine-rault-rpxvgJsLlI8-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-TimConley",
+            "artistName":"Tim Conley",
+            "url":"https://catalog.patternbased.com/artist/tim-conley",
+            "bgImage": "brian-patrick-tagalog-_8hGFBxWD0A-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-RalphCarney",
+            "artistName":"Ralph Carney",
+            "url":"https://catalog.patternbased.com/artist/ralph-carney",
+            "bgImage": "alexander-ant-qyAWIbWfvtA-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-KristaTortora",
+            "artistName":"Krista Tortora",
+            "url":"https://catalog.patternbased.com/artist/krista-tortora",
+            "bgImage": "ivan-bandura-g_1_FXigeGc-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-BrettLashua",
+            "artistName":"Brett Lashua",
+            "url":"https://catalog.patternbased.com/artist/brett-lashua",
+            "bgImage": "ahmed-zayan-6y3UHGe68KA-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JackRandall",
+            "artistName":"Jack Randall",
+            "url":"https://catalog.patternbased.com/artist/jack-randall",
+            "bgImage": "jr-korpa-Dt0Y6W_A10A-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-SpencerAllen",
+            "artistName":"Spencer Allen",
+            "url":"https://catalog.patternbased.com/artist/spencer-allen",
+            "bgImage": "markus-spiske--y-kik2pfsk-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-SarahBansak",
+            "artistName":"Sarah Bansak",
+            "url":"https://catalog.patternbased.com/artist/sarah-bansak",
+            "bgImage": "vanveenjf-NCaMOS5_8lc-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-RonTucker",
+            "artistName":"Ron Tucker",
+            "url":"https://catalog.patternbased.com/artist/ron-tucker",
+            "bgImage": "mesh-3dfztJC4Q6w-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-TakaTozawa",
+            "artistName":"Taka Tozawa",
+            "url":"https://catalog.patternbased.com/artist/taka-tozawa",
+            "bgImage": "allison-heine-kfusCQ5HcI0-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-FloraNevarez",
+            "artistName":"Flora Nevarez",
+            "url":"https://catalog.patternbased.com/artist/flora-nevarez",
+            "bgImage": "claudio-testa-FrlCwXwbwkk-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JScottFranklin",
+            "artistName":"J Scott Franklin",
+            "url":"https://catalog.patternbased.com/artist/j-scott-franklin",
+            "bgImage": "tim-mossholder-sldBp5c73iI-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-KarlVorndran",
+            "artistName":"Karl Vorndran",
+            "url":"https://catalog.patternbased.com/artist/karl-vorndran",
+            "bgImage": "toa-heftiba-0WAJhFK7Q9o-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-CoreyHaren",
+            "artistName":"Corey Haren",
+            "url":"https://catalog.patternbased.com/artist/corey-haren",
+            "bgImage": "javier-esteban-FmT4guWGdPc-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JoeGolden",
+            "artistName":"Joe Golden",
+            "url":"https://catalog.patternbased.com/artist/joe-golden",
+            "bgImage": "matt-seymour-xARzDgBgoyM-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JamieStillman",
+            "artistName":"Jamie Stillman",
+            "url":"https://catalog.patternbased.com/artist/jamie-stillman",
+            "bgImage": "christopher-burns-Kj2SaNHG-hg-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-MickaNova",
+            "artistName":"Micka Nova",
+            "url":"https://catalog.patternbased.com/artist/micka-nova",
+            "bgImage": "adrien-converse-3dUpL1h97CQ-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-CoryJuba",
+            "artistName":"Cory Juba",
+            "url":"https://catalog.patternbased.com/artist/cory-juba",
+            "bgImage": "pawel-czerwinski-OOFSqPWjCt0-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-KevinCarr",
+            "artistName":"Kevin Carr",
+            "url":"https://catalog.patternbased.com/artist/kevin-carr",
+            "bgImage": "billy-huynh-W8KTS-mhFUE-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-CoreyDavis",
+            "artistName":"Corey Davis",
+            "url":"https://catalog.patternbased.com/artist/corey-davis",
+            "bgImage": "dan-meyers-XzFOfXOMq-4-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-AebByrne",
+            "artistName":"Aeb Byrne",
+            "url":"https://catalog.patternbased.com/artist/aeb-byrne",
+            "bgImage": "pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-TKBroderick",
+            "artistName":"TK Broderick",
+            "url":"https://catalog.patternbased.com/artist/tk-broderick",
+            "bgImage": "ivan-bandura-jy4F2C1qksc-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-ShinyaSugimoto",
+            "artistName":"Shinya Sugimoto",
+            "url":"https://catalog.patternbased.com/artist/shinya-sugimoto",
+            "bgImage": "rowan-heuvel-ZwVoZvcwUrE-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-JoshuaMaxonNovak",
+            "artistName":"Joshua Maxon Novak",
+            "url":"https://catalog.patternbased.com/artist/joshua-maxon-novak",
+            "bgImage": "tom-gainor-O5Ztn1Sa0iA-unsplash.jpg"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<div class="bodyTextContainer">
+  <h2 class="textCenter"><%- pageData.about.accordion.workflow.title[l] %></h2>
+</div>
+<div class="bodyTextContainer">
+    <% for (let w = 0; w < pageData.about.accordion.workflow.panel.length; w++) { %>
+        <div class="accordion accordionBtn">
+            <h3><%- pageData.about.accordion.workflow.panel[w].title[l] %></h3>
+        </div>
+        <div class="panel">
+            <p><%- pageData.about.accordion.workflow.panel[w].body[l] %></p>
+        </div>
+    <% } %>
+</div>
+
+<div class="spacerS"></div>
+
+<div class="bodyTextContainer">
+  <h2 class="textCenter"><%- pageData.about.accordion.philosophy.title[l] %></h2>
+</div>
+<div class="bodyTextContainer">
+    <% for (let w = 0; w < pageData.about.accordion.philosophy.panel.length; w++) { %>
+        <div class="accordion accordionBtn">
+            <h3><%- pageData.about.accordion.philosophy.panel[w].title[l] %></h3>
+        </div>
+        <div class="panel">
+            <p><%- pageData.about.accordion.philosophy.panel[w].body[l] %></p>
+        </div>
+    <% } %>
+</div>

@@ -14,34 +14,35 @@
           <img src="">
         </div>
         <div class="dropdownNav">
-          <button class="dropbtnNav"><a class="navMusic" href="">Music</a></button>
+          <button class="dropbtnNav">
+            <a class="navMusic" href="/music/<%=language%>">Music</a></button>
           <div class="dropContentNav">
-            <a class="navMusic" href=""><%= pageData.global.nav.music[l] %></a>
+            <a class="navMusic" href="/music/"><%= pageData.global.nav.music[l] %></a>
             <a class="dim" href="http://albums.patternbased.com/" target="_blank"><%= pageData.global.nav.album[l] %></a>
             <a class="dim" href="http://catalog.patternbased.com/" target="_blank"><%= pageData.global.nav.catalog[l] %></a>
           </div>
         </div>
-        <a class="navArt navItem" href="">Art</a>
-        <!-- <div class="dropdownNav">
+        <!-- <a class="navArt navItem" href="">Art</a> -->
+        <div class="dropdownNav">
           <button class="dropbtnNav">
-            <a class="navArt" href="">Art</a>
-           </button>
+            <a class="navArt" href="/art/<%=language%>">Art</a>
+          </button>
           <div class="dropContentNav">
-            <a class="navArt" href="">Art</a>
-            <a class="dim" id="navApps" href="">PB Apps</a>
-            <a class="dim" id="navDataViz" href="">Data Viz</a class="dim">
+            <a class="navArt" href="/art/<%=language%>" class="dim"><%= pageData.global.nav.art[l] %></a>
+            <a class="dim" id="navMultimedia" href=""><%= pageData.global.nav.multimedia[l] %></a class="dim">
+            <a class="dim" id="navApps" href="" class="dim"><%= pageData.global.nav.pbApps[l] %></a>
           </div>
-        </div> -->
+        </div>
         <div class="dropdownNav">
           <button class="dropbtnNav"><a class="navAbout" href="/about/<%=language%>">About</a></button>
           <div class="dropContentNav">
-            <a class="navAbout" href=""><%= pageData.global.nav.aboutPB[l] %></a>
+            <a class="navAbout" href="/about/<%=language%>"><%= pageData.global.nav.aboutPB[l] %></a>
             <a id="navArtists" class="dim" href=""><%= pageData.global.nav.artists[l] %></a class="dim">
             <a id="navTools" class="dim" href=""><%= pageData.global.nav.tools[l] %></a class="dim">
           </div>
         </div>
-          <a id="navMerch" class="navItem" href="http://patternbased.com/merch/">Merch</a>
-          <a id="navContact" class="navItem" href="http://patternbased.com/contact/">Contact</a>
+          <a id="navMerch" class="navItem" href="/merch/<%=language%>">Merch</a>
+          <a id="navContact" class="navItem" href="/contact/<%=language%>">Contact</a>
       </div>
       <div class="headeritem language">
           <a id="EngLink" href="">
@@ -61,10 +62,11 @@
       </div>
 </nav>
 <script>
+  // Switching btw Languages on the curret location
   let ogUrl = location.href; 
   let offset = ogUrl.length - 2;
   let newUrl = ogUrl.slice(0, offset) ;
-  console.log(ogUrl, offset, newUrl);
+  // console.log(ogUrl, offset, newUrl);
       $('#EngLink').attr('href', newUrl + 'en');
       $('#JpnLink').attr('href', newUrl + 'jp');
 

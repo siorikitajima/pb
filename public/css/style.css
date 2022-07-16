@@ -496,10 +496,11 @@ footer {
     width: 960px;
     overflow: hidden;
     padding: 0;
-    margin: 0 auto 20px auto;
+    margin: 20px auto;
     display: block;
     height: max-content;
     text-align: center;
+    max-width: 100%;
   }
   
   .twoImages {
@@ -608,13 +609,14 @@ footer {
   }
   
   .onomatoPedalBanner {
-    background: #222222 url(../images/global/onomatopedal-bg_v4.png) repeat;
+    background: #222222 url(../images/global/onomatopedal-bg.png) repeat;
     background-size: 750px;
     padding: 20px;
+    background-position: 0 -5px;
   }
   
   .strangersBanner {
-    background: linear-gradient(rgba(226, 226, 226, 0.7), rgba(226, 226, 226, 0.7)), url(../images/global/strangers-bg_v1.jpg);
+    background: linear-gradient(rgba(226, 226, 226, 0.7), rgba(226, 226, 226, 0.7)), url(../images/global/strangers-bg.jpg);
     border-top: #222222 solid 2px;
     border-bottom: #222222 solid 2px;
   }

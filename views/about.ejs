@@ -9,10 +9,57 @@
   <%- include('./partials/nav.ejs') %>
 
   <div class="content">
-
-    <div>
-        <%= pageData.about.meetArtists[l] %>
+    
+    <div class="fullWidthBanner aboutHero">
+        <object type="image/svg+xml" data="../images/about/patternbased_logo_animation.svg"></object>
     </div>
+
+    <div class="spacerM"></div>
+
+    <div class="bodyTextContainer">
+        <h2 class="textCenter">MEDIUMS</h2>
+        <p class="textCenter"><%- pageData.about.mediums.heading[l] %></p>
+    </div>
+
+    <div class="spacerS"></div>
+
+    <%- include('./partials/core-mediums.ejs') %>
+    
+    <div class="spacerS"></div>
+
+    <div class="fullWidthBanner goatMessage">
+        <object type="image/svg+xml" data="../images/about/goat.svg"></object>
+        <p class="testimonial"><%- pageData.about.testimonial.quote[l] %></p>
+        <p class="testimonialName">– <%- pageData.about.testimonial.name[l] %></p>
+    </div>
+
+    <div class="spacerM"></div>
+
+    <%- include('./partials/our-workflow.ejs') %>
+
+    <div class="spacerM"></div>
+
+    <%- include('./partials/cta-pbcatalog.ejs') %>
+  
+    <div class="spacerM"></div>
+
+    <div class="bodyTextContainer">
+      <h2 class="textCenter">ARTISTS</h2>
+    </div>
+    <div class="gridWide listTwoRows" id="artistList">
+      <% for (let a = 0; a < artists.length; a++) { %>
+        <a href="<%= artists[a].url %>" target="_blank">
+          <div class="artists" id="<%= artists[a].artistId %>" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('../images/artists/<%= artists[a].bgImage %>') no-repeat; background-size:cover;">
+
+            <h3><%= artists[a].artistName %></h3>
+          </div>
+        </a>
+      <% } %>
+    </div>
+    <div class="bodyTextContainer">
+      <a href="artists.html" style="text-decoration: none;"><button class="buttonFill largeButton"><%- pageData.about.meetArtists[l] %></button></a>
+    </div>
+    <div class="spacerM"></div>
 
 </div>
 
@@ -20,5 +67,28 @@
 
 <%- include('./partials/footer.ejs') %>
 
+<script>
+/* ========== Accordion ========== */
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.display = "none";
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.display = "block";
+      panel.style.maxHeight = panel.scrollHeight + "px";
+      $('html, body').animate({
+        scrollTop: $(this).offset().top - 100
+      }, 400);
+    }
+  });
+}
+</script>
 </body>
 </html>

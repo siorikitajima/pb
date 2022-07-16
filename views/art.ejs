@@ -1,0 +1,97 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body>
+  <%- include('./partials/nav.ejs') %>
+  
+    <div class="content fullWidthBanner artHero">
+    </div>
+
+    <div class="spacerM"></div>
+
+<div class="bodyWideContainer">
+    <img class="logoHeight" src="../images/pages/PatternBased-Art_Logo.png">
+</div>
+
+<div class="gridFour">
+    <div class="oneFour coreMediums">
+      <object type="image/svg+xml" data="../images/about/multimediaart.svg"></object>
+      <h3><%- pageData.about.mediums.multimediaArt[l] %></h3>
+    </div>
+    <div class="oneFour coreMediums">
+      <object type="image/svg+xml" data="../images/about/datavisualization.svg"></object>
+      <h3><%- pageData.about.mediums.dataViz[l] %></h3>
+    </div>
+    <div class="oneFour coreMediums">
+      <object type="image/svg+xml" data="../images/about/apps2.svg"></object>
+      <h3><%- pageData.about.mediums.apps[l] %></h3>
+    </div>
+    <div class="oneFour coreMediums">
+      <object type="image/svg+xml" data="../images/about/design.svg"></object>
+      <h3><%- pageData.about.mediums.design[l] %></h3>
+    </div>
+</div>
+
+<div class="spacerM"></div>
+
+<div class="bodyWideContainer">
+    <div class="filters" id="filterContainer">
+        <button class="filterItem active" id="art">Art</button>
+        <button class="filterItem" id="design">Design</button>
+        <button class="filterItem" id="code">Code</button>
+        <button class="filterItem" id="album">Album</button>
+        <button class="filterItem" id="dataviz">Data Viz</button>
+    </div>
+  </div>
+
+  <div class="gridWideBlock" id="portfolioList">
+    <% for (let p = 0; p < 8; p++) { %>
+      <a href="#">
+        <div class="portfolio portfolioClasses" id="portfolioId" style="background:#111; background-size:cover;">
+          <h3>PortfolioName</h3>
+        </div>
+      </a>
+    <% } %>
+  </div>
+
+  <div class="spacerM"></div>
+
+  <%- include('./partials/cta-onomatopedal.ejs') %>
+
+  <div class="spacerM"></div>
+
+  <%- include('./partials/art-acc.ejs') %>
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+<script>
+    /* ========== Accordion ========== */
+    
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.display = "none";
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.display = "block";
+          panel.style.maxHeight = panel.scrollHeight + "px";
+          $('html, body').animate({
+            scrollTop: $(this).offset().top - 100
+          }, 400);
+        }
+      });
+    }
+</script>
+</body>
+</html>

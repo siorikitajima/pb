@@ -1,4 +1,82 @@
-  /*//////////////  About page  //////////////*/
+/*//////////////  Hero images  //////////////*/
+
+.aboutHero, .artHero, .musicHero, .merchHero, .homeHero {
+  background-color: #222222;
+  text-align: center;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.artHero {
+  height: 360px;
+  background: url(../images/pages/PB_Art_Hero_CR.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.musicHero {
+  height: 360px;
+  background: url(../images/pages/PB_Music_Hero_CR.jpg) no-repeat;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.merchHero {
+  min-height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/global/PBA-Tshirts.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .homeHero {
+  height: 500px;
+} */
+
+.merchHero h2, .merchHero p {
+display: block;
+width: 700px;
+max-width: 80%;
+margin: 10px auto;
+}
+
+.merchHero h2 {
+margin-top: 50px;
+}
+
+.merchHero p {
+margin-bottom: 50px;
+opacity: 0.6;
+}
+
+.aboutHero object, .aboutHero img {
+  height: 200px;
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .aboutHero {
+    width: 100%;
+    padding: 0;
+    height: 200px;
+  }
+
+  .aboutHero object {
+    position: relative;
+    left: 50vw;
+    transform: translateX(-50%);
+  }
+
+  .artHero, .musicHero {
+    height: 200px;
+  }
+}
+
+/*//////////////  About page  //////////////*/
 
   .coreMediums object {
     width: 100px;
@@ -77,3 +155,487 @@
       height: 720px;
     }
   }
+
+  .artists, .collaborations, .portfolio, .merchWrap {
+    height: 140px;
+    padding: 10px 0;
+    margin: 10px;
+    position: relative;
+    border-radius: 4px;
+  }
+
+  .portfolio, .merch {
+    width: 220px;
+    height: 220px;
+    float: left;
+    padding: 0;
+  }
+
+  .merch {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    float: none;
+    border-radius: 4px;
+  }
+
+  .merchWrap {
+    float: left;
+    width: 220px;
+    height: 320px;
+  }
+  
+  .collaborations {
+    margin: 5px 10px;
+  }
+  
+  .artists:hover, .collaborations:hover, .portfolio:hover, .merch:hover {
+    opacity: 0.6;
+    transition-duration: 400ms;
+  }
+  
+  .artists h3, .collaborations h3, .portfolio h3 {
+    font-size: 1.1em;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+  }
+
+  .merchWrap h3, .merchWrap p {
+    color: #000000;
+    margin: 10px;
+  }
+
+  .merchWrap h3 {
+    margin-top: 16px;
+  }
+
+  .merchWrap p {
+    font-size: 0.8em;
+    opacity: 0.5;
+  }
+
+  .collaborations {
+      background-color: #836767;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .portfolio, .merch {
+      width: calc(50vw - 10px);
+      height: calc(50vw - 10px);
+      padding: 0;
+      margin: 5px;
+    }
+    .merch {
+      margin: 0;
+    }
+    .merchWrap {
+      width: calc(50vw - 10px);
+      padding: 0;
+      margin: 5px 5px 10px 5px;
+    }
+    .merchWrap h3 {
+      font-size: 1em;
+    }
+    .merchWrap h3, .merchWrap p {
+      margin: 10px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .merchWrap {
+      height: 300px;
+    }
+  }
+
+  /*//////////////  Art page  //////////////*/
+
+  .artSquares {
+    width: 130px;
+    max-width: 20%;
+    margin: 2px;
+    display: inline-block;
+  }
+
+  .musicSquares {
+    width: 260px;
+    max-width: calc(50% - 20px);
+    margin: 5px;
+    display: inline-block;
+    }
+
+  /*//////////////  Portfolio pages  //////////////*/
+
+  .portfolioSubHead, .portfolioTitle {
+    margin: 20px auto;
+    width: max-content;
+    max-width: 90%;
+  }
+  .portfolioSubHead {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+  }
+  .portfolioCredit{
+    /* background: 
+    linear-gradient(135deg, transparent 21px, lightgrey 0) top left,
+		linear-gradient(225deg, transparent 21px, lightgrey 0) top right,
+		linear-gradient(315deg, transparent 21px, lightgrey 0) bottom right,
+    linear-gradient(45deg,  transparent 21px, lightgrey 0) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat; */
+    /* background-color: lightgrey; */
+    width: 100%;
+    height: auto;
+    padding: 0 0;
+    /* z-index: -1; */
+    margin: 0 0 20px 0;
+    position: relative;
+  }
+  /* .portfolioCredit::before {
+    content: "";
+    width: 140px;
+    height: 2px;
+    background: #222222;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  } */
+  .portfolioCredit p {
+    /* margin: 20px auto; */
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    text-align: center;
+  }
+  
+
+  .portfolioTitle {
+    position: relative;
+  }
+  
+  .portfolioMovies {
+      width: 700px;
+      height: calc(700px * 0.56);
+      display: block;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    
+  .portfolioMovies.flat {
+    height: calc(700px * 0.42);
+  }
+
+  .portfolioImages, .portfolioImagesBooks {
+    width: 100%;
+  }
+
+  .portfolioTwoImages {
+    width: 49%;
+  }
+
+  .img-pos {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px -4px 0;
+    padding: 0;
+  }
+
+  .bodyTextContainer iframe.squarePlaylist {
+    width: 500px;
+    height: calc(500px + 120px);
+    display: block;
+    margin: 0 auto;
+    border: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .portfolioTwoImages {
+      width: 100%;
+    }
+    .bodyTextContainer iframe.squarePlaylist {
+      width: 80vw;
+      height: calc(80vw + 120px);
+    }
+    .img-pos {
+      display: none;
+    }
+    .portfolioImagesBooks {
+      width: 100vw;
+      margin-left: -10vw;
+      left: 0;
+    }
+    /* .portfolioCredit{
+      background:  lightgrey;
+      width: 100vw;
+      margin-left: -10vw;
+    } */
+  }
+  @media only screen and (max-width: 400px) {
+    .bodyTextContainer iframe.squarePlaylist {
+      width: 90vw;
+      height: calc(90vw + 120px);
+    }
+    .portfolioImagesBooks {
+      margin-left: -5vw;
+    }
+    /* .portfolioCredit{
+      margin-left: -5vw;
+    } */
+  }
+
+  .portfolioBtn {
+    min-width: 200px;
+    height: 40px;
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 0 20px;
+    font-size: 1em;
+    background: none;
+    border: 2px #222222 solid;
+    border-radius: 4px;
+  }
+
+  .portfolioBtn:hover {
+    background: #222222;
+    color: #F5F4F5;
+    transition-duration: 300ms;
+  }
+
+    @media only screen and (max-width: 870px) {
+      .portfolioMovies {
+        width: 80vw;
+        height: 45vw;
+      }
+    .squarePlaylist {
+      width: 80vw;
+      height: calc(80vw + 120px);
+      }
+    }
+
+    @media only screen and (max-width: 400px) {
+      .portfolioMovies {
+        width: 90vw;
+        height: 50vw;
+      }
+      .squarePlaylist {
+        width: 90vw;
+        height: calc(90vw + 120px);
+      }
+    }
+
+    .albumInfo {
+      height: 180px;
+      background-color: lightgrey;
+      border-radius: 4px;
+      color: #222222;
+    }
+
+    .albumInfo:hover {
+      opacity: 0.6;
+      transition-duration: 300ms;
+    }
+    
+    .albumInfo div {
+      float: left;
+      padding: 20px 0 20px 20px;
+    }
+
+    .albumInfoCover, .albumInfoCover img {
+      height: 140px;
+    }
+
+    .albumInfoCopy {
+      text-align: left;
+      width: calc(100% - 220px);
+      position: relative;
+      letter-spacing: 0.1em;
+      margin: 0 30px 0 10px;
+    }
+
+    .albumInfoSubHead {
+      width: calc(100% - 20px);
+      background: #222222;
+      color: lightgrey;
+      padding: 5px 10px;
+      margin: 10px 0;
+    }
+
+    .albumName {
+      position: relative;
+      margin: 16px 0 10px 0;
+    }
+
+    .portfolioTitle::before {
+      content: "";
+      width: 140px;
+      height: 2px;
+      background: #222222;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .albumName::before {
+      content: "";
+      width: 100%;
+      height: 2px;
+      background: #222222;
+      position: absolute;
+      bottom: -6px;
+    }
+
+    .albumByName {
+      margin: 10px 0;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .albumInfo {
+        height: 160px;
+      }
+      .albumInfoSubHead {
+        font-size: 0.8em;
+        margin: 0;
+      }
+      .albumInfoCopy {
+        width: calc(100% - 180px);
+        margin: 0 20px 0 0;
+      }  
+      .albumInfoCover, .albumInfoCover img {
+        height: 120px;
+      }
+      .albumName {
+        font-size: 1.4em;
+        margin: 15px 0 10px 0;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .albumInfo {
+        height: auto;
+      }
+      .albumInfo div {
+        float: none;
+        padding: 20px;
+      }
+      .albumInfoCopy {
+        width: max-content;
+        max-width: calc(100% - 40px);
+        margin: 0 20px;
+      }  
+      .albumInfoCover, .albumInfoCover img {
+        height: 280px;
+        max-height: calc(90vw - 40px);
+      }
+      .albumInfoCover, .albumInfoCopy {
+        text-align: center;
+        margin: 0 auto;
+      }
+      .albumName::before {
+        content: "";
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    .portfolioNav {
+      width: 100%;
+      height: 40px;
+      background-color: lightgrey;
+      margin: 0;
+      padding: 0;
+    }
+
+    .portfolioNav div {
+      width: max-content;
+      height: 16px;
+      margin: 0;
+      padding: 12px;
+      display: inline-block;
+      color: #222222;
+      position: absolute;
+      font-size: 0.9em;
+      cursor: pointer;
+    }
+
+    .portfolioNav div:hover {
+      background-color: #DA2D5E;
+      transition-duration: 200ms;
+    }
+
+    .pfnavPrev {
+      left: 50px;
+    }
+
+    #pfnavAll {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .pfnavNext {
+      right: 50px;
+    }
+
+    div.subHeading {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0;
+    }
+    div.subHeading:hover {
+      background-color: unset;
+    }
+
+    .subHeading a {
+      display: inline-block;
+      padding: 6px 6px 6px 20px;
+      margin: 6px;
+      height: 100%;
+      font-size: 0.9em;
+      /* border-radius: 4px; */
+      /* border: #DA2D5E 1px solid; */
+      color: #222222;
+      position: relative;
+    }
+
+    .subHeading a::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 4px;
+      left: 0;
+      background-image: url('../images/global/tag-black.svg');
+      background-size: 20px 20px;
+      background-repeat: no-repeat;
+    }
+
+    .subHeading a:hover {
+      /* background-color: #DA2D5E; */
+      color: #DA2D5E;
+      transition-duration: 300ms;
+    }
+
+    .subHeading a:hover::before {
+      background-image: url('../images/global/tag-pink.svg');
+      transition-duration: 300ms;
+    }
+
+    @media only screen and (max-width: 800px) {
+      .pfnavPrev {
+        left: 10px;
+      }
+  
+      .pfnavNext {
+        right: 10px;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .portfolioNav.top {
+        visibility: hidden;
+      }
+    }
