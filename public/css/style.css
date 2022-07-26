@@ -770,9 +770,11 @@ footer {
   }
   
   .forms ul li input, .forms ul li textarea {
-    border: #cccccc 1px solid;
-    border-radius: 4px;
-    width: calc(100% - 100px);
+    border: none;
+    border-bottom: #111 1px solid;
+    background: none;
+    /* width: calc(100% - 100px); */
+    width: calc(100% - 20px);
     padding: 5px;
     font-size: 1em;
     font-family: 'Raleway', sans-serif;
@@ -783,13 +785,13 @@ footer {
   }
   
   .forms ul li textarea {
-    min-height: 70px;
+    min-height: 120px;
   }
   
   .formButton {
-    width: calc(100% - 90px);
+    width: calc(100% - 70px);
     height: 50px;
-    margin-left: 84px;
+    margin: 0 auto;
   }
   
   .forms ul li input.formButton {
@@ -807,16 +809,4 @@ footer {
     width: 40px;
     margin: 0 auto;
     display: block;
-  }
-  
-  .g-recaptcha {
-    margin-left: 84px;
-  }
-  
-  .g-recaptcha-msg {
-    width: 300px;
-    height: 20px;
-    margin: 10px 0 0 84px;
-    color: #FB3640;
-    display: none;
   }

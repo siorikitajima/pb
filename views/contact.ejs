@@ -1,0 +1,56 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body class="frontpage">
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="content">
+    
+    <div class="fullWidthBanner aboutHero">
+        <object type="image/svg+xml" data="../images/about/patternbased_logo_animation.svg"></object>
+    </div>
+
+    <div class="spacerM"></div>
+
+    <div class="bodyTextContainer">
+        <h2 class="textCenter"><%- pageData.contact.heading[l] %></h2>
+        <p class="textCenter"><%- pageData.contact.copy[l] %></p>
+    </div>
+
+    <div class="spacerS"></div>
+
+    <div class="bodyTextContainer">
+        <form class="forms" id="contactForm"  action="" method="post">
+          <ul>
+           <li>
+             <!-- <label for="name">Name</label> -->
+             <input type="text" id="name" name="name" placeholder="Name" required>
+           </li>
+           <li>
+             <!-- <label for="mail">E-mail</label> -->
+             <input type="email" id="email" name="email" placeholder="E-mail" required>
+           </li>
+           <li>
+             <!-- <label for="message">Message</label> -->
+             <textarea id="message" name="message" placeholder="Message" required></textarea>
+           </li>
+           <li class="button">
+             <button class="buttonFill formButton" name="submit" type="submit"" >SUBMIT</button>
+              <!-- <button class="buttonFill formButton" onclick="checkRecaptcha();">SUBMIT</button> -->
+          </li>
+          </ul>
+         </form>
+        </div>
+
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+
+</body>
+</html>

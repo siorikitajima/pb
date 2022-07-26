@@ -1,0 +1,58 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body>
+  <%- include('./partials/nav.ejs') %>
+  
+    <!-- <div class="content fullWidthBanner merchHero">
+    </div> -->
+
+    <div class="spacerL"></div>
+
+    <div class="bodyTextContainer">
+        <h2 class="textCenter"><%- pageData.merch.heading[l] %></h2>
+        <p class="textCenter"><%- pageData.merch.copy[l] %></p>
+    </div>
+    
+    <div class="spacerM"></div>
+
+<div class="bodyWideContainer">
+    <div class="filters" id="filterContainer">
+        <button class="filterItem" id="all">ALL</button>
+        <button class="filterItem" id="tshirts">T-shirts</button>
+        <button class="filterItem" id="cds">CDs</button>
+        <button class="filterItem" id="posters">Posters</button>
+        <button class="filterItem" id="collab">Collab</button>
+        <button class="filterItem" id="science">Science</button>
+        <button class="filterItem" id="animals">Animals</button>
+        <button class="filterItem active" id="featured">Featured</button>
+    </div>
+  </div>
+
+  <div class="gridWideBlock" id="portfolioList">
+    <% for (let p = 0; p < 8; p++) { %>
+      <a href="#" target="_blank">
+        <div class="merchWrap" id="merchId">
+            <div class="merch" style="background:#111; background-size:cover;">
+            </div>
+            <h3>MrchName</h3>
+            <p>MerchDesc MerchDesc MerchDesc</p>
+        </div>
+    </a>
+    <% } %>
+  </div>
+
+  <div class="spacerM"></div>
+
+  <%- include('./partials/cta-onomatopedal.ejs') %>
+
+<div class="spacerM"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+</body>
+</html>

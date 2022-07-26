@@ -33,15 +33,12 @@ const music_get = async (req, res) => {
     language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
-    let rawdata1 = fs.readFileSync('./json/artists.json');
-    let artistsData = JSON.parse(rawdata1);
     res.render('music', { 
         title: 'Music', 
         nav:'music', 
         slug: 'music',
         language: language,
-        pageData: pageData,
-        artists: artistsData.artists
+        pageData: pageData
     });
 };
 
@@ -49,15 +46,38 @@ const art_get = async (req, res) => {
     language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
-    let rawdata1 = fs.readFileSync('./json/artists.json');
-    let artistsData = JSON.parse(rawdata1);
     res.render('art', { 
         title: 'Art', 
         nav:'art', 
         slug: 'art',
         language: language,
-        pageData: pageData,
-        artists: artistsData.artists
+        pageData: pageData
+    });
+};
+
+const merch_get = async (req, res) => {
+    language = req.params.lang;
+    let rawdata = fs.readFileSync('./json/pages.json');
+    let pageData = JSON.parse(rawdata);
+    res.render('merch', { 
+        title: 'Merch', 
+        nav:'merch', 
+        slug: 'merch',
+        language: language,
+        pageData: pageData
+    });
+};
+
+const contact_get = async (req, res) => {
+    language = req.params.lang;
+    let rawdata = fs.readFileSync('./json/pages.json');
+    let pageData = JSON.parse(rawdata);
+    res.render('contact', { 
+        title: 'Contact', 
+        nav:'contact', 
+        slug: 'contact',
+        language: language,
+        pageData: pageData
     });
 };
 
@@ -66,5 +86,7 @@ module.exports = {
     home_get,
     about_get,
     music_get,
-    art_get
+    art_get,
+    merch_get,
+    contact_get
 }

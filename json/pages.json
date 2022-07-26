@@ -59,9 +59,6 @@
         "about" : ["PatternBased is Music and Art.<br/>We compose, create and design music, sound, visual art, apps, objects, and experiences.<br/>We love challenges and unknowns, as well as our go-to core mediums.",
         "PatternBasedは、作曲・音楽プロデュース・サウンドデザインから、ビジュアルアート・デザイン・マルチメディア・アプリ・インタラクティブまで、クリエイティブのジャンルを超えた作品を提供します。未知への挑戦も大好きですが、以下のメディアを特に得意としています。"]
     },
-    "music" : {
-
-    },
     "about" : {
         "mediums" : {
             "heading" : ["PatternBased is Music and Art. Sound and Vision. <br />We love challenges and unknowns, as well as our go-to core mediums.", "PatternBasedは、音楽とアートとマルチメディアと、その間に位置する色々なものを作ります。<br />未知への挑戦も大好きですが、以下のメディアを特に得意としています。"],
@@ -78,88 +75,95 @@
         "testimonial" : {
             "quote" : ["PatternBased is the best of the world. And the bunnies.", "PatternBasedはなんといっても最高です。<br />スタジオに住むウサギたちも。"],
             "name" : ["The goat that lives next door of the Movaje studio", "モハヴェ・スタジオの隣の家のヤギ"]
+        }
+    },
+    "merch" : {
+        "heading" : ["// PB MERCH //", "// PBオリジナルグッズ //"],
+        "copy" : ["Purchasable physical objects produced by PatternBased. The images below are links to third party shops (Amazon, Bandcamp, etc.).", "以下のサムネイルをクリックすると、PatternBasedオリジナルグッズが購入できる外部リンク（Amazon、Bandcamp、他）が開きます。"]
+    },
+    "contact" : {
+        "heading" : ["// Talk shop with us //", "// コラボレーションとその先へ //"],
+        "copy" : ["If you are into film/video, coding, robotics, electrical engineering, 3d design, animation, data visualization, dance, music or any other creative work and ideas for collabs, say hi. We enjoy working with other small groups like labels looking to co-release material, museums and hackerspaces looking to create unique objects or experiences or anyone else with a creative notion and an itch for collaboration.<br/><br/>If you are looking to license PatternBased music, please visit PatternBased Catalog Beta.", "映画・ビデオ・プログラミング・アニメーション・インフォグラフィック・ロボット工学・電気工学・３Ｄデザイン・ダンス・音楽・その他あらゆるジャンルのクリエイティブ、コラボレーションのアイデアやご要望があれば、ぜひお聞かせください。少数精鋭、または一風変わったクリエイティブグループや、美術館、ハッカースペース、プロジェクトに特別な情熱を持った方や、型破りなアプローチをお探しの方達とのコラボレーションを特に得意としています。<br/><br/>音楽のライセンスをお探しの方は、ぜひPatternBased Catalog Betaをご利用ください。"]
+    },
+    "accordion" : {
+        "workflow" : {
+            "title" : ["OUR WORKFLOW", "仕事のすすめ方"],
+            "panel" : [
+                {
+                    "title" : ["Composing and Custom Work", "作曲・映画音楽"],
+                    "body" : ["The case for custom music is easy to make. Every event, every scene, every thing that needs music is different and the music should be too. Music and sound design can convey an incredibly specific mixture of ideas and emotions. A good composer can make that happen whether you are telling a story about college athletes in swampy Scooba Mississippi with uncertain futures, the future of technology in Singapore or you just need a unique bombastic build for the unveiling of your new brand.<br />We love composing and have created custom music for just about anything one could think of from films and Netflix/streaming shows to VR and Installations. We like working on unique original projects from around the world. We dream of working on a cool cartoon like Adventure Time or a VR experience that creates meditative states or perhaps interface design for flying vehicles. Get at us with your wildest ideas.", "この世にある全ての出来事、景色、物事は全く違うものです。それぞれが持つ音楽もまた違うべきです。そのもの独特の、感情と意味の混ざり合った感覚を体現するのに、音楽とサウンドデザインは欠かせないものです。腕の良い作曲家は、それがとある学生の葛藤や夢の物語であっても、近代国家のテクノロジーイノベーションの物語であっても、もしくはあなたがこれから紡ぎ出す物語であっても、ストーリとその感情を観客に豊かに届けるために最適な音楽を作り上げることができます。<br />作曲はPatternBasedの制作活動の中心です。今までに、映画音楽・Netflixなどのストリーム番組から、ヴァーチャルリアリティやアートインスタレーションなど、様々なものに合う音楽を作曲をする機会に恵まれました。私たちは一風変わった珍しいプロジェクトも大好きです。私たちのドリームプロジェクトとしては、Adventure Timeのような音楽的で独創的なアニメーションや、メディテーションに導くヴァーチャルリアリティプログラムなど、または空飛ぶ車の運転席のインターフェースのサウンドデザインなども楽しそうです。あなたの型破りなプロジェクトのアイデアをお待ちしています。"]
+                },
+                {
+                    "title" : ["Music Licensing", "音楽ライセンス"],
+                    "body" : ["PatternBased produces an ever expanding catalog of textural/emotive sound and music that covers a wide range of moods and notions. Licensing those works is a core activity of PatternBased. We license individual tracks, full albums or the entire catalog on a per project basis. Every PatternBased track is available for licensing. Stems/splits are available for any track as well.", "PatternBasedは、感覚的に音楽をサーチできるオリジナルのカタログを制作運営しています。私たちが過去に制作した楽曲の全ては、カタログアプリから検索・再生・ライセンス購入できます。また、全ての曲のステム（レイヤー）データが使用可能です。ライセンスは、楽曲単位・アルバム単位・フルカタログ等、プロジェクトのサイズに応じて対応いたします。"]
+                },
+                {
+                    "title" : ["Multimedia Design", "マルチメディアデザイン"],
+                    "body" : ["A story has a cover graphics, an experience has an interface to interact with, and a set of research data is to be illustrated. We design those bridges between the content and the audience: cover for albums and books, websites and apps, and wearable and objects. We also create and code animations and interactions. We start the design process with five adjuctive words in order to fully imagine how the end result 'feels' like. Because the good outcome is often found when aiming for the best possible imagination one can have, then the result exceeds or goes off of the imagination/expectation.", "ストーリーには表紙があり、ユーザーエクスペリエンスにはインターフェースが、リサーチデータには理解しやすい図解があります。私たちはそういった、作品と観客との橋渡しの部分をデザインします。具体的には、アルバムや本のカバーアート、インタラクティブのためのウェブサイトやアプリ、身につけるものや飾るものなど。また、アニメーションやUI/UXなどをプログラミングもします。私たちの制作のプロセスは、完成したものの「感じ」をよりよく想像するために、形容詞を５つ書き出すところから始まります。想像できる最高のものを目指し、その想像を超えたり外れたりしたところに最適なデザインが見つかることが多いからです。"]
+                }
+            ]
         },
-        "accordion" : {
-            "workflow" : {
-                "title" : ["OUR WORKFLOW", "仕事のすすめ方"],
-                "panel" : [
-                    {
-                        "title" : ["Composing and Custom Work", "作曲・映画音楽"],
-                        "body" : ["The case for custom music is easy to make. Every event, every scene, every thing that needs music is different and the music should be too. Music and sound design can convey an incredibly specific mixture of ideas and emotions. A good composer can make that happen whether you are telling a story about college athletes in swampy Scooba Mississippi with uncertain futures, the future of technology in Singapore or you just need a unique bombastic build for the unveiling of your new brand.<br />We love composing and have created custom music for just about anything one could think of from films and Netflix/streaming shows to VR and Installations. We like working on unique original projects from around the world. We dream of working on a cool cartoon like Adventure Time or a VR experience that creates meditative states or perhaps interface design for flying vehicles. Get at us with your wildest ideas.", "この世にある全ての出来事、景色、物事は全く違うものです。それぞれが持つ音楽もまた違うべきです。そのもの独特の、感情と意味の混ざり合った感覚を体現するのに、音楽とサウンドデザインは欠かせないものです。腕の良い作曲家は、それがとある学生の葛藤や夢の物語であっても、近代国家のテクノロジーイノベーションの物語であっても、もしくはあなたがこれから紡ぎ出す物語であっても、ストーリとその感情を観客に豊かに届けるために最適な音楽を作り上げることができます。<br />作曲はPatternBasedの制作活動の中心です。今までに、映画音楽・Netflixなどのストリーム番組から、ヴァーチャルリアリティやアートインスタレーションなど、様々なものに合う音楽を作曲をする機会に恵まれました。私たちは一風変わった珍しいプロジェクトも大好きです。私たちのドリームプロジェクトとしては、Adventure Timeのような音楽的で独創的なアニメーションや、メディテーションに導くヴァーチャルリアリティプログラムなど、または空飛ぶ車の運転席のインターフェースのサウンドデザインなども楽しそうです。あなたの型破りなプロジェクトのアイデアをお待ちしています。"]
-                    },
-                    {
-                        "title" : ["Music Licensing", "音楽ライセンス"],
-                        "body" : ["PatternBased produces an ever expanding catalog of textural/emotive sound and music that covers a wide range of moods and notions. Licensing those works is a core activity of PatternBased. We license individual tracks, full albums or the entire catalog on a per project basis. Every PatternBased track is available for licensing. Stems/splits are available for any track as well.", "PatternBasedは、感覚的に音楽をサーチできるオリジナルのカタログを制作運営しています。私たちが過去に制作した楽曲の全ては、カタログアプリから検索・再生・ライセンス購入できます。また、全ての曲のステム（レイヤー）データが使用可能です。ライセンスは、楽曲単位・アルバム単位・フルカタログ等、プロジェクトのサイズに応じて対応いたします。"]
-                    },
-                    {
-                        "title" : ["Multimedia Design", "マルチメディアデザイン"],
-                        "body" : ["A story has a cover graphics, an experience has an interface to interact with, and a set of research data is to be illustrated. We design those bridges between the content and the audience: cover for albums and books, websites and apps, and wearable and objects. We also create and code animations and interactions. We start the design process with five adjuctive words in order to fully imagine how the end result 'feels' like. Because the good outcome is often found when aiming for the best possible imagination one can have, then the result exceeds or goes off of the imagination/expectation.", "ストーリーには表紙があり、ユーザーエクスペリエンスにはインターフェースが、リサーチデータには理解しやすい図解があります。私たちはそういった、作品と観客との橋渡しの部分をデザインします。具体的には、アルバムや本のカバーアート、インタラクティブのためのウェブサイトやアプリ、身につけるものや飾るものなど。また、アニメーションやUI/UXなどをプログラミングもします。私たちの制作のプロセスは、完成したものの「感じ」をよりよく想像するために、形容詞を５つ書き出すところから始まります。想像できる最高のものを目指し、その想像を超えたり外れたりしたところに最適なデザインが見つかることが多いからです。"]
-                    }
-                ]
-            },
-            "philosophy" : {
-                "title" : ["OUR PHILOSOPHY", "私たちの考え方"],
-                "panel" : [
-                    {
-                        "title" : ["Philosophy", "考え方・哲学"],
-                        "body" : ["We embrace complexity. We eschew narrow genres and reductive binaries. We love math, science and reason. We love the natural world. We love examining cultures and ideas. We love exploring new technologies, software and hardware. We love learning about the past and pondering the future. We love the underdog. We are worried like you.<br />We pay the bills by creating things like music for film, album art and book covers, installations and interactions. We are always working to strike a balance between championing the new/the unknown/the underdog and colossal feats of said bill-paying.<br />If there is a such thing as talent, it is not nearly important as time. Generally, the quality of a thing is determined by the amount of time spent on that thing. That time is a slice of the limited and unknown time we all have and that time is invaluable. We appreciate your time and we hope you appreciate ours.", "私たちは、複雑なものごとに魅力を感じます。ジャンルにとらわれることを避け、先入観を取り払いたいと願っています。数学・科学・論理・理由・自然・文化・哲学・新しいテクノロジーなどからインスピレーションを受けます。歴史から学び、おそらくあなたもしているように、未来を心配しています。<br />私たちは、映画音楽を作曲したり、アルバムカバーや装丁デザインしたり、インスタレーションやインタラクティブなどを制作することで日々の生活を賄っています。常に、やりたい仕事と生活をするための仕事の間で葛藤し、バランスを取りながら日々を送っています。<br />もしも「才能」というものが存在するとして、私たちにとっては「時間」ほど重要ではありません。ほとんどの場合、クオリティとは時間の積み重ねで成り立っています。作品を組み立てる過程の時間と、さらにその知識や技術を取得するまでの見えない過去の時間の、複雑な積み重ねです。私たちは常にあなたの時間に感謝します。あなたが私たちの時間に対して同じように思っていただけたら嬉しいです。"]
-                    },
-                    {
-                        "title" : ["Artist Community", "アーティストコミュニティ"],
-                        "body" : ["As we fully own the rights to our creations, when you hire us and license our work, you can be sure that your money is going directly to the PatternBased artists that created the thing you are paying for. This is not true for most license-able things, especially in the world of music. Do you really want to pay the CEO of a giant media company for music that he didn’t create? Ya, neither do we.<br />PatternBased is a community focused, artist-centric tax paying California entity run by artists Siori Kitajima and Joseph Minadeo from a quiet spot in Nagasaki, Japan (We relocated from the Mojave desert in 2022).<br/>We are friends to rabbits everywhere. Say hi to Orlando and Corabelle. The best bunnies in the world.",
-                        "私たちが過去に出版した作品の著作権は全て、制作したアーティスト本人が保有しています。私たちの制作やライセンスに支払われた代金は、制作したアーティスト本人に直接届きます。ライセンス業界、特に音楽ライセンスの世界において、こういった形でアーティストが十分な報酬を受け取ることはとても稀だと言えます。あなたが気に入った音楽に対して支払ったライセンス料が、アーティスト本人ではなく、どこかの大手メディア会社の社長に支払われてもいいと思いますか？そうですよね。私たちも、全くいいと思えません。<br />PatternBasedは、コミュニティとアーティストを中心にした運営方針で、アーティストのSiori KitajimaとJoseph Minadeoによって運営されています。スタジオうさぎの、OrlandoとCorabelleとともに、2022年にカリフォルニアのMojave砂漠から長崎へとスタジオを移転しました。"]
-                    },
-                    {
-                        "title" : ["How We Can Support You", "私たちができること"],
-                        "body" : ["If you are an independent smaller budget artist focused on forward thinking creations, we can offer discounted rates for licensing and possibly even composing. If you are just getting started in any type of creation, we might be able to help with music, code or advice. We love to be of service to our fellow creatives. We will also be restarting our Bunny San Tachi artist residency called the Tiny Arts Prize in southwest Japan possibly in 2023 depending on how the pandemic plays out.", 
-                        "PatternBasedは、アーティスト・クリエーター・非営利団体による社会的意義のあるプロジェクトを応援します。人権問題・環境問題・動物保護・自然保護等に関連するプロジェクト、もしくはアーティスト個人による実験的・先進的なプロジェクトには、特別なレートでライセンスや作曲、デザインやコラボレーションアプリ等を提供します。音楽やビジュアルアート、プログラミングを学びたい若手アーティストには、情報やワークショップを提供し、インターンシップ等も考慮します。2019年までMojave砂漠で行われていた、アーティスト・クリエーターをサポートするための「Tiny Arts Prize」というアーティストレジデンスプログラムも、パンデミックの状況次第で長崎にて再開する予定です。興味のある方はお気軽にご連絡ください。"]
-                    },
-                    {
-                        "title" : ["How You Can Suport Us", "あなたができること"],
-                        "body" : ["We are a small boutique entity and every penny counts. You can support us by licensing our music for your projects. If you are a listener of music, you can purchase our albums at Bandcamp which is our preferred 3rd party vendor. You can also purchase t-shirts and merch at this page. Or you can just enjoy our various creations and maybe spread the word to others who might enjoy or purchase our work. We are also working on a tip system for micropayments. You can even send us crypto if you are into that sort of thing.", 
-                        "PatternBasedの作品を気に入ってくれた方、サポートしたいと思ってくださる方は、Bandcampでアルバムの購入をおすすめします。また、Merchページから、オリジナルＴシャツやポスターなども購入いただけます。バンドＴやコラボＴのほか、科学・昆虫・動物などをテーマにしたユニークなＴシャツシリーズを展開しています。"]
-                    }
-                ]
-            },
-            "musicacc" : {
-                "panel" : [
-                    {
-                        "title" : ["Albums", "アルバム"],
-                        "body" : ["Listen to albums and collections at BandCamp which is, by far, our favorite service. Stream and support our digital releases there. Also at SoundCloud, Spotify, Apple Music and other common channels.", "アルバムやコレクションは、BandCampでストリーミング再生、購入できます。SoundCloud, Spotify, Apple Musicなどのサービスからもストリーミング再生できます。"],
-                        "images" : "<div class='gridWideBlock twoRows'> <img src='../images/albums/SIMH-soundtrack.jpg' class='artSquares'><img src='../images/albums/Sounds-for-a-Photograph.jpg' class='artSquares'><img src='../images/albums/LITSWilliam.jpg' class='artSquares'><img src='../images/albums/SaltFlats.jpg' class='artSquares'><img src='../images/albums/A-Shared-Rainbow.jpg' class='artSquares'><img src='../images/albums/Beats-and-Repeats.jpg' class='artSquares'><img src='../images/albums/Daewon-Summer.jpg' class='artSquares'><img src='../images/albums/The-Well-Tempered-Machine.jpg' class='artSquares'></div><div class='bodyTextContainer'><a href='http://albums.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>SEE ALBUMS</button></a></div>"
-                    },
-                    {
-                        "title" : ["Catalog", "PBカタログ"],
-                        "body" : ["Every PatternBased track is both fully license-able and infinitely changeable. With partners and clients from the United Nations, the Red Cross and the Bill and Melinda Gates Foundation to PBS, MTV and Microsoft. From fashion up to activism. From start-ups to the Fortune 500 and from film and television to video games to interactive art installations. PatternBased has provided the sound for some of the biggest and most forward thinking entities and brands in the world. Use our search tool to find the right track for your project and feel free to drop us a line about your latest project’s music and sound needs.", "PatternBasedは、感覚的に音楽をサーチできるオリジナルカタログを制作運営しています。PatternBasedが過去に制作した楽曲の全ては、カタログアプリから検索・再生・ライセンス購入できます。また、ライセンスを購入いただいた全ての曲のステム（レイヤー）データにアクセスできます。ライセンスは、楽曲・アルバム単位・フルカタログ等、プロジェクトに応じて対応いたします。"],
-                        "images" : "<div class='gridWideBlock twoImages'><img src='../images/portfolio/pbc_01.jpg' class='musicSquares'><img src='../images/portfolio/pbc_02.jpg' class='musicSquares'></div><div class='bodyTextContainer'><a href='http://catalog.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>TRY BETA</button></a></div>"
-                    },
-                    {
-                        "title" : ["Playlists", "プレイリスト"],
-                        "body" : ["Enjoy some carefully curated PatternBased playlists. Whether you are looking to get moving to some twangy bangers, relax to some sleepy-time ambient or hear a selection of commercial cuts both unique and modern, we have you covered.", "オリジナル編集のプレイリスト。上から、PBベストセレクション「PBSLX」、アンビエントコレクション「Tones and Drones」、ビートコレクション「Beats and Repeats」、コマーシャルコレクション「Commerce and Happiness」"],
-                        "images" : "<div class='spacerS'></div><div class='bodyTextContainer'><iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=3366803001/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/' seamless><a href='http://albums.patternbased.com/album/pbslx'>PBSLX by PatternBased</a></iframe><iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=4017723985/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/' seamless><a href='http://albums.patternbased.com/album/tones-and-drones'>Tones and Drones by PatternBased</a></iframe><iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=2770999912/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/' seamless><a href='http://albums.patternbased.com/album/beats-and-repeats'>Beats and Repeats by PatternBased</a></iframe><iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=1371183577/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/' seamless><a href='http://albums.patternbased.com/album/commerce-and-happiness'>Commerce and Happiness by PatternBased</a></iframe></div>"
-                    }
-                ]
-            },
-            "artacc" : {
-                "panel" : [
-                    {
-                        "title" : ["Multimedia Design", "マルチメディアデザイン"],
-                        "body" : ["We design those bridges between the content and the audience: cover for albums and books, websites and apps, and wearable and objects. We also create and code animations and interactions.", "作品と観客との橋渡しの部分をデザインします。具体的には、アルバムや本のカバーアート、インタラクティブのためのウェブサイトやアプリ、身につけるものや飾るものなど。また、アニメーションやUI/UXなどをプログラミングもします。"],
-                        "images" : "<div class='gridWideBlock twoRows'> <img src='../images/portfolio/multimedia_01.jpg' class='musicSquares'><img src='../images/portfolio/multimedia_02.jpg' class='musicSquares'><img src='../images/portfolio/multimedia_05.gif' class='musicSquares'><img src='../images/portfolio/multimedia_07.svg' class='musicSquares'></div><div class='bodyTextContainer'><a href='http://albums.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>PORTFOLIO</button></a></div>"
-                    },
-                    {
-                        "title" : ["PB Apps", "PBアプリ"],
-                        "body" : ["PatternBased creates original apps. ", "PatternBasedはオリジナルアプリを制作します。"],
-                        "images" : "<div class='gridWideBlock twoImages'><img src='../images/portfolio/multimedia_04.jpg' class='musicSquares'><img src='../images/portfolio/pbc_02.jpg' class='musicSquares'><img src='../images/portfolio/multimedia_03.gif' class='musicSquares'><img src='../images/portfolio/PBA_DataViz_02.gif' class='musicSquares'></div><div class='bodyTextContainer'><a href='http://catalog.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>TRY BETA</button></a></div>"
-                    },
-                    {
-                        "title" : ["Data Visualization", "インフォグラフィック"],
-                        "body" : ["Infographics, info-sculpture, and interactive data visualization. Working with numbers is a passion of PatternBased Art. Expressing data effectively can show us different angles to understand our world, and data visualization is a way to make the numbers a story. We always looking for opportunities to collaborate with talented researchers for meaningful projects.", "PatternBasedは、感覚的に音楽をサーチできるオリジナルカタログを制作運営しています。PatternBasedが過去に制作した楽曲の全ては、カタログアプリから検索・再生・ライセンス購入できます。また、ライセンスを購入いただいた全ての曲のステム（レイヤー）データにアクセスできます。ライセンスは、楽曲・アルバム単位・フルカタログ等、プロジェクトに応じて対応いたします。"],
-                        "images" : "<div class='gridWideBlock twoImages'><img src='../images/portfolio/PBA_DataViz_01.jpg' class='musicSquares'><img src='../images/portfolio/PBA_DataViz_02.gif' class='musicSquares'></div><div class='bodyTextContainer'><a href='http://catalog.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>TRY BETA</button></a></div>"
-                    }
-                ]
-            }
+        "philosophy" : {
+            "title" : ["OUR PHILOSOPHY", "私たちの考え方"],
+            "panel" : [
+                {
+                    "title" : ["Philosophy", "考え方・哲学"],
+                    "body" : ["We embrace complexity. We eschew narrow genres and reductive binaries. We love math, science and reason. We love the natural world. We love examining cultures and ideas. We love exploring new technologies, software and hardware. We love learning about the past and pondering the future. We love the underdog. We are worried like you.<br />We pay the bills by creating things like music for film, album art and book covers, installations and interactions. We are always working to strike a balance between championing the new/the unknown/the underdog and colossal feats of said bill-paying.<br />If there is a such thing as talent, it is not nearly important as time. Generally, the quality of a thing is determined by the amount of time spent on that thing. That time is a slice of the limited and unknown time we all have and that time is invaluable. We appreciate your time and we hope you appreciate ours.", "私たちは、複雑なものごとに魅力を感じます。ジャンルにとらわれることを避け、先入観を取り払いたいと願っています。数学・科学・論理・理由・自然・文化・哲学・新しいテクノロジーなどからインスピレーションを受けます。歴史から学び、おそらくあなたもしているように、未来を心配しています。<br />私たちは、映画音楽を作曲したり、アルバムカバーや装丁デザインしたり、インスタレーションやインタラクティブなどを制作することで日々の生活を賄っています。常に、やりたい仕事と生活をするための仕事の間で葛藤し、バランスを取りながら日々を送っています。<br />もしも「才能」というものが存在するとして、私たちにとっては「時間」ほど重要ではありません。ほとんどの場合、クオリティとは時間の積み重ねで成り立っています。作品を組み立てる過程の時間と、さらにその知識や技術を取得するまでの見えない過去の時間の、複雑な積み重ねです。私たちは常にあなたの時間に感謝します。あなたが私たちの時間に対して同じように思っていただけたら嬉しいです。"]
+                },
+                {
+                    "title" : ["Artist Community", "アーティストコミュニティ"],
+                    "body" : ["As we fully own the rights to our creations, when you hire us and license our work, you can be sure that your money is going directly to the PatternBased artists that created the thing you are paying for. This is not true for most license-able things, especially in the world of music. Do you really want to pay the CEO of a giant media company for music that he didn’t create? Ya, neither do we.<br />PatternBased is a community focused, artist-centric tax paying California entity run by artists Siori Kitajima and Joseph Minadeo from a quiet spot in Nagasaki, Japan (We relocated from the Mojave desert in 2022).<br/>We are friends to rabbits everywhere. Say hi to Orlando and Corabelle. The best bunnies in the world.",
+                    "私たちが過去に出版した作品の著作権は全て、制作したアーティスト本人が保有しています。私たちの制作やライセンスに支払われた代金は、制作したアーティスト本人に直接届きます。ライセンス業界、特に音楽ライセンスの世界において、こういった形でアーティストが十分な報酬を受け取ることはとても稀だと言えます。あなたが気に入った音楽に対して支払ったライセンス料が、アーティスト本人ではなく、どこかの大手メディア会社の社長に支払われてもいいと思いますか？そうですよね。私たちも、全くいいと思えません。<br />PatternBasedは、コミュニティとアーティストを中心にした運営方針で、アーティストのSiori KitajimaとJoseph Minadeoによって運営されています。スタジオうさぎの、OrlandoとCorabelleとともに、2022年にカリフォルニアのMojave砂漠から長崎へとスタジオを移転しました。"]
+                },
+                {
+                    "title" : ["How We Can Support You", "私たちができること"],
+                    "body" : ["If you are an independent smaller budget artist focused on forward thinking creations, we can offer discounted rates for licensing and possibly even composing. If you are just getting started in any type of creation, we might be able to help with music, code or advice. We love to be of service to our fellow creatives. We will also be restarting our Bunny San Tachi artist residency called the Tiny Arts Prize in southwest Japan possibly in 2023 depending on how the pandemic plays out.", 
+                    "PatternBasedは、アーティスト・クリエーター・非営利団体による社会的意義のあるプロジェクトを応援します。人権問題・環境問題・動物保護・自然保護等に関連するプロジェクト、もしくはアーティスト個人による実験的・先進的なプロジェクトには、特別なレートでライセンスや作曲、デザインやコラボレーションアプリ等を提供します。音楽やビジュアルアート、プログラミングを学びたい若手アーティストには、情報やワークショップを提供し、インターンシップ等も考慮します。2019年までMojave砂漠で行われていた、アーティスト・クリエーターをサポートするための「Tiny Arts Prize」というアーティストレジデンスプログラムも、パンデミックの状況次第で長崎にて再開する予定です。興味のある方はお気軽にご連絡ください。"]
+                },
+                {
+                    "title" : ["How You Can Suport Us", "あなたができること"],
+                    "body" : ["We are a small boutique entity and every penny counts. You can support us by licensing our music for your projects. If you are a listener of music, you can purchase our albums at Bandcamp which is our preferred 3rd party vendor. You can also purchase t-shirts and merch at this page. Or you can just enjoy our various creations and maybe spread the word to others who might enjoy or purchase our work. We are also working on a tip system for micropayments. You can even send us crypto if you are into that sort of thing.", 
+                    "PatternBasedの作品を気に入ってくれた方、サポートしたいと思ってくださる方は、Bandcampでアルバムの購入をおすすめします。また、Merchページから、オリジナルＴシャツやポスターなども購入いただけます。バンドＴやコラボＴのほか、科学・昆虫・動物などをテーマにしたユニークなＴシャツシリーズを展開しています。"]
+                }
+            ]
+        },
+        "musicacc" : {
+            "panel" : [
+                {
+                    "title" : ["Albums", "アルバム"],
+                    "body" : ["Listen to albums and collections at BandCamp which is, by far, our favorite service. Stream and support our digital releases there. Also at SoundCloud, Spotify, Apple Music and other common channels.", "アルバムやコレクションは、BandCampでストリーミング再生、購入できます。SoundCloud, Spotify, Apple Musicなどのサービスからもストリーミング再生できます。"],
+                    "images" : "<div class='gridWideBlock twoRows'> <img src='../images/albums/SIMH-soundtrack.jpg' class='artSquares'><img src='../images/albums/Sounds-for-a-Photograph.jpg' class='artSquares'><img src='../images/albums/LITSWilliam.jpg' class='artSquares'><img src='../images/albums/SaltFlats.jpg' class='artSquares'><img src='../images/albums/A-Shared-Rainbow.jpg' class='artSquares'><img src='../images/albums/Beats-and-Repeats.jpg' class='artSquares'><img src='../images/albums/Daewon-Summer.jpg' class='artSquares'><img src='../images/albums/The-Well-Tempered-Machine.jpg' class='artSquares'></div><div class='bodyTextContainer'><a href='http://albums.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>SEE ALBUMS</button></a></div>"
+                },
+                {
+                    "title" : ["Catalog", "PBカタログ"],
+                    "body" : ["Every PatternBased track is both fully license-able and infinitely changeable. With partners and clients from the United Nations, the Red Cross and the Bill and Melinda Gates Foundation to PBS, MTV and Microsoft. From fashion up to activism. From start-ups to the Fortune 500 and from film and television to video games to interactive art installations. PatternBased has provided the sound for some of the biggest and most forward thinking entities and brands in the world. Use our search tool to find the right track for your project and feel free to drop us a line about your latest project’s music and sound needs.", "PatternBasedは、感覚的に音楽をサーチできるオリジナルカタログを制作運営しています。PatternBasedが過去に制作した楽曲の全ては、カタログアプリから検索・再生・ライセンス購入できます。また、ライセンスを購入いただいた全ての曲のステム（レイヤー）データにアクセスできます。ライセンスは、楽曲・アルバム単位・フルカタログ等、プロジェクトに応じて対応いたします。"],
+                    "images" : "<div class='gridWideBlock twoImages'><img src='../images/portfolio/pbc_01.jpg' class='musicSquares'><img src='../images/portfolio/pbc_02.jpg' class='musicSquares'></div><div class='bodyTextContainer'><a href='http://catalog.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>TRY BETA</button></a></div>"
+                },
+                {
+                    "title" : ["Playlists", "プレイリスト"],
+                    "body" : ["Enjoy some carefully curated PatternBased playlists. Whether you are looking to get moving to some twangy bangers, relax to some sleepy-time ambient or hear a selection of commercial cuts both unique and modern, we have you covered.", "オリジナル編集のプレイリスト。上から、PBベストセレクション「PBSLX」、アンビエントコレクション「Tones and Drones」、ビートコレクション「Beats and Repeats」、コマーシャルコレクション「Commerce and Happiness」"],
+                    "images" : "<div class='spacerS'></div><div class='bodyTextContainer'><iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=3366803001/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/' seamless><a href='http://albums.patternbased.com/album/pbslx'>PBSLX by PatternBased</a></iframe><iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=4017723985/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/' seamless><a href='http://albums.patternbased.com/album/tones-and-drones'>Tones and Drones by PatternBased</a></iframe><iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=2770999912/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/' seamless><a href='http://albums.patternbased.com/album/beats-and-repeats'>Beats and Repeats by PatternBased</a></iframe><iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=1371183577/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/' seamless><a href='http://albums.patternbased.com/album/commerce-and-happiness'>Commerce and Happiness by PatternBased</a></iframe></div>"
+                }
+            ]
+        },
+        "artacc" : {
+            "panel" : [
+                {
+                    "title" : ["Multimedia Design", "マルチメディアデザイン"],
+                    "body" : ["We design those bridges between the content and the audience: cover for albums and books, websites and apps, and wearable and objects. We also create and code animations and interactions.", "作品と観客との橋渡しの部分をデザインします。具体的には、アルバムや本のカバーアート、インタラクティブのためのウェブサイトやアプリ、身につけるものや飾るものなど。また、アニメーションやUI/UXなどをプログラミングもします。"],
+                    "images" : "<div class='gridWideBlock twoRows'> <img src='../images/portfolio/multimedia_01.jpg' class='musicSquares'><img src='../images/portfolio/multimedia_02.jpg' class='musicSquares'><img src='../images/portfolio/multimedia_05.gif' class='musicSquares'><img src='../images/portfolio/multimedia_07.svg' class='musicSquares'></div><div class='bodyTextContainer'><a href='http://albums.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>PORTFOLIO</button></a></div>"
+                },
+                {
+                    "title" : ["PB Apps", "PBアプリ"],
+                    "body" : ["PatternBased creates original apps. ", "PatternBasedはオリジナルアプリを制作します。"],
+                    "images" : "<div class='gridWideBlock twoImages'><img src='../images/portfolio/multimedia_04.jpg' class='musicSquares'><img src='../images/portfolio/pbc_02.jpg' class='musicSquares'><img src='../images/portfolio/multimedia_03.gif' class='musicSquares'><img src='../images/portfolio/PBA_DataViz_02.gif' class='musicSquares'></div><div class='bodyTextContainer'><a href='http://catalog.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>TRY BETA</button></a></div>"
+                },
+                {
+                    "title" : ["Data Visualization", "インフォグラフィック"],
+                    "body" : ["Infographics, info-sculpture, and interactive data visualization. Working with numbers is a passion of PatternBased Art. Expressing data effectively can show us different angles to understand our world, and data visualization is a way to make the numbers a story. We always looking for opportunities to collaborate with talented researchers for meaningful projects.", "PatternBasedは、感覚的に音楽をサーチできるオリジナルカタログを制作運営しています。PatternBasedが過去に制作した楽曲の全ては、カタログアプリから検索・再生・ライセンス購入できます。また、ライセンスを購入いただいた全ての曲のステム（レイヤー）データにアクセスできます。ライセンスは、楽曲・アルバム単位・フルカタログ等、プロジェクトに応じて対応いたします。"],
+                    "images" : "<div class='gridWideBlock twoImages'><img src='../images/portfolio/PBA_DataViz_01.jpg' class='musicSquares'><img src='../images/portfolio/PBA_DataViz_02.gif' class='musicSquares'></div><div class='bodyTextContainer'><a href='http://catalog.patternbased.com/' target='_blank' style='text-decoration: none;'><button class='buttonFill largeButton'>TRY BETA</button></a></div>"
+                }
+            ]
         }
     }
-         
 }

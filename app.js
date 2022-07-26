@@ -22,10 +22,14 @@ app.get('/', redirectController.home_get);
 app.get('/about', redirectController.about_get);
 app.get('/music', redirectController.music_get);
 app.get('/art', redirectController.art_get);
+app.get('/merch', redirectController.merch_get);
+app.get('/contact', redirectController.contact_get);
 
 // Req with Lang param
 app.get('/:lang', pageCotroller.home_get);
 app.get('/about/:lang', pageCotroller.about_get);
 app.get('/music/:lang', pageCotroller.music_get);
 app.get('/art/:lang', pageCotroller.art_get);
+app.get('/merch/:lang', pageCotroller.merch_get);
+app.get('/contact/:lang', pageCotroller.contact_get);
 
