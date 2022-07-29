@@ -1,0 +1,57 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body>
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="content">
+
+    <div class="spacerM"></div>
+
+    <div class="bodyTextContainer">
+      <img class="headingImg" src="../images/tools/michael-dziedzic-WtjkpyWbww8-unsplash.png">
+      <h2 class="textCenter"><%= toolData.heading[l] %></h2>
+      <p class="textCenter"><%= toolData.copy[l] %></p>
+    </div>
+  
+    <div class="spacerM"></div>
+  
+    <div class="bodyWideContainer toolContainer">
+
+    <% for (let a = 0; a < toolData.tools.length; a++) { %>
+      <div class="tool">
+        <a href="<%= toolData.tools[a].url[l] %>" target="_blank">
+            <h2><%= toolData.tools[a].toolName[l] %></h2>
+        </a>
+        <div class="flex">
+            <div class="toolImage">
+                <a href="<%= toolData.tools[a].url[l] %>" target="_blank">
+                    <img src="../images/tools/<%= toolData.tools[a].image %>">
+                </a>
+            </div>
+            <div class="toolCopy">
+                <p><%- toolData.tools[a].toolCopy[l] %></p>
+            </div>
+        </div>
+      </div>
+    <% } %>
+
+    </div>
+
+    <div class="spacerM"></div>
+
+    <div class="bodyTextContainer">
+        <h3 class="textCenter">// <%= toolData.otherHeading[l] %> //</h3>
+        <p class="textCenter"><%= toolData.otherCopy %></p>
+      </div>
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+</body>
+</html>

@@ -83,7 +83,11 @@
     },
     "contact" : {
         "heading" : ["// Talk shop with us //", "// コラボレーションとその先へ //"],
-        "copy" : ["If you are into film/video, coding, robotics, electrical engineering, 3d design, animation, data visualization, dance, music or any other creative work and ideas for collabs, say hi. We enjoy working with other small groups like labels looking to co-release material, museums and hackerspaces looking to create unique objects or experiences or anyone else with a creative notion and an itch for collaboration.<br/><br/>If you are looking to license PatternBased music, please visit PatternBased Catalog Beta.", "映画・ビデオ・プログラミング・アニメーション・インフォグラフィック・ロボット工学・電気工学・３Ｄデザイン・ダンス・音楽・その他あらゆるジャンルのクリエイティブ、コラボレーションのアイデアやご要望があれば、ぜひお聞かせください。少数精鋭、または一風変わったクリエイティブグループや、美術館、ハッカースペース、プロジェクトに特別な情熱を持った方や、型破りなアプローチをお探しの方達とのコラボレーションを特に得意としています。<br/><br/>音楽のライセンスをお探しの方は、ぜひPatternBased Catalog Betaをご利用ください。"]
+        "copy" : ["If you are into film/video, coding, robotics, electrical engineering, 3d design, animation, data visualization, dance, music or any other creative work and ideas for collabs, say hi. We enjoy working with other small groups like labels looking to co-release material, museums and hackerspaces looking to create unique objects or experiences or anyone else with a creative notion and an itch for collaboration.<br/><br/>If you are looking to license PatternBased music, please visit PatternBased Catalog Beta.", "映画・ビデオ・プログラミング・アニメーション・インフォグラフィック・ロボット工学・電気工学・３Ｄデザイン・ダンス・音楽・その他あらゆるジャンルのクリエイティブ、コラボレーションのアイデアやご要望があれば、ぜひお聞かせください。少数精鋭、または一風変わったクリエイティブグループや、美術館、ハッカースペース、プロジェクトに特別な情熱を持った方や、型破りなアプローチをお探しの方達とのコラボレーションを特に得意としています。<br/><br/>音楽のライセンスをお探しの方は、ぜひPatternBased Catalog Betaをご利用ください。"],
+        "thankuheading" : ["Your message has been sent.", "メッセージが送信されました。"],
+        "thankucopy" : ["We will get back with you shortly. Thank you for your interest.", "お問合せありがとうございました。通常２−３営業日以内にご返信いたしております。"],
+        "errorheading" : ["Sorry! There was an error.", "エラーのため送信できませんでした。"],
+        "errorcopy" : ["There was a problem to deliver your message. <br/>Please email to info&#64;patternbased.com instead.", "エラーが発生したためメッセージを送信できませんでした。<br/>お手数ですが、info&#64;patternbased.comまでメールでご連絡ください。"]
     },
     "accordion" : {
         "workflow" : {

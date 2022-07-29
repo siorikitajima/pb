@@ -7,6 +7,18 @@
             "bgImage": "carrie-yang-1n6OS3HbDlk-unsplash.jpg"
         },
         {
+            "artistId": "pba-JosephMinadeo",
+            "artistName":"Joseph Minadeo",
+            "url":"https://catalog.patternbased.com/project/joseph-minadeo",
+            "bgImage": "martin-sattler-8peGuud5cEw-unsplash.jpg"
+        },
+        {
+            "artistId": "pba-SioriKitajima",
+            "artistName":"Siori Kitajima",
+            "url":"http://www.siorikitajima.com/",
+            "bgImage": "siorikitajima_numberzero.jpg"
+        },
+        {
             "artistId": "pba-PuffyShapes",
             "artistName":"Puffy Shapes",
             "url":"https://catalog.patternbased.com/project/puffy-shapes",
@@ -85,12 +97,6 @@
             "bgImage": "onomatopedal_project.jpg"
         },
         {
-            "artistId": "pba-JosephMinadeo",
-            "artistName":"Joseph Minadeo",
-            "url":"https://catalog.patternbased.com/project/joseph-minadeo",
-            "bgImage": "martin-sattler-8peGuud5cEw-unsplash.jpg"
-        },
-        {
             "artistId": "pba-JosephMinadeoandShinyaSugimoto",
             "artistName":"Joseph Minadeo and Shinya Sugimoto",
             "url":"https://catalog.patternbased.com/project/joseph-minadeo-and-shinya-sugimoto",
@@ -101,12 +107,6 @@
             "artistName":"Delia Nakamura",
             "url":"https://catalog.patternbased.com/artist/delia-nakamura",
             "bgImage": "alex-wong-l5Tzv1alcps-unsplash.jpg"
-        },
-        {
-            "artistId": "pba-SioriKitajima",
-            "artistName":"Siori Kitajima",
-            "url":"http://www.siorikitajima.com/",
-            "bgImage": "siorikitajima_numberzero.jpg"
         },
         {
             "artistId": "pba-CoreyFarrow",

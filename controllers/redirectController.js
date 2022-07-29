@@ -66,11 +66,71 @@ const contact_get = async (req, res) => {
     res.redirect( url );
 };
 
+const thanku_get = async (req, res) => {
+    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/thanku/' + lang;
+    res.redirect( url );
+};
+
+const error_get = async (req, res) => {
+    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/error/' + lang;
+    res.redirect( url );
+};
+
+const artists_get = async (req, res) => {
+    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/artists/' + lang;
+    res.redirect( url );
+};
+
+const tools_get = async (req, res) => {
+    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/tools/' + lang;
+    res.redirect( url );
+};
+
+const apps_get = async (req, res) => {
+    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/apps/' + lang;
+    res.redirect( url );
+};
+
 module.exports = {
     home_get,
     about_get,
     music_get,
     art_get,
     merch_get,
-    contact_get
+    contact_get,
+    thanku_get,
+    error_get,
+    artists_get,
+    tools_get,
+    apps_get
 }

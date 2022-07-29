@@ -1,0 +1,38 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body class="frontpage">
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="content">
+    
+    <div class="fullWidthBanner aboutHero">
+        <object type="image/svg+xml" data="../images/about/patternbased_logo_animation.svg"></object>
+    </div>
+
+    <div class="spacerM"></div>
+
+    <div class="bodyTextContainer" id="thanku-msg">
+        <img src="../images/global/PatternBased_black_icon.svg">
+        <h2 class="textCenter"><%- pageData.contact.errorheading[l] %></h2>
+        <p class="textCenter"><%- pageData.contact.errorcopy[l] %></p>
+    </div>
+
+    <div class="spacerM"></div>
+
+        <%- include('./partials/cta-pbcatalog.ejs') %>
+  
+    <div class="spacerS"></div>
+
+        <%- include('./partials/cta-onomatopedal.ejs') %>
+  
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+</body>
+</html>

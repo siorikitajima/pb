@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/siorikitajima/pb#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "geoip-lite": "^1.4.5"
+    "geoip-lite": "^1.4.5",
+    "googleapis": "^105.0.0",
+    "nodemailer": "^6.7.7"
   }
 }

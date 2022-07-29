@@ -23,9 +23,9 @@
 <div class="bodyWideContainer">
     <div class="filters" id="filterContainer">
         <button class="filterItem" id="all">ALL</button>
-        <button class="filterItem" id="tshirts">T-shirts</button>
-        <button class="filterItem" id="cds">CDs</button>
-        <button class="filterItem" id="posters">Posters</button>
+        <button class="filterItem" id="t-shirt">T-shirts</button>
+        <button class="filterItem" id="cd">CDs</button>
+        <button class="filterItem" id="poster">Posters</button>
         <button class="filterItem" id="collab">Collab</button>
         <button class="filterItem" id="science">Science</button>
         <button class="filterItem" id="animals">Animals</button>
@@ -34,13 +34,23 @@
   </div>
 
   <div class="gridWideBlock" id="portfolioList">
-    <% for (let p = 0; p < 8; p++) { %>
-      <a href="#" target="_blank">
-        <div class="merchWrap" id="merchId">
-            <div class="merch" style="background:#111; background-size:cover;">
+    <% for (let p = 0; p < merchData.merch.length; p++) { %>
+      <% if(merchData.merch[p].lang) { %>
+        <a href="<%- merchData.merch[p].url[l] %>" target="_blank">
+      <% } else { %>
+        <a href="<%- merchData.merch[p].url %>" target="_blank">
+      <% } %>
+        <div class="merchWrap <%- merchData.merch[p].merchClasses %>" id="<%- merchData.merch[p].merchId %>">
+            <div class="merch" style="background:url('../images/merch/<%- merchData.merch[p].bgImage %>') no-repeat; background-size:cover;">
             </div>
-            <h3>MrchName</h3>
-            <p>MerchDesc MerchDesc MerchDesc</p>
+            <% if(merchData.merch[p].lang) { %>
+              <h3><%= merchData.merch[p].merchName[l] %></h3>
+              <p><%- merchData.merch[p].merchDesc[l] %></p>
+            <% } else { %>
+              <h3><%= merchData.merch[p].merchName %></h3>
+              <p><%- merchData.merch[p].merchDesc %></p>
+            <% } %>
+            
         </div>
     </a>
     <% } %>
@@ -54,5 +64,56 @@
 
 <%- include('./partials/footer.ejs') %>
 
+<script>
+  var activeFilter = $('button.active');
+  var filterId = activeFilter.attr('id');
+
+filterSelection(filterId);
+
+function filterSelection(c) {
+  var x, i;
+  x = $('.merchWrap');
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];
+    console.log('added class to: ', element);
+  }
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btns = $('#filterContainer > .filterItem');
+btns.on("click", (e)=>{
+  var clicked = e.target;
+  var current = $(".active");
+  var id = $(clicked).attr('id');
+  current.removeClass('active');
+  $(clicked).addClass('active');
+  filterSelection(id);
+});
+
+</script>
 </body>
 </html>

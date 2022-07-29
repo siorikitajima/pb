@@ -1,0 +1,29 @@
+{
+    "appsheading": ["Apps by PatternBased", "PBオリジナルアプリ"],
+    "apps" : [
+        {
+            "appName": ["PatternBased Catalog","PatternBased Catalog"],
+            "appCopy": ["PBC is a powerful music search tool for our catalog, with build-in player and sharable playlist function. It is a tool designed for movie editors, and searches music with the feeling but genres nor instruments. Its build with Vue.js, MongoDB and Amazon AWS, and is open source. Star, follow, or fork this app on Github.", "PBCは、オリジナルのプレーヤーとプレイリスト機能を備えた、パワフルな音楽検索ツールです。映像編集者向けに開発され、従来のツールのようにジャンルや楽器などから検索するのではなく、ムード・速度・実験度など、「こんな感じ」という雰囲気やイメージから音楽を検索出来るツールです。Vue.js、MongoDB、Amazon AWSを使って作られています。オープンソースです。Githubリポジトリはこちらです。"],
+            "url": ["https://catalog.patternbased.com/", "https://catalog.patternbased.com/"],
+            "image": "pbc_02.jpg"
+        },
+        {
+            "appName": ["OnomatoPedal","おのまとペダル"],
+            "appCopy": ["OnomatoPedal is an audiovisual playground inspired by the Japanese Onomatopoetic words and the music effects pedals of the world famous EarthQuaker Devices. You will be able to play a set of sounds with keys and drumpads. For music, we used Howler.js for V1 (released in 2020 June), and Tone.js for V2 (will be released in 2022). The animation is handled by paper.js and p5.js. Star, follow, or fork this app on Github(V1).", "おのまとペダルは、日本語独自の擬音語・擬態語・おのまとぺと、EarthQuaker Devicesのミュージックエフェクトペダルの組み合わせから生まれた音楽サンプルのプレイグランドです。パソコンのキーボードや携帯スクリーンのドラムパッドを押すと、楽曲に合わせて制作されたサンプルとアニメーションが再生されます。オーディオ関連は、2020年6月にリリースされたV1はHowler.jsで、2022年リリース予定のV2はTone.jsで作ってあります。アニメーションのフレームワークはpaper.jsとp5.jsです。v1のGithubリポジトリはこちらです。"],
+            "url": ["https://onomatopedal.com/", "https://onomatopedal.com/"],
+            "image": "onomatoPedal.gif"
+        },
+        {
+            "appName": ["Strangers App","Strangers App"],
+            "appCopy": ["This web app is made for the documentary series 'Strangers In My Head' which shows the lives and struggles of people who suffer mental illness in Singapore. The app includes an info-art / data visualization piece called 'Perspective' made with p5.js, which uses current statistics on mental health to illuminate how many of us suffer. The framework is React. Star, follow, or fork this app on Github.", "「Strangers In My Head」は、シンガポールの現代社会における精神疾患との戦いと患者さんたちの人生を描いたドキュメンタリーです。このアプリはドキュメンタリーのために作られた情報ウェブアプリで、冒頭には、p5.jsで作成された「Perspective」というInfo-Art/データ視覚化のアニメーション作品が使われています。メンタルヘルスに関する統計の数値をもとに、どれだけ多くの人が精神疾患に苦しんでいることかを、ひと目で分かるように可視化しています。「Perspective」はオープンソースです。Githubリポジトリはこちらです。"],
+            "url": ["https://strangersinmyhead.info/", "https://strangersinmyhead.info/"],
+            "image": "multimedia_03.gif"
+        },
+        {
+            "appName": ["Heartbeats.","Heartbeats."],
+            "appCopy": ["Heartbeats. is an info-art piece to make the heartbeats of animals visible and audible. More than 150 species of animals are going extinct every day. Perhaps considering the beating, breathing lives of these animals will help us do what we can to slow this extinction down. It is made with simple HTML + Javascript. The animation is made with Lottie, and the music is created with VCV lack. Star, follow, or fork this app on Github.", "Heartbeats.は、動物たちの心臓の鼓動を可視化および可聴化したInfo-Artの作品です。地球上では気候変動などにより日に150種以上の動物たちが絶滅していっています。動物たちの心臓の鼓動や生活を想像することが、絶滅のスピードを少しでも遅らせるために何ができるか考えるきっかけになれば幸いです。HTMLとJavascriptでシンプルに作られています。アニメーションはLottie、音楽はVCV lackを使って作られています。"],
+            "url": ["https://heartbeats.patternbased.com/", "https://heartbeats.patternbased.com/"],
+            "image": "heartbeats.jpg"
+        }
+    ]
+}

@@ -24,7 +24,7 @@
     <div class="spacerS"></div>
 
     <div class="bodyTextContainer">
-        <form class="forms" id="contactForm"  action="" method="post">
+        <form class="forms" id="contactForm"  action="/contact/<%= language %>" method="post">
           <ul>
            <li>
              <!-- <label for="name">Name</label> -->
@@ -39,7 +39,8 @@
              <textarea id="message" name="message" placeholder="Message" required></textarea>
            </li>
            <li class="button">
-             <button class="buttonFill formButton" name="submit" type="submit"" >SUBMIT</button>
+            <input type="hidden" name="language" value="<%= language %>">
+             <button class="buttonFill formButton" name="submit" type="submit" >SUBMIT</button>
               <!-- <button class="buttonFill formButton" onclick="checkRecaptcha();">SUBMIT</button> -->
           </li>
           </ul>

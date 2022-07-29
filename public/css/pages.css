@@ -563,7 +563,7 @@ opacity: 0.6;
     }
 
     .portfolioNav div:hover {
-      background-color: #DA2D5E;
+      background-color: #FB3640;
       transition-duration: 200ms;
     }
 
@@ -597,7 +597,7 @@ opacity: 0.6;
       height: 100%;
       font-size: 0.9em;
       /* border-radius: 4px; */
-      /* border: #DA2D5E 1px solid; */
+      /* border: #FB3640 1px solid; */
       color: #222222;
       position: relative;
     }
@@ -615,8 +615,8 @@ opacity: 0.6;
     }
 
     .subHeading a:hover {
-      /* background-color: #DA2D5E; */
-      color: #DA2D5E;
+      /* background-color: #FB3640; */
+      color: #FB3640;
       transition-duration: 300ms;
     }
 
@@ -640,3 +640,105 @@ opacity: 0.6;
         visibility: hidden;
       }
     }
+
+      /*//////////////  Tool page  //////////////*/
+.tool {
+  width: 100%;
+  margin: 40px 0;
+  padding: 0;
+}
+
+.tool .flex {
+  display: flex;
+}
+
+.toolImage, .toolImage img {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.toolImage {
+  background-color: #FB3640;
+}
+
+.toolImage img:hover {
+  opacity: 0.2;
+  transition-duration: 400ms;
+}
+
+.toolCopy {
+  width: calc(100% - 230px);
+  margin-left: 20px;
+}
+
+.toolCopy p {
+  margin-top: 0;
+}
+
+.tool h2 {
+  position: relative;
+  margin: 30px 0;
+  color: #222222;
+}
+
+.tool h2:hover {
+  color: #FB3640;
+  transition-duration: 400ms;
+}
+
+.tool h2::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #222222;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.toolContainer {
+  max-width: 960px;
+}
+
+.headingImg {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  animation: headingImgFading 10s infinite ease-in-out;
+}
+
+.headingImg2 {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+@keyframes headingImgFading {
+  0% {opacity: 1; transform: scale(1);}
+  10% {opacity: 1; transform: scale(1);}
+  50% {opacity: 0.6; transform: scale(0.8);}
+  60% {opacity: 0.6; transform: scale(0.8);}
+  100% {opacity: 1; transform: scale(1);}
+
+}
+
+@media only screen and (max-width: 800px) {
+  .tool .flex {
+    display: block;
+  }
+  .toolImage {
+    margin: 0 auto;
+  }
+  .toolCopy {
+    width: calc(100% - 40px);
+    margin: 20px;
+    text-align: left;
+  }
+  .tool h2 {
+    text-align: center;
+    width: calc(100% - 40px);
+    left: 20px;
+  }
+
+}

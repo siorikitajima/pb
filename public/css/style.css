@@ -737,6 +737,11 @@ footer {
     color: #FFFFFF;
   }
   
+  /* .portfolio,  */
+  .merchWrap {
+    display: none;
+  }
+  
   .show {
     display: block;
   }
@@ -758,6 +763,10 @@ footer {
   .forms ul li {
     display: block;
     margin: 20px auto;
+  }
+
+  .forms ul li.button {
+    margin: 40px auto 20px auto;
   }
   
   .forms ul li label {
@@ -806,7 +815,7 @@ footer {
   }
   
   #thanku-msg img {
-    width: 40px;
-    margin: 0 auto;
+    width: 56px;
+    margin: 0 auto 40px auto;
     display: block;
   }
