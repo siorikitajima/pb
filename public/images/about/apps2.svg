@@ -2,6 +2,7 @@
 <!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="pb-multimediadesign" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<a href="/apps" target="_parent">
 <style type="text/css">
 	.st0{fill:#cccccc;}
 	svg:hover .st0{fill:#BDBDBD;}
@@ -64,12 +65,10 @@ svg:hover .ani-duration1, svg:hover .ani-duration2 {animation-play-state: paused
 
 </style>
 <path class="st0" d="M60,5.8c29.8,0,54,24.2,54,54s-24.2,54-54,54S6,89.6,6,59.8S30.2,5.8,60,5.8"/>
-<a>
 	<g>
 		<path d="M60,6c29.8,0,54,24.2,54,54s-24.2,54-54,54S6,89.8,6,60S30.2,6,60,6 M60,5L60,5C29.6,5,5,29.6,5,60l0,0
 			c0,30.4,24.6,55,55,55l0,0c30.4,0,55-24.6,55-55l0,0C115,29.6,90.4,5,60,5L60,5z"/>
 	</g>
-</a>
 <path class="st1" d="M74,94.8H46c-2.2,0-4-1.8-4-4v-62c0-2.2,1.8-4,4-4h28c2.2,0,4,1.8,4,4v62C78,93,76.2,94.8,74,94.8z"/>
 <polygon class="st2 star2 ani-duration2" points="81,44.3 98.4,28.2 96.6,51.8 120,55.4 100.5,68.7 112.3,89.2 89.7,82.3 81,104.3 72.3,82.3 49.7,89.2 
 	61.5,68.7 42,55.4 65.4,51.8 63.6,28.2 "/>
@@ -124,4 +123,5 @@ svg:hover .ani-duration1, svg:hover .ani-duration2 {animation-play-state: paused
 	<line class="st3" x1="27.4" y1="76.7" x2="35" y2="84.3"/>
 	<line class="st3" x1="26.6" y1="83.9" x2="30.3" y2="87.7"/>
 </g>
+</a>
 </svg>

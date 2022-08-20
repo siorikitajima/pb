@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="pb-datavisualization" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<a href="/dataviz" target="_parent">
 <style type="text/css">
 	.dtv-st0{fill:none;}
 	.dtv-st1{fill:#000000;}
@@ -36,8 +37,6 @@
     0% {transform: rotate(0deg) scale(0.9);}
     100% {transform: rotate(360deg) scale(0.9);}}
   </style>
-
-<a href="https://patternbased.com/portfolio/index.html?category=data-visualization" target="_parent">
 
 <pattern  width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="_x31_0_dpi_40_x25_" viewBox="2.88 -31.68 28.8 28.8" style="overflow:visible;">
 	<g>

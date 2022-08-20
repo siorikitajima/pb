@@ -1,29 +1,1622 @@
 {
-    "appsheading": ["Apps by PatternBased", "PBオリジナルアプリ"],
-    "apps" : [
+    "portfolio": [
         {
-            "appName": ["PatternBased Catalog","PatternBased Catalog"],
-            "appCopy": ["PBC is a powerful music search tool for our catalog, with build-in player and sharable playlist function. It is a tool designed for movie editors, and searches music with the feeling but genres nor instruments. Its build with Vue.js, MongoDB and Amazon AWS, and is open source. Star, follow, or fork this app on Github.", "PBCは、オリジナルのプレーヤーとプレイリスト機能を備えた、パワフルな音楽検索ツールです。映像編集者向けに開発され、従来のツールのようにジャンルや楽器などから検索するのではなく、ムード・速度・実験度など、「こんな感じ」という雰囲気やイメージから音楽を検索出来るツールです。Vue.js、MongoDB、Amazon AWSを使って作られています。オープンソースです。Githubリポジトリはこちらです。"],
-            "url": ["https://catalog.patternbased.com/", "https://catalog.patternbased.com/"],
-            "image": "pbc_02.jpg"
+            "id": "cheer-s2",
+            "year": 2022,
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "cheer-s2-banner.jpg"
+            },
+            "mainCopy": ["We composed a <a href='https://patternbased.bandcamp.com/album/cheer-tunes'>big batch</a> of music (222 pieces) for the excellent second season of the hit Netflix docu-series <a href='https://www.netflix.com/title/81039393'>Cheer</a>. The show (and therefore the music) covers a wide range of notions and emotions. The storytelling is incredibly well done and it was an honor to be a part of. Thank you as always to Netflix, <a href='http://www.onepotatoproductions.com/'>One Potato</a> and Boardwalk.", 
+            "Netflixの人気ドキュメンタリーシリーズ<a href='https://www.netflix.com/title/81039393'>「チアの女王（Cheer）」</a>のシーズン２へ、<a href='https://patternbased.bandcamp.com/album/cheer-tunes'>合計２２２曲</a>を作曲しました。音楽もこのシリーズの内容のように、ダイナミックな展開や豊かな感情が詰まった力強いものとなりました。特にこのシーズンはストーリー展開と編集の完成度もすばらしく、この作品の制作へ参加させていただいたことを光栄に思います。Netflix、<a href='http://www.onepotatoproductions.com/'>One Potato</a>、Boardwalkのみなさん、ありがとうございました。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/81039393"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Cheer Tunes",
+                "url": "https://patternbased.bandcamp.com/album/cheer-tunes",
+                "image": "../../images/portfolio/cheer-tunes.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
         },
         {
-            "appName": ["OnomatoPedal","おのまとペダル"],
-            "appCopy": ["OnomatoPedal is an audiovisual playground inspired by the Japanese Onomatopoetic words and the music effects pedals of the world famous EarthQuaker Devices. You will be able to play a set of sounds with keys and drumpads. For music, we used Howler.js for V1 (released in 2020 June), and Tone.js for V2 (will be released in 2022). The animation is handled by paper.js and p5.js. Star, follow, or fork this app on Github(V1).", "おのまとペダルは、日本語独自の擬音語・擬態語・おのまとぺと、EarthQuaker Devicesのミュージックエフェクトペダルの組み合わせから生まれた音楽サンプルのプレイグランドです。パソコンのキーボードや携帯スクリーンのドラムパッドを押すと、楽曲に合わせて制作されたサンプルとアニメーションが再生されます。オーディオ関連は、2020年6月にリリースされたV1はHowler.jsで、2022年リリース予定のV2はTone.jsで作ってあります。アニメーションのフレームワークはpaper.jsとp5.jsです。v1のGithubリポジトリはこちらです。"],
-            "url": ["https://onomatopedal.com/", "https://onomatopedal.com/"],
-            "image": "onomatoPedal.gif"
+            "id": "hunting-marlon-brando",
+            "year": 2021,
+            "type":"Soundtrack",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "marlon-brando-banner.jpg"
+            },
+            "mainCopy": ["Soundtrack to the audiobook <a href='https://mikesager.com/book/hunting-marlon-brando'>Hunting Marlon Brando by Mike Sager</a> which follow's Sager's mission from Washington DC, to Marlon's private atoll near Tahiti, to his home in Hollywood.", 
+            "ベストセラージャーナリストMike Sager氏著<a href='https://mikesager.com/book/hunting-marlon-brando'>Hunting Marlon Brando</a> のオーディオブックのためのサウンドトラックを制作しました。このノンフィクションの物語は、セイガー氏がマーロン・ブランドを探す任務を受けて、タヒチ近くのマーロン氏のプライベートアイランドからワシントンＤＣやハリウッドへと続く旅を追ったものです。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "See More about the Book",
+                    "url": "https://mikesager.com/book/hunting-marlon-brando"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false
+            },
+            "cta": "pbc"
         },
         {
-            "appName": ["Strangers App","Strangers App"],
-            "appCopy": ["This web app is made for the documentary series 'Strangers In My Head' which shows the lives and struggles of people who suffer mental illness in Singapore. The app includes an info-art / data visualization piece called 'Perspective' made with p5.js, which uses current statistics on mental health to illuminate how many of us suffer. The framework is React. Star, follow, or fork this app on Github.", "「Strangers In My Head」は、シンガポールの現代社会における精神疾患との戦いと患者さんたちの人生を描いたドキュメンタリーです。このアプリはドキュメンタリーのために作られた情報ウェブアプリで、冒頭には、p5.jsで作成された「Perspective」というInfo-Art/データ視覚化のアニメーション作品が使われています。メンタルヘルスに関する統計の数値をもとに、どれだけ多くの人が精神疾患に苦しんでいることかを、ひと目で分かるように可視化しています。「Perspective」はオープンソースです。Githubリポジトリはこちらです。"],
-            "url": ["https://strangersinmyhead.info/", "https://strangersinmyhead.info/"],
-            "image": "multimedia_03.gif"
+            "id": "heartbeats-svg",
+            "year": 2021,
+            "type": "NFT",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                },
+                {
+                    "job": "ART + CODE",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://player.vimeo.com/video/664495910?title=0&byline=0&portrait=0"
+            },
+            "mainCopy": ["We the animals all live while our hearts beat.<br/><a href='https://heartbeats.patternbased.com/'>Heartbeats.</a> is an info-art project to visualize and sonify the heartbeats of animals. Each animal in Heartbeats has a corresponding melody that plays to the speed of their hearts. In the audio-embedded SVG animations, different parts of the animals' bodies, heartbeats, and audio loop independently creating a subtle and simple yet organic animation on any web browser.", 
+            "私たち動物はみんな、自分の心臓が鼓動している間を生きています。<br/><a href='https://heartbeats.patternbased.com/'>Heartbeats.</a>は、動物たちの鼓動を視覚と音で表現するInfo-Artプロジェクトです。各動物には、心臓の速度に合わせて再生されるメロディーがあります。このSVGシリーズでは、SVG形式のアニメーションに軽量のオーディオプレイヤーを埋め込んで、お手持ちのウェブブラウザで再生できるようにしました。動物の体の各部分、心拍、音楽が個別にループし、シンプルながらも繊細で有機的なアニメーションを作成します。"],
+            "buttonDisplay": false,
+            "imageTiles": {
+                "display": "link",
+                "images": [ 
+                    { 
+                        "image": "../../images/portfolio/pages/heartbeats_brownbear_02.svg",
+                        "url": "../../images/portfolio/pages/heartbeats_brownbear_02.svg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/pages/heartbeats_americancrow_03.svg",
+                        "url": "../../images/portfolio/pages/heartbeats_americancrow_03.svg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/pages/heartbeats_bluewhale_01.svg",
+                        "url": "../../images/portfolio/pages/heartbeats_bluewhale_01.svg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/pages/heartbeats_dog_01.svg",
+                        "url": "../../images/portfolio/pages/heartbeats_dog_01.svg"
+                    }
+                ]
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Heartbeats. SVGs",
+                "url": "https://entrepot.app/marketplace/patternbased",
+                "image": "../../images/portfolio/heartbeats-svg-tiles.jpg",
+                "subHead": "NTF Available at Entrepot",
+                "byline": "by PatternBased"
+            },
+            "cta": "op"
         },
         {
-            "appName": ["Heartbeats.","Heartbeats."],
-            "appCopy": ["Heartbeats. is an info-art piece to make the heartbeats of animals visible and audible. More than 150 species of animals are going extinct every day. Perhaps considering the beating, breathing lives of these animals will help us do what we can to slow this extinction down. It is made with simple HTML + Javascript. The animation is made with Lottie, and the music is created with VCV lack. Star, follow, or fork this app on Github.", "Heartbeats.は、動物たちの心臓の鼓動を可視化および可聴化したInfo-Artの作品です。地球上では気候変動などにより日に150種以上の動物たちが絶滅していっています。動物たちの心臓の鼓動や生活を想像することが、絶滅のスピードを少しでも遅らせるために何ができるか考えるきっかけになれば幸いです。HTMLとJavascriptでシンプルに作られています。アニメーションはLottie、音楽はVCV lackを使って作られています。"],
-            "url": ["https://heartbeats.patternbased.com/", "https://heartbeats.patternbased.com/"],
-            "image": "heartbeats.jpg"
+            "id": "books-tsg-2021",
+            "year": 2021,
+            "type":"Book Design",
+            "credit": [
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "",
+                "url": ""
+            },
+            "mainCopy": ["Book covers and interior designs for fiction and non-fiction books in paperback and ePub form, published by <a href='https://www.thesagergroup.net/' target='_blank'>The Sager Group</a> in 2021 - early 2022. Older books, see <a href='/portfolio/books-tsg-2020' target='_blank'>Books TSG 2020</a> and <a href='/portfolio/books-tsg' target='_blank'>Books TSG 2012-2019</a>.", 
+            "2021-2022年初頭にかけて手がけた<a href='https://www.thesagergroup.net/' target='_blank'>The Sager Group</a>から出版された、フィクションおよびノンフィクションの書籍・電子書籍の装丁・インテリアデザインです。過去に出版されたものについては、<a href='/portfolio/books-tsg-2020' target='_blank'>Books TSG 2020</a>、<a href='/portfolio/books-tsg' target='_blank'>Books TSG 2012-2019</a>をご覧ください。"],
+            "imageTiles": {
+                "display": "full",
+                "images": [ 
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_DreyfusCollection.jpg",
+                        "copy": ["Photo manipulation, Digital Painting, Cover and Interior Design for <a href='https://thesagergroup.net/books/the-dreyfus-collection' target='_blank'>The Dreyfus Collection</a> by Estelle Rubin Brager.",
+                        "小説<a href='https://thesagergroup.net/books/the-dreyfus-collection' target='_blank'>The Dreyfus Collection</a>（Estelle Rubin Brager著）のための写真編集、イラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_ABoyAndDog.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://thesagergroup.net/books/a-boy-and-his-dog-in-hell' target='_blank'>A Boy and His Dog in Hell</a> by Mike Sager. Cover Photo by Jeff Share for <i>Rolling Stone</i>.",
+                        "ノンフィクション<a href='https://thesagergroup.net/books/a-boy-and-his-dog-in-hell' target='_blank'>A Boy and His Dog in Hell</a>（Mike Sager著）のための装丁・インテリアデザイン。写真：Jeff Share（<i>Rolling Stone</i>）"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_HauntedHoard.jpg",
+                        "copy": ["Photo manipulation, Digital Painting, Cover and Interior Design for <a href='https://thesagergroup.net/books/riddle-of-the-haunted-hoard' target='_blank'>Riddle of the Haunted Hoard</a> by L.J. Aldon.",
+                        "推理小説<a href='https://thesagergroup.net/books/riddle-of-the-haunted-hoard' target='_blank'>Riddle of the Haunted Hoard</a>（L.J. Aldon著）のための写真編集・イラスト・装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_AllergicBoy.jpg",
+                        "copy": ["Digital Painting, Cover and Interior Design for <a href='https://thesagergroup.net/books/the-allergic-boy-versus-the-left-handed-girl' target='_blank'>The Allergic Boy Versus the Left-Handed Girl</a> by Michael Kun.",
+                        "小説<a href='https://thesagergroup.net/books/the-allergic-boy-versus-the-left-handed-girl' target='_blank'>The Allergic Boy Versus the Left-Handed Girl</a>（Michael Kun著）のためのイラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_DeathCame.jpg",
+                        "copy": ["Digital Painting, Cover and Interior Design for <a href='https://thesagergroup.net/books/death-came-swiftly' target='_blank'>Death Came Swiftly</a> by William Abrams. Original illustration by unknown, Public Domain, circa 1879.",
+                        "小説<a href='https://thesagergroup.net/books/death-came-swiftly' target='_blank'>Death Came Swiftly</a>（William Abrams著）のためのイラスト、装丁・インテリアデザイン。原画：作者不明・パブリックドメイン・circa 1879"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_BigNoise.jpg",
+                        "copy": ["Cover Illustration, Cover and Interior Design for <a href='https://thesagergroup.net/books/big-noise-from-laporte' target='_blank'>Big Noise from LaPorte</a> by Holly Schroeder Link.", 
+                        "自伝記<a href='https://thesagergroup.net/books/big-noise-from-laporte' target='_blank'>Big Noise from LaPorte</a>（Holly Schroeder Link著）のためのイラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_MyFather-01.jpg",
+                        "copy": ["",""]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_MyFather-02.jpg",
+                        "copy": ["Cover and Interior Design for a photo book <a href='https://thesagergroup.net/books/my-father-when-young' target='_blank'>My Father When Young: Photographs by Jerry Tisserand</a> by Michael Tisserand.", "写真集<a href='https://thesagergroup.net/books/my-father-when-young' target='_blank'>（Michael Tisserand編集）のための装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_WannaBeTeacher.jpg",
+                        "copy": ["Cover Illustration, Cover and Interior Design for <a href='https://thesagergroup.net/books/so-you-wanna-be-a-teacher' target='_blank'>So You Wanna Be a Teacher</a> by Peter Kravitz.",
+                        "自伝記<a href='https://thesagergroup.net/books/so-you-wanna-be-a-teacher' target='_blank'>So You Wanna Be a Teacher</a>（Peter Kravitz著）のためのイラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_HoleInTheSole.jpg",
+                        "copy": ["Photo manipulation, Digital Painting, Cover and Interior Design for <a href='https://thesagergroup.net/books/holes-in-the-soles-of-his-gucci-loafers' target='_blank'>Holes in the Soles of his Gucci Loafers</a> by Bill Walk.", "小説<a href='https://thesagergroup.net/books/holes-in-the-soles-of-his-gucci-loafers' target='_blank'>Holes in the Soles of his Gucci Loafers</a>（Bill Walk著）のための写真編集・イラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_HuntingMarlonBrando.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://thesagergroup.net/books/hunting-marlon-brando' target='_blank'>Hunting Marlon Brando</a> by Mike Sager. The cover illustration by Stan Watts.", 
+                        "ノンフィクション<a href='https://thesagergroup.net/books/hunting-marlon-brando' target='_blank'>Hunting Marlon Brando</a>（Mike Sager著）のための装丁・インテリアデザイン。表紙イラスト：Stan Watts"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_EdgeOfArmageddon.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://thesagergroup.net/books/brotherhood-of-the-mamluks-book-three' target='_blank'>Edge of Armageddon</a> by Brad Graft. The cover illustration by <a href='https://www.artstation.com/grafit' target='_blank'>GRAFIT Studio</a>.", "歴史小説<a href='https://thesagergroup.net/books/brotherhood-of-the-mamluks-book-three' target='_blank'>Edge of Armageddon</a>のための装丁・インテリアデザイン。表紙イラスト：<a href='https://www.artstation.com/grafit' target='_blank'>GRAFIT Studio</a>"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_Sarabeth.jpg",
+                        "copy": ["Photo manipulation, Digital Painting, Cover and Interior Design for <a href='https://thesagergroup.net/books/sarabeth-and-the-five-spirits' target='_blank'>Sarabeth and the Five Spirits</a> by Beth Gineris.", 
+                        "小説<a href='https://thesagergroup.net/books/sarabeth-and-the-five-spirits' target='_blank'>Sarabeth and the Five Spirits</a>（Beth Gineris著）のための写真編集、イラスト、装丁・インテリアデザイン。"]
+                    }
+                ]
+            },
+            "buttonDisplay": "lang",
+            "buttons": [
+                {
+                    "label": "See More Book Design in 2020",
+                    "url": "/portfolio/books-tsg-2020"
+                },
+                {
+                    "label": "See More Book Design in 2012-2019",
+                    "url": "/portfolio/books-tsg"
+                }
+            ],
+
+            "linkBanner": {
+                "display": false,
+                "name": "Heartbeats. SVGs",
+                "url": "https://entrepot.app/marketplace/patternbased",
+                "image": "../../images/portfolio/heartbeats-svg-tiles.jpg",
+                "subHead": "NTF Available at Entrepot",
+                "byline": "by PatternBased"
+            },
+            "cta": "op"
+        },
+        {
+            "id": "round-and-round",
+            "year": 2021,
+            "type":"Short Film",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://player.vimeo.com/video/568839537?title=0&byline=0&portrait=0"
+            },
+            "mainCopy": ["So honored to contribute music to this beautiful film <a href='https://www.shortoftheweek.com/2021/06/29/round-and-round/'>Round and Round</a> by <a href='https://taliapasqua.com/'>Talia Pasqua</a> and <a href='https://www.simeonpratt.com/'>Simeon Pratt.</a>", 
+            "<a href='https://taliapasqua.com/'>Talia Pasqua</a>と<a href='https://www.simeonpratt.com/'>Simeon Pratt</a>による美しいショートフィルム<a href='https://www.shortoftheweek.com/2021/06/29/round-and-round/'>Round and Round</a>に音楽を提供しました。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch Online",
+                    "url": "https://www.shortoftheweek.com/2021/06/29/round-and-round/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Strangers In My Head Soundtrack",
+                "url": "https://albums.patternbased.com/album/strangers-in-my-head-soundtrack",
+                "image": "../../images/portfolio/SIMH-soundtrack_thumb.jpg",
+                "subHead": "Music are included in this Album",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "dfinity",
+            "year": "2020-2021",
+            "type":"Campaign",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/xiupEw4MfxY"
+            },
+            "mainCopy": ["Via a mixture of new score and existing catalog cuts, PatternBased has been providing the music for DFINITY and the campaigns for its core creation, The Internet Computer. The Internet Computer is a blockchain based global compute platform with aims to change the whole game and we are big fans of the tech. Thank you to Alex and Jake at <a href='http://atypicalday.tv'>A Typical Day</a> and everyone at <a href='https://dfinity.org/'>Dfinity</a>.", 
+            "新曲と既存のPatternBasedカタログ曲を組み合わせて、DFINITYの中核となるプロジェクト「The Internet Computer」のキャンペーンのための音楽を提供しました。The Internet Computerは、ブロックチェーンベースのグローバル・コンピューティング・プラットフォームで、インターネット全体の形態を進化させることを目指しています。この素晴らしいプロジェクトと、<a href='http://atypifyday.tv'>A Typical Day</a>のアレックスとジェイク、<a href='https://dfinity.org/'>Dfinity</a>の皆さんに感謝します。"],
+            "buttonDisplay": false,
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "PBSLX",
+                "url": "https://albums.patternbased.com/album/pbslx",
+                "image": "../../images/portfolio/diamonds.jpg",
+                "subHead": "Music are included in this Album",
+                "byline": "by PatternBased Corporation"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "last-chance-u-bb",
+            "year": "2021",
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/b-YCKtBb0L4"
+            },
+            "mainCopy": ["What a journey. We created just shy of 300 pieces of music for the excellent show Last Chance U over the course of five seasons. <br>Thank you to Greg, Suzanne, Mark, Adam, Alex, Daymeon, Austin and everyone at <a href='http://www.onepotatoproductions.com/' target='_blank'>One Potato</a>, Boardwalk and Netflix.", 
+            "何という旅路でしょう。私たちは2021年現在までに、ドキュメンタリーシリーズ「Last Chance U」を計5シーズンにわたって担当、合計で300曲弱を作曲しました。<br>Greg、Suzanne、Mark、Adam、Alex、Daymeon、Austin、そして <a href='http://www.onepotatoproductions.com/' target='_blank'>One Potato</a>とBoardwalk、Netflixの皆さん、シリーズに関わった全ての方々に感謝します。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/81046613"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "LCUBB",
+                "url": "https://albums.patternbased.com/album/lcubb",
+                "image": "../../images/portfolio/Cover_LCUBB_DP.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "strangers-in-my-head-soundtrack",
+            "year": "2020",
+            "type":"Soundtrack",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                },
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "playlist",
+                "url": "https://bandcamp.com/EmbeddedPlayer/album=2194277061/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/",
+                "link": "https://albums.patternbased.com/album/strangers-in-my-head-soundtrack",
+                "name": "Strangers In My Head Soundtrack by Joseph Minadeo"
+            },
+            "mainCopy": ["This is the extended soundtrack to the show Strangers In My Head. This soundtrack is composed of intimate piano along with subtle strings and synthesizers aimed at a fairly peaceful and quiet tone as if written to calm the characters rather than overly emphasise their sometimes discordant mental states. As with the subjects of the films, while there is no shortage of melancholy and anxiety, there are also moments of serenity and clarity. The soundtrack also includes extended versions of the Breathe section of the show's companion <a href='https://strangersinmyhead.info'>website</a> meant to induce a peaceful state. We hope you enjoy it.", 
+            "シンガポールで制作・放映されたドキュメンタリーシリーズ「Strangers In My Head」のサウンドトラックです。親密なピアノと繊細な弦とシンセサイザーで構成されています。キャラクターたちの不調和な精神状態を過度に強調するのではなく、キャラクター自身や私たちを落ち着かせるように響く、ドライで平和で静かなトーンを目指しました。映画の主題と同様に、憂鬱と不安に事欠きませんが、静けさと明晰さの瞬間もあります。また、関連<a href='https://strangersinmyhead.info'>ウェブサイト</a>の平和な心の状態を誘導することを目的としたウェブページに使われているバージョンも含まれています。ぜひお楽しみください。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/81046613"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Strangers In My Head Soundtrack",
+                "url": "https://albums.patternbased.com/album/strangers-in-my-head-soundtrack",
+                "image": "../../images/portfolio/SIMH-soundtrack_thumb.jpg",
+                "subHead": "Album Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "strangers-in-my-head",
+            "year": 2020,
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "SIMH-documentary.jpg"
+            },
+            "mainCopy": ["We were honored to create the sound and music for the show, Strangers in my Head, a four part docu-series about the lives of four individuals experiencing mental health issues in Singapore. The show is a beautiful sensitive look at four lives giving an in depth look at their struggles and triumphs. Thank you to <a href='https://very.sg/' target='_blank'>Very!</a>, Mui, Channel News Asia and everyone involved in this excellent production. Title graphics above by <a href='http://www.cindyashes.tv/'>Cindy Liu</a><br/>We are so happy with how the soundtrack turned out and invite you to give a listen here. Also available on all the typical online streaming services.", 
+            "シンガポールでメンタルヘルスの問題を抱えている4人の人たちの生活と日々の戦いについての4部構成のドキュメンタリー シリーズ「Strangers in my Head」のサウ​​ンドデザインと作曲を担当したことを光栄に思います。このシリーズは4人の命を美しく繊細に描写し、彼らの闘争と勝利を深く親身に寄り添います。企画・制作の<a href='https://very.sg/' target='_blank'>Very!</a>、Mui、Channel News Asia、そしてこの素晴らしい作品に関わったすべての人に感謝します。上記のタイトル グラフィックは <a href='http://www.cindyashes.tv/'>Cindy Liu</a>氏によるものです。<br/>サウンドトラックの仕上がりには大変満足しています。ぜひこちらでお聴きください。また、すべての一般的なオンラインストリーミングサービスでも試聴できます。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch Online",
+                    "url": "http://strangersinmyhead.info/documentary/series"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Strangers In My Head Soundtrack",
+                "url": "https://albums.patternbased.com/album/strangers-in-my-head-soundtrack",
+                "image": "../../images/portfolio/SIMH-soundtrack_thumb.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "strangers-in-my-head-app",
+            "year": 2020,
+            "type":"Web App",
+            "credit": [
+                {
+                    "job": "ART+CODE",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com/"
+                },
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "SIMH-app.gif"
+            },
+            "mainCopy": ["<a href='http://strangersinmyhead.info/' target='_blank'>Strangers In My Head</a> is a online app in effort to make the journey of mental illness a less isolated one. The app includes an info-art / data visualization piece called 'Perspective' which uses current statistics on mental health to illuminate how many of us suffer. This app was created alongside the documentary series 'Strangers In My Head'.", 
+            "<a href='http://strangersinmyhead.info/' target='_blank'>Strangers In My Head</a>は、メンタルヘルスとの旅の孤独を和らげる目的で作られたオンラインアプリです。シンガポールでのメンタルヘルス症例の統計を使って、どれだけ多くの人たちが苦しんでいるかを可視化する「Perspective」と呼ばれるInfo-Art/データ視覚化アニメーション作品が含まれています。このアプリは、ドキュメンタリーシリーズ「Strangers In My Head」のために作成されました。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "See Online",
+                    "url": "http://strangersinmyhead.info/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Strangers In My Head Soundtrack",
+                "url": "https://albums.patternbased.com/album/strangers-in-my-head-soundtrack",
+                "image": "../../images/portfolio/SIMH-soundtrack_thumb.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "op"
+        },
+        {
+            "id": "no-bystanders",
+            "year": "2020",
+            "type":"Short Film",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/kQg_gDtXPyI"
+            },
+            "mainCopy": ["We provided the music to this very important message from ninety-one-year-old Holocaust survivor Walter Plywaski. From <a href='https://www.nobystanders2020.com/' target='_blank'>nobystanders2020.com</a>: Ninety-one-year-old Holocaust survivor Walter tells his story of surviving seven concentration camps and his emphatic warnings about what's at stake in this election. In his words, “this election is crucial” and that “based on my experience in the Shoah, we are on the cusp” of falling into the same mistakes of Germany in World War II.  He feels that Trump is 'using racism a lever to power'.", 
+            "ホロコーストを生き延びた91歳のウォルター・プリワスキーからのメッセージを伝える短編ムービーに音楽を提供しました。 <a href='https://www.nobystanders2020.com/' target='_blank'>nobystanders2020.com</a>より: ホロコースト、7つの強制収容所を生き延びた91歳のウォルターが、このアメリカ大統領選挙でこの国の何が危機に瀕しているのかを警告します。「この選挙は決定的である」、そして「Shoah（ショアー）での私の経験から言えば、第二次世界大戦でドイツが犯した過ちと同じ結末に陥る危機に瀕している。」彼は、トランプが「人種差別を権力へのてこに使っている。」と感じている。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "View Website",
+                    "url": "https://www.nobystanders2020.com/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "PBSLX",
+                "url": "https://albums.patternbased.com/album/pbslx",
+                "image": "../../images/portfolio/diamonds.jpg",
+                "subHead": "Music Available at Bandcamp",
+                "byline": "by The PatternBased Corporation"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "books-tsg-2020",
+            "year": 2020,
+            "type":"Book Design",
+            "credit": [
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "",
+                "url": ""
+            },
+            "mainCopy": ["Book covers and interior designs for fiction and non-fiction books in paperback and ePub form, published by <a href='https://www.thesagergroup.net/' target='_blank'>The Sager Group</a> in 2020. Newer and older books, see <a href='/portfolio/books-tsg-2021' target='_blank'>Books TSG 2021</a> and <a href='/portfolio/books-tsg' target='_blank'>Books TSG 2012-2019</a>.", 
+            "2020年に手がけた<a href='https://www.thesagergroup.net/' target='_blank'>The Sager Group</a>から出版された、フィクションおよびノンフィクションの書籍・電子書籍の装丁・インテリアデザインです。このほかに出版された本は、<a href='/portfolio/books-tsg-2021' target='_blank'>Books TSG 2021</a>、<a href='/portfolio/books-tsg' target='_blank'>Books TSG 2012-2019</a> をご覧ください。"],
+            "imageTiles": {
+                "display": "full",
+                "images": [ 
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_TheSwamp.jpg",
+                        "copy": ["Cover and Interior Illustrations and Design for <a href='https://www.thesagergroup.net/?book=the-swamp' target='_blank'>The Swamp</a> by Jeff Grant.",
+                        "スパイ小説３部作の１作目<a href='https://www.thesagergroup.net/?book=the-swamp' target='_blank'>The Swamp</a>（Jeff Grant著）のためのイラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_LabyrinthOfTheWind.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=labyrinth-of-the-wind' target='_blank'>Labyrinth of the Wind</a> by Madhav Misra. Cover Art Adapted for Use by Permission of the Artist, <a href='http://www.motoi.biz/' target='_blank'>Motoi Yamamoto</a>.",
+                        "小説<a href='https://www.thesagergroup.net/?book=labyrinth-of-the-wind' target='_blank'>Labyrinth of the Wind</a>（Madhav Misra著）のための写真編集・装丁・インテリアデザイン。表紙写真：現代美術家<a href='http://www.motoi.biz/' target='_blank'>山本基</a>の作品Labyrinthの写真を、氏の許可の得て加工編集をしてあります。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_JanetsWorld.jpg",
+                        "copy": ["Digital Drawing, Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=janets-world' target='_blank'>Janet's World</a> by Mike Sager.",
+                        "ノンフィクション<a href='https://www.thesagergroup.net/?book=janets-world' target='_blank'>Janet's World</a>（Mike Sager著）のためのイラスト・装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_TheOrphansDaughter.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=the-orphans-daughter' target='_blank'>The Orphan's Daughter</a> by Jan Cherubin, mamed to Kirkus Reviews' List of the 100 Best Indie Books of 2020.",
+                        "小説<a href='https://www.thesagergroup.net/?book=the-orphans-daughter' target='_blank'>The Orphan's Daughter</a>（Jan Cherubin著）のための装丁・インテリアデザイン。Kirkus Reviewsによる2020年100ベスト・インディーズ本に選ばれました。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_EatWheaties.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=eating-wheaties' target='_blank'>Eat Wheaties</a> by Michael Kun.",
+                        "2020年に同名映画化された小説<a href='https://www.thesagergroup.net/?book=eating-wheaties' target='_blank'>Eat Wheaties</a>（Michael Kun著）のための装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_LavenderInYourLemonade.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=lavender-in-your-lemonade' target='_blank'>Lavender in Your Lemonade</a> by Chris Erskine. Cover Illustration by <a href='https://www.leetaru.com/' target='_blank'>Lars Leetaru</a>.", 
+                        "自伝記<a href='https://www.thesagergroup.net/?book=lavender-in-your-lemonade' target='_blank'>Lavender in Your Lemonade</a>（Chris Erskine Link著）のための装丁・インテリアデザイン。表紙イラスト： <a href='https://www.leetaru.com/' target='_blank'>Lars Leetaru</a>"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_Senlac1.jpg",
+                        "copy": ["",""]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_Senlac2.jpg",
+                        "copy": ["Cover Digital Collage, Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=senlacbook-one' target='_blank'>Senlac, Book One</a> and <a href='https://www.thesagergroup.net/?book=senlacbook-two' target='_blank'>Senlac, Book Two</a> by Julian de La Motte.", "歴史小説<a href='https://www.thesagergroup.net/?book=senlacbook-one' target='_blank'>Senlac, Book One</a>と<a href='https://www.thesagergroup.net/?book=senlacbook-two' target='_blank'>Senlac, Book Two</a>（Julian de La Motte編集）のための表紙コラージュ、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_MeetingMozart.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=meeting-mozart' target='_blank'>Meeting Mozart</a> by Howard Jay Smith. Cover and Interior Illustrations by Zak Smith.",
+                        "小説<a href='https://www.thesagergroup.net/?book=meeting-mozart' target='_blank'>Meeting Mozart</a>（Howard Jay Smith著）のための装丁・インテリアデザイン。表紙イラスト： Zak Smith"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_MissHavilland.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=miss-havilland' target='_blank'>Miss Havilland</a> by Gay Daly, named to Kirkus Reviews’ List of the 100 Best Indie Books of 2020. Cover Illustration (detail): A. Giametti, <i>Waving Tearful Farewell</i>. Date: circa 1915 © Mary Evans Picture Library 2017", "小説<a href='https://www.thesagergroup.net/?book=miss-havilland' target='_blank'>Miss Havilland</a>（Gay Daly著）のための装丁・インテリアデザイン。Kirkus Reviewsによる2020年100ベスト・インディーズ本に選ばれました。表紙イラスト： A. Giametti, <i>Waving Tearful Farewell</i>. Date: circa 1915 © Mary Evans Picture Library 2017"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_HellOfAThing.jpg",
+                        "copy": ["Photo manipulation, Digital Painting, Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=hell-of-a-thing' target='_blank'>Hell of a Thing</a> by Michael Botur.", 
+                        "ノンフィクション<a href='https://www.thesagergroup.net/?book=hell-of-a-thing' target='_blank'>Hell of a Thing</a>（Michael Botur著）のための写真編集・イラスト、装丁・インテリアデザイン。"]
+                    }
+                ]
+            },
+            "buttonDisplay": "lang",
+            "buttons": [
+                {
+                    "label": "See More Book Design in 2021",
+                    "url": "/portfolio/books-tsg-2021"
+                },
+                {
+                    "label": "See More Book Design in 2012-2019",
+                    "url": "/portfolio/books-tsg"
+                }
+            ],
+
+            "linkBanner": {
+                "display": false,
+                "name": "Heartbeats. SVGs",
+                "url": "https://entrepot.app/marketplace/patternbased",
+                "image": "../../images/portfolio/heartbeats-svg-tiles.jpg",
+                "subHead": "NTF Available at Entrepot",
+                "byline": "by PatternBased"
+            },
+            "cta": "op"
+        },
+        {
+            "id": "landslide-app",
+            "year": "2020",
+            "type":"Progressive Voting App",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/Jhmwum6SPzA"
+            },
+            "mainCopy": ["We dusted off and spruced up an old catalog track for Landslide, an app to encourage progressive voting. Check the app at the link below and encourage your people to vote.", 
+            "選挙投票を促進するアプリLandslideのプロモーションビデオために、の過去のカタログトラックをリミックスしました。以下のリンクからアプリをチェックして、投票を呼びかけてください。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Check out App",
+                    "url": "https://landslide2020.org/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "PBSLX",
+                "url": "https://albums.patternbased.com/album/pbslx",
+                "image": "../../images/portfolio/diamonds.jpg",
+                "subHead": "Track Available at Bandcamp",
+                "byline": "by The PatternBased Corporation"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "last-chance-u-5",
+            "year": "2020",
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/3ky7ktWa5Ws"
+            },
+            "mainCopy": ["What a journey. We created just shy of 300 pieces of music for the excellent show Last Chance U over the course of five seasons. The fifth season will be the final in this particular series. <br>Thank you to Greg, Suzanne, Mark, Adam, Alex, Daymeon, Austin and everyone at <a href='http://www.onepotatoproductions.com/' target='_blank'>One Potato</a>, Boardwalk and Netflix.", 
+            "私たちは2021年現在までに、ドキュメンタリーシリーズ「Last Chance U」を計5シーズンにわたって担当、合計で300曲弱を作曲しました。このシーズン５がLast Chance U・カレッジフットボール編の最終シーズンです。<br>Greg、Suzanne、Mark、Adam、Alex、Daymeon、Austin、そして <a href='http://www.onepotatoproductions.com/' target='_blank'>One Potato</a>とBoardwalk、Netflixの皆さん、シリーズに関わった全ての方々に感謝します。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/80091742"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Lines For Laney",
+                "url": "https://albums.patternbased.com/album/lines-for-laney",
+                "image": "../../images/portfolio/Cover_LCUS5_DP.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "dream-mountain",
+            "year": "2020",
+            "type": "Documentary Film",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo and Shinya Sugimoto",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo-and-shinya-sugimoto"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/_JACPiJTBx8"
+            },
+            "mainCopy": ["We scored the beautiful film about Pasang Lhamu Sherpa Akita: a mountaineer, humanitarian, mother, and inspiration who overcomes all obstacles to live her dream.<br/>The score was a collaboration between Joseph Minadeo and Shinya Sugimoto. We had Shinya out to our desert HQ as part of the Tiny Arts Prize, a residency set up by our sister entity <a href='https://bunnysantachi.com' target='_blank'>Bunny San Tachi</a>.", 
+            "登山家パサン・ラム・シェルパ・アキタについての美しい映画の作曲をしました。登山家であり、人道主義者であり、母であり、夢を生きるためにあらゆる障害を克服する、私たちに大きなインスピレーションを与えてくれる人物です。PatternBasedの姉妹団体 <a href='https://bunnysantachi.com' target='_blank'>Bunny San Tachi</a>のアーティスト・レジデンスプログラム「Tiny Arts Prize」によって制作されました。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/80091742"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Mountains",
+                "url": "https://catalog.patternbased.com/album/mountains/PBS18",
+                "image": "../../images/portfolio/mountains.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo and Shinya Sugimoto"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "cheer",
+            "year": 2019,
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "cheer-netflix-large.jpg"
+            },
+            "mainCopy": ["We provided a bunch of PatternBased cuts to the excellent new Netflix docu-series Cheer. Thank you as always to Netflix, <a href='http://www.onepotatoproductions.com/'>One Potato</a> and Boardwalk.", 
+            "Netflixの人気ドキュメンタリーシリーズ「チアの女王（Cheer）」のシーズン1へ、楽曲を提供しました。Netflix、<a href='http://www.onepotatoproductions.com/'>One Potato</a>、Boardwalkのみなさん、ありがとうございました。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/81039393"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Cheer Tunes",
+                "url": "https://patternbased.bandcamp.com/album/cheer-tunes",
+                "image": "../../images/portfolio/cheer-tunes.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "last-chance-u-4",
+            "year": "2019",
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/SlXGWP13_u4"
+            },
+            "mainCopy": ["We continued to create bunches of music for the Netflix show Last Chance U during season 4. <br />Thank you to Adam, Alex, Mark, Greg, Suzanne, Daymeon, Austin and everyone at <a href='http://www.onepotatoproductions.com/' target='_blank'>One Potato</a>, Boardwalk and Netflix.", 
+            "前シーズンに引き続き、Netflixのドキュメンタリーシリーズ「Last Chance U」シーズン4のために作曲しました。<br>Greg、Suzanne、Mark、Adam、Alex、Daymeon、Austin、そして <a href='http://www.onepotatoproductions.com/' target='_blank'>One Potato</a>とBoardwalk、Netflixの皆さん、シリーズに関わった全ての方々に感謝します。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/80091742"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Sounds For Independence 2",
+                "url": "https://albums.patternbased.com/album/sounds-for-independence-2",
+                "image": "../../images/portfolio/Cover_LCUS4_DP.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "pb-catalog",
+            "year": 2020,
+            "type":"Web App",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                },
+                {
+                    "job": "ART + CODE",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com/"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "pb-catalog_screen.jpg"
+            },
+            "mainCopy": ["<a href='https://catalog.patternbased.com/' target='_blank'>The PatternBased Catalog</a> provides you a unique experience for searching and listening to our music whether you are a director, editor or artist searching for musical works to license for your project or you are simply looking to enjoy a selection of music outside the mainstream(ing) services.", 
+            "<a href='https://catalog.patternbased.com/' target='_blank'>PatternBased Catalog</a>は、プレーヤーとプレイリスト機能を備えた、パワフルな音楽検索ツールです。従来のツールのようにジャンルや楽器などから検索するのではなく、ムード・速度・実験度など、「こんな感じ」という雰囲気やイメージから音楽を検索出来るツールです。映像製作者・編集者の作業効率化に、またはメインストリームの音楽アプリ外で気分に合うプレイリストを探している音楽好きのリスナーにも無料でお使いいただけます。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Try Beta",
+                    "url": "https://catalog.patternbased.com/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Cheer Tunes",
+                "url": "https://patternbased.bandcamp.com/album/cheer-tunes",
+                "image": "../../images/portfolio/cheer-tunes.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "the-well-tempered-machine",
+            "year": "2019",
+            "type":"Album",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                },
+                {
+                    "job": "ART",
+                    "name": "Melanie Bass",
+                    "url": "https://www.mbass-art.com/"
+                }
+            ],
+            "mainImg": {
+                "type": "playlist",
+                "url": "https://bandcamp.com/EmbeddedPlayer/album=2782704162/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/",
+                "link": "https://albums.patternbased.com/album/the-well-tempered-machine",
+                "name": "The Well Tempered Machine by Joseph Minadeo"
+            },
+            "mainCopy": ["Attempts to turn field recordings of military aircraft into the most peaceful sounds possible. Exactly one hour divided into 12 five-minute aircrafts. One piece per key moving by fourths until each key is covered. increasing in entropy over time.<br/>A meditation on a peaceful future. Influenced by, written for and dedicated to <a href='http://www.siorikitajima.com/' target='_blank'>Siori Kitajima</a>.<br/>The album art is a painting by <a href='https://www.mbass-art.com/' target='_blank'> Melanie Bass</a>.", 
+            "戦争のために作られた軍用機のフィールド・レコーディング音源をもとに、可能な限りピースフルな音を制作するという試みです。アルバム全体でちょうど1時間、軍用機12機がそれぞれ5分ずつの曲を構成します。各楽曲は1つのキーをもとに構成され、1曲ごとにキーが1/4ずつ変わり、12曲でちょうど全キーを一周します。また、時間の経過とともにエントロピーが増加、軍用機が平和の中で風化していく様子を表しています。<br/>平和な未来への願いを込めて、<a href='http://www.siorikitajima.com/' target='_blank'>Siori Kitajima</a>の影響を受け、制作されました。<br/>アルバムカバーアート：<a href='https://www.mbass-art.com/' target='_blank'> Melanie Bass</a>"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/81046613"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "The Well Tempered Machine",
+                "url": "https://albums.patternbased.com/album/the-well-tempered-machine",
+                "image": "../../images/portfolio/TheWellTemperedMachine.jpg",
+                "subHead": "Album Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "onomatopedal",
+            "year": 2020,
+            "type":"Web App",
+            "credit": [
+                {
+                    "job": "ART + CODE",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com/"
+                },
+                {
+                    "job": "MUSIC",
+                    "name": "OnomatoPedal",
+                    "url": "https://catalog.patternbased.com/project/onomatopedal"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "onomatopedal_playscreen.jpg"
+            },
+            "mainCopy": ["<a href='https://onomatopedal.com/' target='_blank'>OnomatoPedal</a> is a free and open-source web-based audiovisual playground created by a group of musicians and multimedia artists, inspired by the Japanese onomatopoetic words and the music effects pedals of the world famous <a href='https://www.earthquakerdevices.com/' target='_blank'>EarthQuaker Devices</a>.", 
+            "<a href='https://onomatopedal.com/' target='_blank'>おのまとペダル</a>は、日本語独自の擬音語・擬態語・おのまとぺと、<a href='https://www.earthquakerdevices.com/' target='_blank'>EarthQuaker Devices</a>のミュージックエフェクトペダルの組み合わせから生まれた音楽サンプルのプレイグランドです。パソコンのキーボードや携帯スクリーンのドラムパッドを押すと、楽曲に合わせて制作されたサンプルとアニメーションが再生されます。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Play Online",
+                    "url": "https://onomatopedal.com/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "OnomatoPedal, the Album",
+                "url": "https://albums.patternbased.com/album/onomatopedal",
+                "image": "../../images/portfolio/onomatopedal_cover_v4.jpg",
+                "subHead": "Album Available at Bandcamp",
+                "byline": "by OnomatoPedal"
+            },
+            "cta": "op"
+        },
+        {
+            "id": "onomatopedal-tshirts",
+            "year": 2020,
+            "type": "T shirts",
+            "credit": [
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "",
+                "url": ""
+            },
+            "mainCopy": ["Original T-shirt design made for the collaborative project <a href='https://www.thesagergroup.net/' target='_blank'>OnomatoPedal</a>. They are available at <a href='https://eqdmerch.com/' target='_blank'>EarthQuaker Devices's Merch Store</a>.", 
+            "コラボ企画<a href='https://www.thesagergroup.net/' target='_blank'>OnomatoPedal</a>のオリジナルTシャツをデザインしました。<a href='https://eqdmerch.com/' target='_blank'>EarthQuaker Devicesのグッズページ</a>からご購入いただけます。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "EQD Merch",
+                    "url": "https://eqdmerch.com/"
+                }
+            ],
+            "imageTiles": {
+                "display": true,
+                "images": [ 
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Acapulco_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Acapulco_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Avalanche_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Avalanche_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Dream_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Dream_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Afterneath_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Afterneath_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Hoof_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Hoof_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Hummingbird_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Hummingbird_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Organizer_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Organizer_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Rainbow_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Rainbow_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Spatial_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_Spatial_C.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_The_Depths_B.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/onomatopedal-merch/OP_The_Depths_C.jpg"
+                    }
+                ]
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Heartbeats. SVGs",
+                "url": "https://entrepot.app/marketplace/patternbased",
+                "image": "../../images/portfolio/heartbeats-svg-tiles.jpg",
+                "subHead": "NTF Available at Entrepot",
+                "byline": "by PatternBased"
+            },
+            "cta": "op"
+        },
+        {
+            "id": "daewon",
+            "year": 2019,
+            "type":"Documentary",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/fd-wbQJZs5w"
+            },
+            "mainCopy": ["The legendary skateboarder <a href='https://www.instagram.com/daewon1song/' target='_blank'>Daewon Song</a> is the subject of a new film by director <a href='https://www.instagram.com/joepease/' target='_blank'>Joe Pease</a>. We were honored to provide the music for this film in the form of original score as well as some classic PB cuts. Hear Daewon’s remarkable history in skating and life from his cohorts including Rodney Mullen, Mark Gonzales, Daniel Castillo, Nora Vasconcellos, Ryan Sheckler and Tony Hawk.<br/>The soundtrack was primarily influenced by the skating style of Daewon, along with De La/Tribe style beats.<br/>Thank you to Daewon Song, Joe Pease, Transworld Skateboarding and Adidas.", 
+            "<a href='https:/ /www.instagram.com/joepease/' target='_blank'>Joe Pease</a>監督による伝説のスケートボーダー <a href='https://www.instagram.com/daewon1song/' target='_blank'>Daewon Song</a>のドキュメンタリーに、オリジナル楽曲の作曲とPBコレクションからのカットを提供しました。Rodney Mullen、Mark Gonzales、Daniel Castillo、Nora Vasconcellos、Ryan Sheckler、Tony Hawkら、著名なスケートボーダー達やDaewon本人による彼のスケートボードと人生におけるストーリーを、De La/Tribeスタイルのビートと共にお楽しみください。<br/>Daewon Song、Joe Pease、Transworld Skateboarding、Adidasに感謝します。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch Online",
+                    "url": "https://www.shortoftheweek.com/2021/06/29/round-and-round/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Daewon Summer",
+                "url": "https://albums.patternbased.com/album/daewon-summer",
+                "image": "../../images/portfolio/Daewon-Summer.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "daewon-summer",
+            "year": "2019",
+            "type":"Album",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                },
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "playlist",
+                "url": "https://bandcamp.com/EmbeddedPlayer/album=1162403099/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/",
+                "link": "http://albums.patternbased.com/album/daewon-summer",
+                "name": "Daewon Summer by Joseph Minadeo"
+            },
+            "mainCopy": ["This album is the soundtrack for the film 'Daewon'. The soundtrack was primarily influenced by the skating style of Daewon, along with De La/Tribe style beats.", 
+            "このアルバムは、ドキュメンタリー「Daewon」のサウンドトラックです。De La/Tribeスタイルのビートをベースに、Daewonのスケートボードのスタイルからインスピレーションを受けたリズムで構成されています。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/81046613"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Daewon Summer",
+                "url": "https://albums.patternbased.com/album/daewon-summer",
+                "image": "../../images/portfolio/Daewon-Summer.jpg",
+                "subHead": "Album Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "this-is-what-i-hear",
+            "year": 2019,
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "TIWIH-title-page_large.jpg"
+            },
+            "mainCopy": ["We were honored to create the sound and music for the show, This Is What I Hear, a quiet study about the every day lives of four hard-of-hearing individuals in Singapore. The show is a beautiful sensitive look at four lives giving an in depth look at their struggles and triumphs. Thank you to <a href='https://very.sg/' target='_blank'>Very!</a>, Mak CK, Channel News Asia and everyone involved in this excellent production.<br/>We are so happy with how the soundtrack turned out and invite you to give a listen here. Also available on all the typical online streaming services.", 
+            "ドキュメンタリーシリーズ「This Is What I Hear」の作曲・サウンドデザインを担当しました。シンガポールの難聴者4人の日常生活についての静かな物語です。4人の生活を美しく繊細に描き、彼らの人生における葛藤や喜びに深く寄り添っています。<a href='https://very.sg/' target='_blank'>Very!</a>、Mak CK、Channel News Asia、そしてこの素晴らしい作品に関わったすべての人に感謝します。<br/>サウンドトラックはこの物語のようにとても繊細でユニークに仕上がりました。以下のリンクからアルバムを視聴購入できます。また、主なオンライン・ストリーミング・サービスでも視聴できます。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch Online",
+                    "url": "https://www.channelnewsasia.com/news/video-on-demand/this-is-what-i-hear"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "This Is What I Hear",
+                "url": "https://albums.patternbased.com/album/this-is-what-i-hear-soundtrack",
+                "image": "../../images/portfolio/TIWIH_cover.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "this-is-what-i-hear-sountrack",
+            "year": "2019",
+            "type":"Album",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                },
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "playlist",
+                "url": "https://bandcamp.com/EmbeddedPlayer/album=1216646502/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/",
+                "link": "http://albums.patternbased.com/album/this-is-what-i-hear-soundtrack",
+                "name": "This Is What I Hear Soundtrack by Joseph Minadeo"
+            },
+            "mainCopy": ["This album is the soundtrack for the documentary series 'This Is What I Hear'.", 
+            "このアルバムは、ドキュメンタリーシリーズ「This Is What I Hear」のサウンドトラックです。物語と同じようにとても繊細でユニークに仕上がりました。以下のリンクからアルバムを視聴購入できます。また、主なオンライン・ストリーミング・サービスでも視聴できます。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/81046613"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "This Is What I Hear",
+                "url": "https://albums.patternbased.com/album/this-is-what-i-hear-soundtrack",
+                "image": "../../images/portfolio/TIWIH_cover.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "tardigrade-t",
+            "year": "2019-2020",
+            "type": "T shirts",
+            "credit": [
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "",
+                "url": ""
+            },
+            "mainCopy": ["The Tardigrade is the true rock star. The Tardigrade is a symbol of resilience and of hope that life goes on. The Tardigrade is a phylum of water-dwelling, eight-legged, segmented micro-animals.", 
+            "ターデグレード、クマムシは私たちにとって真のロックスター、アイドルです。クマムシの回復力の象徴であり、生命が引き継がれていくという希望です。クマムシは、水中に生息する8本足の節のある微小動物で、見た目の愛らしさと酸素のない宇宙空間や核汚染をも生き抜くタフさを兼ね備えています。"],
+            "buttonDisplay": "lang",
+            "buttons": [
+                {
+                    "label": "PB Merch",
+                    "url": "/merch"
+                }
+            ],
+            "imageTiles": {
+                "display": true,
+                "images": [ 
+                    { 
+                        "image": "../../images/portfolio/science-t/PBAT_Tardigrade-2_01.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/science-t/PBAT_Tardigrade-2_02.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/science-t/PBAT_Tardigrade-3_01.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/science-t/PBAT_Tardigrade-3_02.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/science-t/PBAT_Tardigrade-1_01.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/science-t/PBAT_Tardigrade-1_02.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/science-t/PBAT_Tardigrade-4_01.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/science-t/PBAT_Tardigrade-4_02.jpg"
+                    }
+                ]
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Heartbeats. SVGs",
+                "url": "https://entrepot.app/marketplace/patternbased",
+                "image": "../../images/portfolio/heartbeats-svg-tiles.jpg",
+                "subHead": "NTF Available at Entrepot",
+                "byline": "by PatternBased"
+            },
+            "cta": "op"
+        },
+        {
+            "id": "come-home-safely",
+            "year": "2019",
+            "type": "Documentary",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://player.vimeo.com/video/301948283?title=0&byline=0&portrait=0"
+            },
+            "mainCopy": ["Come Home Safely is a short film about the harassment that women and girls experience on the public transportation in Sri Lanka. It was a moving experience to score this film and we want to thank Eliza at <a href='http://www.cheerupluv.com/' target='_blank'>Cheer Up Luv</a>, Mark at <a href='http://studiozoo.nyc/' target='_blank'>Studio Zoo</a>, and everyone at <a href='https://www.unfpa.org/' target='_blank'>UNFPA</a> who made the project possible.", 
+            "「Come Home Safely」は、スリランカの公共交通機関で女性や少女が経験するハラスメントについての短編ドキュメンタリーです。この映画の音楽を担当したことは個人的にとても感情的な体験でした。<a href='http://www.cheerupluv.com/' target='_blank'>Cheer Up Luv</a>のElizaと<a href='http://studiozoo.nyc/' target='_blank'>Studio Zoo</a>のMark、プロジェクトを可能にした<a href='https://www.unfpa.org/' target='_blank'>UNFPA</a>の皆さんに感謝します。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/80091742"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Mountains",
+                "url": "https://catalog.patternbased.com/album/mountains/PBS18",
+                "image": "../../images/portfolio/mountains.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo and Shinya Sugimoto"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "scientific-insects-t",
+            "year": 2019,
+            "type": "T shirts",
+            "credit": [
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "",
+                "url": ""
+            },
+            "mainCopy": ["Original T-shirt series inspired by the project 'Insect Sounds' by Josh Spoon and Joseph Minadeo.", 
+            "Josh SpoonとJoseph Minadeoによるプロジェクト「Insect Sounds」にインスパイアされたオリジナルTシャツシリーズ。"],
+            "buttonDisplay": "lang",
+            "buttons": [
+                {
+                    "label": "PB Merch",
+                    "url": "/merch"
+                }
+            ],
+            "imageTiles": {
+                "display": "four",
+                "images": [ 
+                        { 
+                            "image": [
+                                "../../images/portfolio/science-t/Lampyridae.jpg",
+                                "../../images/portfolio/science-t/Vanessa-cardui.jpg",
+                                "../../images/portfolio/science-t/Myrmica-rubra.jpg",
+                                "../../images/portfolio/science-t/Pepsini.jpg"
+                            ],
+                            "icons": [
+                                "../../images/portfolio/icons/img-pos_topL.svg",
+                                "../../images/portfolio/icons/img-pos_topR.svg",
+                                "../../images/portfolio/icons/img-pos_bottL.svg",
+                                "../../images/portfolio/icons/img-pos_bottR.svg"
+                            ],
+                            "text": [
+                                "The Lampyridae are soft-bodied beetles that are commonly called Fireflies or Lightning bugs for their conspicuous use of bioluminescence during twilight to attract mates or prey.",
+                                "Vanessa cardui is a well-known colourful butterfly, known as the Painted lady. The species is resident only in warmer areas, but migrates in spring, and sometimes again in autumn.",
+                                "Myrmica rubra, also known as the European fire ant or Common red ant, is a species of ant of the genus Myrmica, found all over Europe and is now invasive in some parts of North America and Asia.",
+                                "A tarantula hawk (Pepsis) is a spider wasp that preys on tarantulas. They are one of the largest parasitoid wasps."
+                            ]
+                        },
+                        { 
+                            "image": [
+                                "../../images/portfolio/science-t/Lytta-vesicatoria.jpg",
+                                "../../images/portfolio/science-t/Bocydium-globulare.jpg",
+                                "../../images/portfolio/science-t/Mutillidae.jpg",
+                                "../../images/portfolio/science-t/Argyroneta-aquatica.jpg"
+                            ],
+                            "icons": [
+                                "../../images/portfolio/icons/img-pos_topL.svg",
+                                "../../images/portfolio/icons/img-pos_topR.svg",
+                                "../../images/portfolio/icons/img-pos_bottL.svg",
+                                "../../images/portfolio/icons/img-pos_bottR.svg"
+                            ],
+                            "text": [
+                                "The Lytta vesicatoria (Spanish fly) is an emerald-green beetle in the blister beetle family (Meloidae).",
+                                "The Bocydium globulare (Brazilian treehopper) is a species of insect belonging to the treehopper family (Membracidae). It has unusual helicopter-like features.",
+                                "The Mutillidae are a family of more than 3,000 species of wasps whose wingless females resemble large, hairy ants, known as velvet ant.",
+                                "The diving bell spider or water spider (Argyroneta aquatica) is the only species of spider known to live almost entirely under water."
+                            ]
+                        }
+                    ]
+                },
+            "linkBanner": {
+                "display": false,
+                "name": "Heartbeats. SVGs",
+                "url": "https://entrepot.app/marketplace/patternbased",
+                "image": "../../images/portfolio/heartbeats-svg-tiles.jpg",
+                "subHead": "NTF Available at Entrepot",
+                "byline": "by PatternBased"
+            },
+            "cta": "op"
+        },
+        {
+            "id": "hay-top-heist",
+            "year": "2018",
+            "type":"Film",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                },
+                {
+                    "job": "MOVIE",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com/"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/VArxzb3H2pc"
+            },
+            "mainCopy": ["One day in the bunny town, a hay top lover Corabelle saw a Just-The-Tops (Hay top delivery company) delivery truck outside of her place...<br>Presented by <a href='https://www.bunnysantachi.com/' target='_blank'>Bunny San Tachi</a><br>Bunny: Corabelle<br>Music: 'Hay Top Heist' by <a href='https://www.josephminadeo.com/' target='_blank'>Joseph Minadeo</a>", 
+            "ある日バニータウンで、チモシー牧草の穂先が大好物のコラベルは、彼女の家の外で穂先配達会社Just-The-Topsの配達トラックを見つけました...<br>制作 : <a href='https://www. bunnysantachi.com/' target='_blank'>Bunny San Tachi</a><br>うさぎ : Corabelle<br>音楽 : 'Hay Top Heist' by <a href='https://www.josephminadeo.com/' target='_blank'>Joseph Minadeo</a>"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/80091742"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Lines For Laney",
+                "url": "https://albums.patternbased.com/album/lines-for-laney",
+                "image": "../../images/portfolio/Cover_LCUS5_DP.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "singapore-reimagined",
+            "year": "2018",
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "Singapore-Reimagined_large.jpg"
+            },
+            "mainCopy": ["It was a blast scoring the television show <a href='https://www.channelnewsasia.com/news/video-on-demand/singapore-reimagined/singapore-reimagined-10656852' target='_blank'>'Singapore Reimagined'</a> for <a href='https://very.sg/' target='_blank'>Very!</a> You can now watch it streaming on <a href='https://www.channelnewsasia.com/news/video-on-demand/singapore-reimagined/' target='_blank'>Channel NewsAsia</a>. Thank you to Angie, Sarah, Jay, Kyle and everyone at Very! and Channel NewsAsia.<br/>The show also features some super cool visual work by Tyler Fairbank (<a href='https://www.lightowlproductions.com/' target='_blank'>Light Owl Productions</a>) and <a href='https://www.robotplaygroundmedia.com/' target='_blank'>Robot Playground Media.</a>", 
+            "ドキュメンタリー・シリーズ<a href='https://www.channelnewsasia.com/news/video-on-demand/singapore-reimagined/singapore-reimagined-10656852' target='_blank'>'Singapore Reimagined'</a>の音楽、サウンド・デザインを担当しました。<a href='https://very.sg/' target='_blank'>Very!</a>、<a href='https://www. channelnewsasia.com/news/video-on-demand/singapore-reimagined/' target='_blank'>Channel NewsAsia</a>、Angie、Sarah、Jay、Kyle、ありがとうございました。<br/>番組には、Tyler Fairbank (<a href='https://www.lightowlproductions.com/' target='_blank'>Light Owl Productions</a>)と<a href='https://www.robotplaygroundmedia.com/' target='_blank'>Robot Playground Media</a>によるクールなビジュアル作品も含まれています。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch Online",
+                    "url": "https://www.channelnewsasia.com/news/video-on-demand/singapore-reimagined/singapore-reimagined-10656852"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Sounds for Singapore",
+                "url": "https://albums.patternbased.com/album/sounds-for-singapore",
+                "image": "../../images/portfolio/Singapore-Reimagined.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "upton-premiere",
+            "year": "2015",
+            "type":"Ads",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "videos",
+                "url": [
+                    "https://player.vimeo.com/video/135766309",
+                    "https://player.vimeo.com/video/135763513",
+                    "https://player.vimeo.com/video/135763937"
+                ] 
+            },
+            "mainCopy": ["Had the tremendous pleasure of creating the music and sound for a trio of gorgeous videos that <a href='https://uptonbelts.com/' target='_blank'>Upton</a>, a bespoke belt brand, unveiled itself with. Thank you to Mark at <a href='http://studiozoo.nyc/' target='_blank'>Zoo NYC</a>, Sam and Luke at <a href='http://wedgeandlever.com/' target='_blank'>Wedge and Lever</a> and all the talented folks involved in these stunning pieces.", 
+            "オーダーメイドのベルトブランド<a href='https://uptonbelts.com/' target='_blank'>Upton</a>が発表した3つの奇抜で美しいビデオの音楽とサウンドを担当しました。<a href='http://studiozoo.nyc/' target='_blank'>Zoo NYC</a>のMark、<a href='http://wedgeandlever.com/' target='_blank'>Wedge and Lever</a>のSamとLukeと、この素晴らしい作品に携った全ての才能あふれるクリエイターたちに感謝します。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Check out App",
+                    "url": "https://landslide2020.org/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "PBSLX",
+                "url": "https://albums.patternbased.com/album/pbslx",
+                "image": "../../images/portfolio/diamonds.jpg",
+                "subHead": "Track Available at Bandcamp",
+                "byline": "by The PatternBased Corporation"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "books-tsg",
+            "year": "2012-2019",
+            "type":"Book Design",
+            "credit": [
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "",
+                "url": ""
+            },
+            "mainCopy": ["Book covers and interior designs for fiction and non-fiction books in paperback and ePub form, published by <a href='https://www.thesagergroup.net/' target='_blank'>The Sager Group</a> in 2012-2019. Newer books, see <a href='/portfolio/books-tsg-2021' target='_blank'>Books TSG 2021</a> and <a href='/portfolio/books-tsg' target='_blank'>Books TSG 2020</a>.", 
+            "2012-2019年に手がけた<a href='https://www.thesagergroup.net/' target='_blank'>The Sager Group</a>から出版された、フィクションおよびノンフィクションの書籍・電子書籍の装丁・インテリアデザインです。このほかに出版された本は、<a href='/portfolio/books-tsg-2021' target='_blank'>Books TSG 2021</a>、<a href='/portfolio/books-tsg-2020' target='_blank'>Books TSG 2020</a>をご覧ください。"],
+            "imageTiles": {
+                "display": "full",
+                "images": [ 
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_TheDevilAndJohnHolmes.jpg",
+                        "copy": ["Cover Illustration, Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=the-devil-and-john-holmes' target='_blank'>The Devil and John Holmes</a> by Mike Sager.",
+                        "ノンフィクション<a href='https://www.thesagergroup.net/?book=the-devil-and-john-holmes' target='_blank'>The Devil and John Holmes</a> (Mike Sager著) のためのイラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_NewStoriesWeTell.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=the-stories-we-tell-volume-2' target='_blank'>New Stories We Tell</a> edited by Kalen Ralph & Joanna Demkiewicz.",
+                        "女性ジャーナリストによる短編集<a href='https://www.thesagergroup.net/?book=the-stories-we-tell-volume-2' target='_blank'>New Stories We Tell</a> (Kalen Ralph・Joanna Demkiewicz編集) のための装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_MeAsWell.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=measwell-a-novel' target='_blank'>#MeAsWell</a> by Peter Mehlman. Cover and Interior Illustrations by Peter Mehlman.",
+                        "小説<a href='https://www.thesagergroup.net/?book=measwell-a-novel' target='_blank'>#MeAsWell</a> (Peter Mehlman著) のための装丁・インテリアデザイン。表紙・インテリアイラスト: Peter Mehlman"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_EveryoneLeavesBehindAName.jpg",
+                        "copy": ["Photo manipulation, Digital Painting, Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=everyone-leaves-behind-a-name' target='_blank'>Everyone Leaves Behind a Name</a> by Michael Brick.",
+                        "ノンフィクション短編集<a href='https://www.thesagergroup.net/?book=everyone-leaves-behind-a-name' target='_blank'>Everyone Leaves Behind a Name</a> (Michael Brick著) のための写真編集・イラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_WordsToRepairTheWorld.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=words-to-repair-the-world' target='_blank'>Words to Repair the World</a> by Mike Levine.",
+                        "ノンフィクション短編集<a href='https://www.thesagergroup.net/?book=words-to-repair-the-world' target='_blank'>Words to Repair the World</a> (Mike Levine著) のための装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_ViviensRain.jpg",
+                        "copy": ["",""]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_ViviensRain2.jpg",
+                        "copy": ["Cover Illustration, Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=viviens-rain' target='_blank'>Vivien's Rain</a> by Mike Knox.", "娘Vivienとのてんかん闘病記<a href='https://www.thesagergroup.net/?book=viviens-rain' target='_blank'>Vivien's Rain</a> (Mike Knox編集) のための表紙イラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_TheLonelyHedonist.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=the-lonely-hedonist' target='_blank'>The Lonely Hedonist</a> by Mike Sager.",
+                        "ノンフィクション短編集<a href='https://www.thesagergroup.net/?book=the-lonely-hedonist' target='_blank'>The Lonely Hedonist</a> (Mike Sager著) のための装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_TravelWithBassem.jpg",
+                        "copy": ["Cover Digital Collage, Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=travels-with-bassem' target='_blank'>Travels with Bassem</a> by Mike Sager.", "ノンフィクション<a href='https://www.thesagergroup.net/?book=travels-with-bassem' target='_blank'>Travels with Bassem</a> (Mike Sager著) のための表紙コラージュ・装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_TheSomeoneYoureNot.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=the-someone-youre-not-2' target='_blank'>The Someone You're Not</a> by Mike Sager.", 
+                        "ノンフィクション<a href='https://www.thesagergroup.net/?book=the-someone-youre-not-2' target='_blank'>The Someone You're Not</a> (Mike Sager著) のための装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_HighTolerance.jpg",
+                        "copy": ["Photo manipulation, Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=high-tolerance' target='_blank'>High Tolerance</a> by Mike Sager.", 
+                        "小説<a href='https://www.thesagergroup.net/?book=high-tolerance' target='_blank'>High Tolerance</a> (Mike Sager著) のための写真編集・イラスト、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_MandelaWasLate.jpg",
+                        "copy": ["Cover and Interior Design for <a href='https://www.thesagergroup.net/?book=mandela-was-late' target='_blank'>Mandela Was Late</a> by Peter Mehlman. Interior Illustrations by Peter Mehlman.",
+                        "小説<a href='https://www.thesagergroup.net/?book=mandela-was-late' target='_blank'>Mandela Was Late</a> (Peter Mehlman著) のための装丁・インテリアデザイン。インテリアイラスト: Peter Mehlman"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_TakingMyTurn.jpg",
+                        "copy": ["Cover Illustration, Cover and Interior Design for Taking My Turn by Alice Haber.", 
+                        "エッセイ集Taking My Turn (Alice Haber著) のためのイラストレーション、装丁・インテリアデザイン。"]
+                    },
+                    { 
+                        "image": "../../images/portfolio/tsg/TSG_IllShowYouMine.jpg",
+                        "copy": ["Cover and Interior Design for I'll Show You Mine by Greg Gerding. Cover Photo by Kumi Masumoto.",
+                        "I'll Show You Mine (Greg Gerding著) のための装丁・インテリアデザイン。表紙写真: Kumi Masumoto"]
+                    }
+                ]
+            },
+            "buttonDisplay": "lang",
+            "buttons": [
+                {
+                    "label": "See More Book Design in 2021",
+                    "url": "/portfolio/books-tsg-2021"
+                },
+                {
+                    "label": "See More Book Design in 2012-2019",
+                    "url": "/portfolio/books-tsg"
+                }
+            ],
+
+            "linkBanner": {
+                "display": false,
+                "name": "Heartbeats. SVGs",
+                "url": "https://entrepot.app/marketplace/patternbased",
+                "image": "../../images/portfolio/heartbeats-svg-tiles.jpg",
+                "subHead": "NTF Available at Entrepot",
+                "byline": "by PatternBased"
+            },
+            "cta": "op"
+        },
+        {
+            "id": "sunlight-and-happiness",
+            "year": 2012,
+            "type": "Infographics",
+            "credit": [
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "happysun_infographic.jpg"
+            },
+            "mainCopy": ["What makes a place a happy place to live - is there really a correlation between sunlight and happiness? Can you be miserable in a sunny country, happy in perpetual twilight? Does a country have to be wealthy to be happy? Are countries with heavier people happier places to live?<br/>You can use this infographic to answer all sorts of interesting questions. Or maybe it raises more questions than it answers. Can you be happy in a place where the murder rate is high? Is there a relationship between murder rates and fatness?<br/>The Sunlight, Fatness and Happiness infographic is all about your little place in the sunshine.<br/><br/>This infographic piece was shortlisted for <a href='https://www.informationisbeautifulawards.com/' target='_blank'>Information is beautiful awards</a> in 2012.<br/><br/>This piece was featured in <a href='http://a.co/ilvBCmD' target='_blank'>The Book of Circles: Visualizing Spheres of Knowledge by Manuel Lima</a>, published in 2017.", 
+            "幸せな場所とは何か、太陽の光と幸福感には相関関係があるのでしょうか?日当たりの良い国で惨めに、絶え間ない黄昏で幸せに感じる?幸せになるためにその国が裕福である必要がある？人口が多い国ほど住みやすいのか?<br/>このインフォグラフィックは、あらゆる種類の興味深い質問に答えることができます。あるいは、答えよりも多くの疑問を提起するかもしれません。殺人率の高い場所で幸せになれるか？殺人率と肥満の間に関係はありますか？<br/>Sunlight, Fatness and Happinessのインフォグラフィックは、太陽の下にあるあなたの居場所に関するものです。<br/><br/>2012年<a href='https://www.informationisbeautifulawards.com/' target='_blank'>Information is beautiful awards</a>の最終選考に残りました。<br/><br/><a href='http:// a.co/ilvBCmD' target='_blank'>The Book of Circles: Visualizing Spheres of Knowledge by Manuel Lima</a> (2017年に出版) の裏表紙に採用されました。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "EQD Merch",
+                    "url": "https://eqdmerch.com/"
+                }
+            ],
+            "imageTiles": {
+                "display": true,
+                "images": [ 
+                    { 
+                        "image": "../../images/portfolio/pages/TBOC-01.jpg"
+                    },
+                    { 
+                        "image": "../../images/portfolio/pages/TBOC-02.jpg"
+                    }
+                ]
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Heartbeats. SVGs",
+                "url": "https://entrepot.app/marketplace/patternbased",
+                "image": "../../images/portfolio/heartbeats-svg-tiles.jpg",
+                "subHead": "NTF Available at Entrepot",
+                "byline": "by PatternBased"
+            },
+            "cta": "op"
         }
     ]
 }

@@ -23,6 +23,14 @@
       <link rel="stylesheet" href="css/grid.css">
       <link rel="stylesheet" href="css/pages.css">
       <script src="js/ejs.js"></script>
+    <% } else if (nav == 'portfolio') { %>
+      <meta property="og:image" content="../../images/global/patternbased_1200x630.jpg" />
+      <meta property="og:url" content="https://patternbased.com/portfolio/<%= theid %>/<%= language %>" />
+      <link rel="stylesheet" href="../../css/style.css">
+      <link rel="stylesheet" href="../../css/home.css">
+      <link rel="stylesheet" href="../../css/grid.css">
+      <link rel="stylesheet" href="../../css/pages.css">
+      <script src="../../js/ejs.js"></script>
     <% } else { %>
       <meta property="og:image" content="../images/global/patternbased_1200x630.jpg" />
       <meta property="og:url" content="https://patternbased.com/<%= slug %>/<%= language %>" />

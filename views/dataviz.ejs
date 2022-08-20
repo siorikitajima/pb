@@ -1,0 +1,50 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body>
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="content">
+
+    <div class="spacerM"></div>
+
+    <div class="bodyTextContainer">
+      <img class="headingImg2" src="../images/about/datavisualization.svg">
+      <h2 class="textCenter"><%= portfoliosData.dataheading[l] %></h2>
+      <p class="textCenter"><%= portfoliosData.datacopy[l] %></p>
+    </div>
+  
+    <div class="spacerM"></div>
+  
+    <div class="bodyWideContainer toolContainer">
+
+    <% for (let a = 0; a < portfoliosData.datas.length; a++) { %>
+      <div class="tool">
+        <a href="<%= portfoliosData.datas[a].url[l] %>" target="_blank">
+            <h2><%= portfoliosData.datas[a].appName[l] %></h2>
+        </a>
+        <div class="flex">
+            <div class="toolImage">
+                <a href="<%= portfoliosData.datas[a].url[l] %>" target="_blank">
+                    <img src="../images/portfolio/<%= portfoliosData.datas[a].image %>">
+                </a>
+            </div>
+            <div class="toolCopy">
+                <p><%- portfoliosData.datas[a].appCopy[l] %></p>
+            </div>
+        </div>
+      </div>
+    <% } %>
+
+    </div>
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+</body>
+</html>

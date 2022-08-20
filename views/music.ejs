@@ -40,26 +40,27 @@
 
 <div class="bodyWideContainer">
     <div class="filters" id="filterContainer">
-      <button class="filterItem active" id="music">Music</button>
+      <button class="filterItem" id="music">Music</button>
       <button class="filterItem" id="scores">Scores</button>
       <button class="filterItem" id="ads">Ads</button>
       <button class="filterItem" id="album">Album</button>
+      <button class="filterItem active" id="musicfeat">Featured</button>
     </div>
   </div>
 
   <div class="gridWideBlock" id="portfolioList">
-    <% for (let p = 0; p < 8; p++) { %>
-      <a href="#">
-        <div class="portfolio portfolioClasses" id="portfolioId" style="background:#111; background-size:cover;">
-          <h3>PortfolioName</h3>
-        </div>
+    <% for (let a = 0; a < portfoliosData.portfolio.length; a++) { %>
+      <a href="/portfolio/<%= portfoliosData.portfolio[a].portfolioId %>/<%= language %>">
+          <div class="portfolio <%= portfoliosData.portfolio[a].portfolioClasses %>" id="<%= portfoliosData.portfolio[a].portfolioId %>" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('../images/portfolio/<%= portfoliosData.portfolio[a].bgImage %>'); background-size:cover;">
+          <h3><%= portfoliosData.portfolio[a].portfolioName %></h3>
+          </div>
       </a>
-    <% } %>
+  <% } %>
   </div>
 
   <div class="spacerM"></div>
 
-  <%- include('./partials/cta-onomatopedal.ejs') %>
+  <%- include('./partials/cta-pbcatalog.ejs') %>
 
   <div class="spacerM"></div>
 
@@ -91,6 +92,56 @@
         }
       });
     }
+
+    // Filtering Portfolio
+
+    var activeFilter = $('button.active');
+    var filterId = activeFilter.attr('id');
+  
+  filterSelection(filterId);
+  
+  function filterSelection(c) {
+    var x, i;
+    x = $('.portfolio');
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];
+    }
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  // Add active class to the current button (highlight it)
+  var btns = $('#filterContainer > .filterItem');
+  btns.on("click", (e)=>{
+    var clicked = e.target;
+    var current = $(".active");
+    var id = $(clicked).attr('id');
+    current.removeClass('active');
+    $(clicked).addClass('active');
+    filterSelection(id);
+  });
 </script>
 </body>
 </html>

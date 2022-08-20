@@ -1,0 +1,280 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body>
+  <%- include('./partials/nav.ejs') %>
+  
+<!-- ///////////// PORTFOLIO TOP NAV ///////////// -->
+
+<div class="spacerM"></div>
+
+<div class="portfolioNav top">
+  <a href="/portfolio/<%=prevId%>/<%= language %>">
+    <div class="pfnavPrev">
+      <img src="../../images/global/left-icon.svg" width="18">
+    </div>
+  </a>
+        <div class="textCenter subHeading">
+          <% for (let t =0; t< tags.length; t++) { %>
+          <a href="/portfolio/<%= language%>?category=<%= tags[t]%>"><%- tags[t].toUpperCase(); %></a> 
+          <%}%>
+        </div>
+  <a href="/portfolio/<%=nextId%>/<%= language %>">
+    <div class="pfnavNext">
+      <img src="../../images/global/right-icon.svg" width="18">
+    </div>
+  </a>
+</div>
+
+  <div class="spacerS"></div>
+
+<div class="bodyTextContainer">
+
+<!-- ///////////// PORTFOLIO INFO ///////////// -->
+
+  <h2 class="textCenter portfolioTitle"><%= pftitle %></h2>
+  <p class="textCenter portfolioSubHead"><%= theItem.year %> | <%= theItem.type %></p>
+  <div class="portfolioCredit">
+    <% for (let c =0; c< theItem.credit.length; c++) { %>
+        <p class="textCenter">
+            <%= theItem.credit[c].job %> : : 
+        <a href="<%= theItem.credit[c].url %>" rel="noopener noreferrer" target="_blank">
+            <%= theItem.credit[c].name %></a>
+      </p>
+    <% } %>
+  </div>
+
+<div class="spacerS"></div>
+
+<!-- ///////////// VIDEO / MAIN IMG ///////////// -->
+
+<% if (theItem.mainImg.type == 'image') { %>
+  <img src="../../images/portfolio/pages/<%= theItem.mainImg.url %>" class="portfolioImages">
+  <div class="spacerS"></div>
+<% } else if (theItem.mainImg.type == 'video') { %>
+  <iframe class="portfolioMovies" src="<%= theItem.mainImg.url %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="spacerS"></div>
+<% } else if (theItem.mainImg.type == 'videos') { %>
+  <% for (let v = 0; v < theItem.mainImg.url.length; v++) { %>
+  <iframe class="portfolioMovies" src="<%= theItem.mainImg.url[v] %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <% } %>
+  <div class="spacerS"></div>
+<% } else if (theItem.mainImg.type == 'playlist') { %>
+  <iframe class="squarePlaylist" src="<%= theItem.mainImg.url %>" seamless><a href="<%= theItem.mainImg.link %>"><%= theItem.mainImg.name %></a></iframe>
+<% } %>
+
+
+<!-- ///////////// COPY ///////////// -->
+
+<p><%- theItem.mainCopy[l] %></p>
+
+<!-- ///////////// INLINE IMG (if any) ///////////// -->
+
+<% if (theItem.imageTiles.display == 'link') { %>
+      <!-- ///////////// BUTTON ///////////// -->
+      <% if (theItem.buttonDisplay == true) { %>
+        <% for (let b =0; b < theItem.buttons.length; b++) { %>
+          <a href="<%= theItem.buttons[b].url %>" target="_blank"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+        <% } %>
+      <% } %>
+    
+      <div class="spacerM"></div>
+      <div class="imgcontainer">
+        <% for (let i =0; i < theItem.imageTiles.images.length; i++) { %>
+          <a href="<%= theItem.imageTiles.images[i].url %>" target="_blank">
+              <img src="<%= theItem.imageTiles.images[i].image %>" class="portfolioTwoImages">
+          </a>
+        <% } %>
+      </div>
+  <% } else if (theItem.imageTiles.display == 'full') { %>
+    <div class="spacerS"></div>
+      <% for (let i =0; i < theItem.imageTiles.images.length; i++) { %>
+        <img src="<%= theItem.imageTiles.images[i].image %>" class="portfolioImagesBooks">
+        <p><%- theItem.imageTiles.images[i].copy[l] %></p>
+        <div class="spacerS"></div>
+      <% } %>
+
+    <!-- ///////////// BUTTON ///////////// -->
+    <% if (theItem.buttonDisplay == 'lang') { %>
+
+      <% for (let b =0; b < theItem.buttons.length; b++) { %>
+        <a href="<%= theItem.buttons[b].url %>/<%= language %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+      <% } %>
+
+    <% } else if (theItem.buttonDisplay == true) { %>
+      <% for (let b =0; b < theItem.buttons.length; b++) { %>
+        <a href="<%= theItem.buttons[b].url %>" target="_blank"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+      <% } %>
+      
+    <% } %>
+  <% } else if (theItem.imageTiles.display == 'four') { %>
+      <div class="spacerS"></div>
+      <div class="imgcontainer">
+        <% for (let i =0; i < theItem.imageTiles.images.length; i++) { %>
+          <% for (let s =0; s < theItem.imageTiles.images[i].image.length; s++) { %>
+            <img src="<%= theItem.imageTiles.images[i].image[s] %>" class="portfolioTwoImages">
+          <% } %>
+          <% if ( l == 'jp') { %>
+            <% for (let t =0; t < theItem.imageTiles.images[i].text.length; t++) { %>
+              <p style="text-align: left; margin: 20px;">
+              <img src="<%= theItem.imageTiles.images[i].icons[t] %>" class="img-pos"><%= theItem.imageTiles.images[i].text[t] %>
+              </p>
+            <% } %>
+            <div class="spacerS"></div>
+            <% } %>
+        <% } %>
+      </div>
+      <!-- ///////////// BUTTON ///////////// -->
+      <% if (theItem.buttonDisplay == 'lang') { %>
+
+        <% for (let b =0; b < theItem.buttons.length; b++) { %>
+          <a href="<%= theItem.buttons[b].url %>/<%= language %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+        <% } %>
+  
+      <% } else if (theItem.buttonDisplay == true) { %>
+        <% for (let b =0; b < theItem.buttons.length; b++) { %>
+          <a href="<%= theItem.buttons[b].url %>" target="_blank"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+        <% } %>
+        
+      <% } %>
+<% } else if (theItem.imageTiles.display == true) { %>
+    <div class="spacerM"></div>
+    <div class="imgcontainer">
+      <% for (let i =0; i < theItem.imageTiles.images.length; i++) { %>
+          <img src="<%= theItem.imageTiles.images[i].image %>" class="portfolioTwoImages">
+      <% } %>
+    </div>
+    <div class="spacerS"></div>
+        <!-- ///////////// BUTTON ///////////// -->
+        <% if (theItem.buttonDisplay == 'lang') { %>
+
+          <% for (let b =0; b < theItem.buttons.length; b++) { %>
+            <a href="<%= theItem.buttons[b].url %>/<%= language %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+          <% } %>
+    
+        <% } else if (theItem.buttonDisplay == true) { %>
+          <% for (let b =0; b < theItem.buttons.length; b++) { %>
+            <a href="<%= theItem.buttons[b].url %>" target="_blank"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+          <% } %>
+          
+        <% } %>
+<% } else { %>
+      <!-- ///////////// BUTTON ///////////// -->
+      <% if (theItem.buttonDisplay == true) { %>
+        <% for (let b =0; b < theItem.buttons.length; b++) { %>
+          <a href="<%= theItem.buttons[b].url %>" target="_blank"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+        <% } %>
+      <% } %>
+<% } %>
+
+<div class="spacerM"></div>
+
+<!-- ///////////// ALBUM INFO ///////////// -->
+
+<% if (theItem.linkBanner.display == true) { %>
+<a href="<%= theItem.linkBanner.url %>" target="_blank">
+<div class="albumInfo">
+    <div class="albumInfoCover">
+        <img src="<%= theItem.linkBanner.image %>">
+    </div>
+    <div class="albumInfoCopy">
+        <p class="albumInfoSubHead"><%= theItem.linkBanner.subHead %></p>
+        <h2 class="albumName"><%= theItem.linkBanner.name %></h2>
+        <p class="albumByName"><%= theItem.linkBanner.byline %></p>
+    </div>
+</div>
+</a>
+<% } %>
+
+</div>
+<div class="spacerM"></div>
+
+<!-- ///////////// PORTFOLIO BOTTOM NAV ///////////// -->
+
+<div class="portfolioNav">
+  <a href="/portfolio/<%=prevId%>/<%= language %>">
+    <div class="pfnavPrev">
+      <img src="../../images/global/left-icon.svg" width="18">
+    </div>
+  </a>
+  <a href="/portfolios/<%= language %>">
+      <div id="pfnavAll">
+      <img src="../../images/global/PatternBased_black_icon.svg" width="18">
+      </div>
+  </a>
+  <a href="/portfolio/<%=nextId%>/<%= language %>">
+    <div class="pfnavNext">
+      <img src="../../images/global/right-icon.svg" width="18">
+    </div>
+  </a>
+</div>
+
+<!-- ///////////// CTA ///////////// -->
+
+<% if (theItem.cta == 'pbc') { %>
+  <%- include('./partials/cta-pbcatalog.ejs') %>
+<% } else if (theItem.cta == 'op') { %>
+  <%- include('./partials/cta-onomatopedal.ejs') %>
+<% } %>
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+<script>   
+ // Filtering Portfolio
+
+    var activeFilter = $('button.active');
+    var filterId = activeFilter.attr('id');
+  
+  filterSelection(filterId);
+  
+  function filterSelection(c) {
+    var x, i;
+    x = $('.portfolio');
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];
+    }
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  // Add active class to the current button (highlight it)
+  var btns = $('#filterContainer > .filterItem');
+  btns.on("click", (e)=>{
+    var clicked = e.target;
+    var current = $(".active");
+    var id = $(clicked).attr('id');
+    current.removeClass('active');
+    $(clicked).addClass('active');
+    filterSelection(id);
+  });
+</script>
+</body>
+</html>

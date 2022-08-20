@@ -235,7 +235,7 @@ nav {
       z-index: 9100;
       background: #222222;
       overflow: hidden;
-      right: calc(-100vw - 80px);
+      right: calc(-100vw - 150px);
     }
   
     .dropContentNav {
@@ -280,6 +280,10 @@ nav {
   
     .dim {
       opacity: 0.5;
+    }
+
+    .language {
+      right: 50px;
     }
   }
   
@@ -738,7 +742,7 @@ footer {
   }
   
   /* .portfolio,  */
-  .merchWrap {
+  .portfolio, .merchWrap {
     display: none;
   }
   

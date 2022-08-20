@@ -30,6 +30,9 @@ app.get('/error', redirectController.error_get);
 app.get('/artists', redirectController.artists_get);
 app.get('/tools', redirectController.tools_get);
 app.get('/apps', redirectController.apps_get);
+app.get('/multimedia', redirectController.multimedia_get);
+app.get('/dataviz', redirectController.dataviz_get);
+app.get('/portfolios', redirectController.portfolios_get);
 
 // Post Req
 app.post('/contact/:lang', contactController.contact_post);
@@ -46,5 +49,11 @@ app.get('/error/:lang', pageCotroller.error_get);
 app.get('/artists/:lang', pageCotroller.artists_get);
 app.get('/tools/:lang', pageCotroller.tools_get);
 app.get('/apps/:lang', pageCotroller.apps_get);
+app.get('/multimedia/:lang', pageCotroller.multimedia_get);
+app.get('/dataviz/:lang', pageCotroller.dataviz_get);
+app.get('/portfolios/:lang', pageCotroller.portfolios_get);
+
+// Portfolio items
+app.get('/portfolio/:id/:lang', pageCotroller.portfolio_get);
 
 

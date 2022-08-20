@@ -1,0 +1,316 @@
+{
+    "appsheading": ["Apps by PatternBased", "PBオリジナルアプリ"],
+    "appscopy": ["Some apps PatternBased has created over the years. All listed here are still being updated regularly, and are open source. Feel free to fork or use them as a template for your projects.", "PatternBasedが過去に制作したウェブアプリです。以下は全て進行中のプロジェクトでオープンソースです。Forkや類似プロジェクトのテンプレとしてご自由にご利用ください。"],
+    "apps" : [
+        {
+            "appName": ["PatternBased Catalog","PatternBased Catalog"],
+            "appCopy": ["<a href='https://catalog.patternbased.com/' target='_blank'>PatternBased Catalog</a> is a powerful music search tool for our catalog, with build-in player and sharable playlist function. It is a tool designed for movie editors and searches for music with the feeling but genres or instruments. It is built with Vue.js, MongoDB, and Amazon AWS, and is open source. Star, follow, or fork this app on <a href='https://github.com/siorikitajima/pbc' target='_blank'>Github</a>.", "<a href='https://catalog.patternbased.com/' target='_blank'>PatternBased Catalog</a>は、オリジナルのプレーヤーとプレイリスト機能を備えた、パワフルな音楽検索ツールです。映像編集者向けに開発され、従来のツールのようにジャンルや楽器などから検索するのではなく、ムード・速度・実験度など、「こんな感じ」という雰囲気やイメージから音楽を検索出来るツールです。Vue.js、MongoDB、Amazon AWSを使って作られています。オープンソースです。<a href='https://github.com/siorikitajima/pbc' target='_blank'>Githubリポジトリ</a>はこちらです。"],
+            "url": ["https://catalog.patternbased.com/", "https://catalog.patternbased.com/"],
+            "image": "pbc_02.jpg"
+        },
+        {
+            "appName": ["OnomatoPedal","おのまとペダル"],
+            "appCopy": ["<a href='https://onomatopedal.com/' target='_blank'>OnomatoPedal</a> is an audiovisual playground inspired by the Japanese Onomatopoetic words and the music effects pedals of the world-famous EarthQuaker Devices. You will be able to play a set of sounds with keys and drum pads. For music, we used Howler.js for V1 (released in 2020 June), and Tone.js for V2 (will be released in 2022). The animation is handled by paper.js and p5.js. Star, follow, or fork this app on <a href='https://github.com/patternbased/onomatopedal' target='_blank'>Github(V1)</a>.", "<a href='https://onomatopedal.com/' target='_blank'>おのまとペダル</a>は、日本語独自の擬音語・擬態語・おのまとぺと、EarthQuaker Devicesのミュージックエフェクトペダルの組み合わせから生まれた音楽サンプルのプレイグランドです。パソコンのキーボードや携帯スクリーンのドラムパッドを押すと、楽曲に合わせて制作されたサンプルとアニメーションが再生されます。オーディオ関連は、2020年6月にリリースされたV1はHowler.jsで、2022年リリース予定のV2はTone.jsで作ってあります。アニメーションのフレームワークはpaper.jsとp5.jsです。<a href='https://github.com/patternbased/onomatopedal' target='_blank'>v1のGithubリポジトリ</a>はこちらです。"],
+            "url": ["https://onomatopedal.com/", "https://onomatopedal.com/"],
+            "image": "onomatoPedal.gif"
+        },
+        {
+            "appName": ["Strangers App","Strangers App"],
+            "appCopy": ["<a href='https://strangersinmyhead.info/' target='_blank'>This web app</a> is made for the documentary series 'Strangers In My Head' which shows the lives and struggles of people who suffer mental illness in Singapore. The app includes an info-art / data visualization piece called 'Perspective' made with p5.js, which uses current statistics on mental health to illuminate how many of us suffer. The framework is React. Star, follow, or fork this app on <a href='https://github.com/siorikitajima/perspective' target='_blank'>Github</a>.", "「Strangers In My Head」は、シンガポールの現代社会における精神疾患との戦いと患者さんたちの人生を描いたドキュメンタリーです。<a href='https://strangersinmyhead.info/' target='_blank'>この同名のアプリ</a>はドキュメンタリーのために作られた情報ウェブアプリで、冒頭には、p5.jsで作成された「Perspective」というInfo-Art/データ視覚化のアニメーション作品が使われています。症例の統計の数値をもとに、どれだけ多くの人が精神疾患に苦しんでいることかを、ひと目で分かるように可視化しています。「Perspective」はオープンソースです。<a href='https://github.com/siorikitajima/perspective' target='_blank'>Githubリポジトリ</a>はこちらです。"],
+            "url": ["https://strangersinmyhead.info/", "https://strangersinmyhead.info/"],
+            "image": "multimedia_03.gif"
+        },
+        {
+            "appName": ["Heartbeats.","Heartbeats."],
+            "appCopy": ["<a href='https://heartbeats.patternbased.com/' target='_blank'>Heartbeats.</a> is an info-art piece to make the heartbeats of animals visible and audible. More than 150 species of animals are going extinct every day. Perhaps considering the beating, breathing lives of these animals will help us do what we can to slow this extinction down. It is made with simple HTML + Javascript. The animation is made with Lottie, and the music is created with VCV lack. Star, follow, or fork this app on <a href='https://github.com/siorikitajima/heartbeats' target='_blank'>Github</a>.", "<a href='https://heartbeats.patternbased.com/' target='_blank'>Heartbeats.</a>は、動物たちの心臓の鼓動を可視化および可聴化したInfo-Artの作品です。地球上では気候変動などにより日に150種以上の動物たちが絶滅していっています。動物たちの心臓の鼓動や生活を想像することが、絶滅のスピードを少しでも遅らせるために何ができるか考えるきっかけになれば幸いです。HTMLとJavascriptでシンプルに作られています。アニメーションはLottie、音楽はVCV lackを使って作られています。<a href='https://github.com/siorikitajima/heartbeats' target='_blank'>Githubリポジトリ</a>はこちらです。"],
+            "url": ["https://heartbeats.patternbased.com/", "https://heartbeats.patternbased.com/"],
+            "image": "heartbeats.jpg"
+        }
+    ],
+    "multiheading": ["Multimedia Design", "Multimedia Design"],
+    "multicopy": ["We work across multiple different media. Since multimedia is a very abstract term, here is the list of media and fields that we are particularly good at. In the actual production process, we often challenge inexperienced media depending on the project and change the form of the work according to the conditions.", "PatternBasedはさまざまなメディアを使って制作をします。マルチメディア、とはとても抽象的な言葉ですので、以下に特に得意とするメディアや分野を挙げました。実際の制作過程では、プロジェクトに応じて未経験のメディアに挑戦したり、条件に応じて作品形態を変えていくことも多々あります。"],
+    "multimedia" : [
+        {
+            "multiName": ["Generative Art","ジェネレーティブアート"],
+            "multiCopy": ["Generative art refers to art that in whole or in part has been created with the use of an autonomous system, like a piece of code. We create animation and music with code to create generative art, for example, one could play forever without repeating the same parts.", "ジェネレーティブアートとは、プログラミングなどで作られた自律システムを使って作成されたアートを指します。私たちはプログラミングでアニメーションや音楽を作って組み合わせることで、ジェネレーティブアートを制作します。例えば、永遠に同じパートを繰り返すことのない作品などを作ることが可能です。"],
+            "image": "multimedia_05.gif"
+        },
+        {
+            "multiName": ["SVG Animation","SVGアニメーション"],
+            "multiCopy": ["Scalable Vector Graphics (SVG) is an XML-based vector image format for defining two-dimensional graphics, having support for interactivity and animation. For the NFT project 'Heartbeats.', we successfully embedded a lightweight audio player inside standalone SVG files, which makes it play animation and sound at the same time but in different loop durations in any web browser.", "Scalable Vector Graphics (SVG)は、インタラクティブとアニメーションを備えた、XMLベースの2次元グラフィックス・ベクター画像形式です。 PatternBasedはNFTプロジェクト「Heartbeats.」で、SVGファイル内に軽量オーディオプレーヤーを組み込むことに成功しました。これによって、どのWebブラウザーでも気軽に、アニメーションとサウンドが別々のタイミングでループする作品を再生することができます。"],
+            "image": "multimedia_07.svg"
+        },
+        {
+            "multiName": ["Editorial Design","エディトリアルデザイン"],
+            "multiCopy": ["Editorial design is the life work of the PB art director and the book lover Siori Kitajima, and she has experience for over two decades in designing books, magazines, and ePubs in Japan and U.S. Books published by The Sager Group, the publisher run by the best seller journalist Mike Sager in San Diego, CA, are all done by Siori since they are found in 2012.", "エディトリアルデザインはPatternBasedのライフワークです。本の虫アートディレクター北島の日米両国での書籍・雑誌・電子書籍のデザインの経験は合計20年以上になります。近年では、ベストセラージャーナリストのMike Sager氏が運営するカリフォルニア・サンディエゴの出版社The Sager Groupから出版された本は、2012年の発足以来全て北島が手がけています。"],
+            "image": "multimedia_01.jpg"
+        },
+        {
+            "multiName": ["Data Visualization","インフォグラフィック"],
+            "multiCopy": ["Infographics, info-sculpture, and interactive data visualization. Working with numbers is a passion of PatternBased Art. Expressing data effectively can show us different angles to understand our world, and data visualization is a way to make numbers a story. We always looking for opportunities to collaborate with talented researchers for meaningful projects. For examples, see our Data Visualization page.", "インフォグラフィック、彫刻、インタラクティブ・データ・ビジュアリゼーション。数字をテーマにしたマルチメディア作品は、PatternBased Artの得意ジャンルです。データを効果的に表現することで、いつもと違った角度から世界を見ることができます。データのビジュアル化は、数字列を物語に変えます。有意義なプロジェクトや有能なリサーチャーのコラボレーションの機会を常に募集しています。以下は過去の作品の一部です。"],
+            "image": "PBA_DataViz_01.jpg"
+        },
+        {
+            "multiName": ["UI/UX","UI/UX"],
+            "multiCopy": ["PatternBased Art creates intuitive UI/UX. We build a prototype and keep revising the user flow until we find the ideal user experience and interface. This workflow is possible because we design and build at once on coding.", "PatternBased Artは、直感的で使いやすいUI/UXを作成します。まずプロトタイプを作成し、理想的なユーザー・エクスペリエンスとインターフェイスが見つかるまで、ユーザー・フローを修正し続けます。この制作方法が可能なのは、デザインと開発を直接コーディングで同時に行うからです。"],
+            "image": "pbc_01.jpg"
+        },
+        {
+            "multiName": ["Objects and Wearables","グッズとオブジェ"],
+            "multiCopy": ["We design objects and wearable goods like T-shirts, pants, mugs, neck gaiters, etc. for collaborative projects and themes we love. In those science series, Tardigrade T-shirts are pretty popular. Some of the products are available on the EQD Merch store and Amazon.", "コラボ企画やオリジナルのテーマのためのTシャツ、パンツ、マグカップ、ネックゲーターなどのオブジェクトやグッズをデザインしています。オリジナルの科学シリーズでは、クマムシTシャツが人気です。一部の製品は、EQD Merch storeやAmazonで販売中です。"],
+            "image": "multimedia_02.jpg"
+        },
+        {
+            "multiName": ["Paintings and Murals","絵と壁画"],
+            "multiCopy": ["We work with analog paintings and murals as well as other digital mediums sometimes. Mixing analog and digital techniques, like public murals and project mapping is also a huge interest we want to explore.", "デジタル媒体だけでなく、アナログの絵画や壁画も扱います。壁画とプロジェクト・マッピングを組み合わせるなどの、アナログとデジタルの技術の融合も、私たちが探求してみたいジャンルです。"],
+            "image": "SIMH-soundtrack_thumb.jpg"
+        },
+        {
+            "multiName": ["Artificial Intelligence","AI・人工知能"],
+            "multiCopy": ["At this moment we simply enjoy AI-generated art and technology is rapidly advancing. The art AI generate will be widely used everywhere and set the standard of the art in the next generation, which will be fed into themselves the future AI. We'd love to mess with the loop and dig into the world of AI.", "現時点で私たちは、AIによって生成されたアートと、急激に進歩しているこのテクノロジーを純粋に楽しんでいます。今後AIが生成するアートはあちこちで広く使用され、次世代のアートの基準を設定するでしょう。その後、AIが生成したアートがそのまた次世代のAIの情報源として取り入れられるというループが出来ていくかもしれません。その奇妙なループに混ざってAIの世界を掘り下げる機会を窺っています。"],
+            "image": "gertruda-valaseviciute-xMObPS6V_gY-unsplash.jpg"
+        }
+    ],
+    "dataheading": ["Data Vizualization", "インフォグラフィック"],
+    "datacopy": ["Infographics, info-sculpture, and interactive data visualization. Working with numbers is a passion of PatternBased Art. Expressing data effectively can show us different angles to understand our world, and data visualization is a way to make numbers a story. We always looking for opportunities to collaborate with talented researchers for meaningful projects. For examples, see our Data Visualization page.", "インフォグラフィック、彫刻、インタラクティブ・データ・ビジュアリゼーション。数字をテーマにしたマルチメディア作品は、PatternBased Artの得意ジャンルです。データを効果的に表現することで、いつもと違った角度から世界を見ることができます。データのビジュアル化は、数字列を物語に変えます。有意義なプロジェクトや有能なリサーチャーのコラボレーションの機会を常に募集しています。以下は過去の作品の一部です。"],
+    "datas" : [
+        {
+            "appName": ["PULSE of LOVE and HATE", "PULSE of LOVE and HATE"],
+            "appCopy": ["<a href='https://pulse.patternbased.com/' target='_blank'>Pulse of Love and Hate</a> is an interactive and sonified data visualization of the hourly occurrence of the words 'Love' and 'Hate' on Twitter. Many users spend time reading various online news platforms and social media without knowing how biased, curated, or personalized the content is. This project started with a simple question 'Does the world actually feel the way it appears to me online?.. or are a series of algorithms behind my notion of the mood of the world?' This simple info-art lets us see the real number of one small aspect of people's emotional mood by their tweets. Come take a peek at how and what people 'Love' and 'Hate' at this very moment.", "<a href='https://pulse.patternbased.com/' target='_blank'>Pulse of Love and Hate</a>は、Twitterでの「Love」と「Hate」という単語の 1 時間ごとの使用数を視覚化かつ音響化したインタラクティブ・インフォグラフィックです。私たちは普段目にするコンテンツがどう偏っているか、またはパーソナライズされているかを知りません。オンラインで見えている世界は、実際にの世界に近いのか?それとも、それとも今までの履歴やアルゴリズムによって見せられているものなのか?このシンプルなインフォアートは、実際に現在投稿されているつぶやきによって人々の感情的な気分の小さな側面の実数を表示します。今この瞬間、実際の世界で人々が何を「好き」で「嫌い」なのかをのぞいてみましょう。"],
+            "url": ["https://pulse.patternbased.com/", "https://pulse.patternbased.com/"],
+            "image": "pulse-thumb.jpg"
+        },
+        {
+            "appName": ["1.82% // Information and Violence", "1.82% // 情報と暴力"],
+            "appCopy": ["<a href='https://182.patternbased.com/information-and-violence/' target='_blank'>Information and Violence</a> is an interactive data visualization showing a timeline of major U.S. news headlines along with gun sales and homicides from 2016. Since 2016, the number of gun sales and homicides has been steadily increasing. By showing them along top news at the time, it could show the possibility of the psychological influence of fear and anxiety in society.", "<a href='https://182.patternbased.com/information-and-violence/' target='_blank'>Information and Violence</a>は、2016年から2021年の米国内での銃の販売数と殺人件数を、主要な米国ニュースの見出しと共に見せるインタラクティブなデータ・ビジュアライゼーションです。2016年以降、銃の販売と殺人の数は着実に増加しています。この間メディアで流れたニュースと比較することで、恐怖や不安が暴力につながる心理的な影響の可能性を検証します。"],
+            "url": ["https://182.patternbased.com/information-and-violence/", "https://182.patternbased.com/information-and-violence/"],
+            "image": "info-vio-thumb.jpg"
+        },
+        {
+            "appName": ["1.82% // Violence in Ancient Societies", "1.82% // 古代社会における暴力"],
+            "appCopy": ["<a href='https://182.patternbased.com/ancient-violence/' target='_blank'>Violence in Ancient Societies</a> is a generative data visualization showing the different levels of violence in different societies in prehistoric times (and some recent incidents). When the world used to be disconnected from each other, the levels of violence in each society varies widely depending on the characteristics and the culture. While no one was murdered in one society (14000 BCE in Gobero near Niger), almost half of the population was killed in another (12000 BCE Nubia near Egypt).", "<a href='https://182.patternbased.com/ancient-violence/' target='_blank'>Violence in Ancient Societies</a>は、先史時代から現代までのさまざまな社会における暴力レベルを示すジェネレーティブなデータ・ビジュアリゼーションです。世界が互いに今よりも孤立していた時代、各社会における暴力レベルは特性や文化によって大変大きく異なります。ある社会 (紀元前14000年のニジェール近くのゴベロ) では殺人が一件も発見されなかったと思えば、別の社会 (エジプト近くの紀元前12000年ヌビア) では人口のほぼ半分が誰かに殺害されて人生を終えています。"],
+            "url": ["https://182.patternbased.com/ancient-violence/", "https://182.patternbased.com/ancient-violence/"],
+            "image": "ancient-vio-thumb.jpg"
+        },
+        {
+            "appName": ["Heartbeats.","Heartbeats."],
+            "appCopy": ["<a href='https://heartbeats.patternbased.com/' target='_blank'>Heartbeats.</a> is an info-art piece to make the heartbeats of animals visible and audible. More than 150 species of animals are going extinct every day. Perhaps considering the beating, breathing lives of these animals will help us do what we can to slow this extinction down. It is made with simple HTML + Javascript. The animation is made with Lottie, and the music is created with VCV lack.", "<a href='https://heartbeats.patternbased.com/' target='_blank'>Heartbeats.</a>は、動物たちの心臓の鼓動を可視化および可聴化したInfo-Artの作品です。地球上では気候変動などにより日に150種以上の動物たちが絶滅していっています。動物たちの心臓の鼓動や生活を想像することが、絶滅のスピードを少しでも遅らせるために何ができるか考えるきっかけになれば幸いです。HTMLとJavascriptでシンプルに作られています。アニメーションはLottie、音楽はVCV lackを使って作られています。"],
+            "url": ["https://heartbeats.patternbased.com/", "https://heartbeats.patternbased.com/"],
+            "image": "heartbeats.jpg"
+        },
+        {
+            "appName": ["Perspective", "Perspective"],
+            "appCopy": ["This generative animation <a href='https://siorikitajima.github.io/perspective/' target='_blank'>Perspective</a> shows how many people in Singapore have experienced mental health issues in their life. 20 silhouetted characters walk past the screen randomly, and the ratio of color (= the mental issue the person experiences) reflects it in the real world. By clicking on the colorful walkers, a user could learn about the issue.", "このジェネレーティブ・アニメーション<a href='https://siorikitajima.github.io/perspective/' target='_blank'>Perspective</a>は、シンガポールで何人の人がメンタルヘルスの問題を経験したかを表しています。20種類のキャラクターがランダムに画面を通り過ぎ、それぞれの色 (=その人が人生で経験する精神疾患) の比率は、現実世界のものを反映しています。カラフルなキャラクターをクリックすることで、それぞれの疾患についての情報が表示されます。"],
+            "url": ["https://strangersinmyhead.info/", "https://strangersinmyhead.info/"],
+            "image": "multimedia_03.gif"
+        },
+        {
+          "appName": ["Sunlight, Fatness and Happiness", "Sunlight, Fatness and Happiness"],
+          "appCopy": ["What makes a place a happy place to live – is there really a correlation between sunlight and happiness? Can you be miserable in a sunny country, happy in perpetual twilight? Does a country have to be wealthy to be happy? Are countries with heavier people happier places to live? You can use this infographic to answer all sorts of interesting questions. Or maybe it raises more questions than it answers. Can you be happy in a place where the murder rate is high? Is there a relationship between murder rates and fatness? <a href='/portfolio/sunlight-and-happiness' target='_blank'>The Sunlight, Fatness and Happiness</a> infographic is all about your little place in the sunshine.", "幸せな場所とは何か、太陽の光と幸福感には相関関係があるのでしょうか?日当たりの良い国で惨めに、絶え間ない黄昏で幸せに感じる?幸せになるためにその国が裕福である必要がある？人口が多い国ほど住みやすいのか?このインフォグラフィックは、あらゆる種類の興味深い質問に答えることができます。あるいは、答えよりも多くの疑問を提起するかもしれません。殺人率の高い場所で幸せになれるか？殺人率と肥満の間に関係はありますか？<a href='/portfolio/sunlight-and-happiness' target='_blank'>The Sunlight, Fatness and Happiness</a>のインフォグラフィックは、太陽の下にあるあなたの居場所に関するものです。"],
+          "url": ["/portfolio/sunlight-and-happiness/en", "/portfolio/sunlight-and-happiness/jp"],
+          "image": "PBA_DataViz_01.jpg"
+      }
+    ],
+    "portfolioheading": ["Work and Collaborations", "作品とコラボレーション"],
+    "portfolio": [
+        {
+            "portfolioId": "cheer-s2",
+            "portfolioName":"Netflix - Cheer S2",
+            "portfolioClasses":"music scores featured musicfeat",
+            "bgImage": "cheer-s2-3.jpg"
+        },
+        {
+          "portfolioId": "hunting-marlon-brando",
+          "portfolioName":"Hunting Marlon Brando",
+          "portfolioClasses":"music scores sounddesign featured musicfeat",
+          "bgImage": "marlon-brando.jpg"
+        },
+        {
+          "portfolioId": "heartbeats-svg",
+          "portfolioName":"Heartbeats. Audio Embedded SVG",
+          "portfolioClasses":"art music code visualdesign sounddesign featured artfeat",
+          "bgImage": "heartbeats-svg.jpg"
+        },
+        {
+          "portfolioId": "books-tsg-2021",
+          "portfolioName":"Books TSG 2021",
+          "portfolioClasses":"art visualdesign featured artfeat",
+          "bgImage": "tsg/TSG_2021_thumb.jpg"
+        },
+        {
+          "portfolioId": "round-and-round",
+          "portfolioName":"Round and Round",
+          "portfolioClasses":"music scores featured musicfeat",
+          "bgImage": "RoundAndRound.jpg"
+        },
+        {
+          "portfolioId": "dfinity",
+          "portfolioName":"DFINITY",
+          "portfolioClasses":"music scores",
+          "bgImage": "dfinity2.jpg"
+        },
+        {
+          "portfolioId": "last-chance-u-bb",
+          "portfolioName":"Last Chance U Basketball",
+          "portfolioClasses":"music scores featured musicfeat",
+          "bgImage": "LastChanceU_Basketball.jpg"
+        },
+        {
+          "portfolioId": "strangers-in-my-head-soundtrack",
+          "portfolioName":"Strangers Soundtrack",
+          "portfolioClasses":"music album art visualdesign artfeat",
+          "bgImage": "SIMH-soundtrack_thumb.jpg"
+        },
+        {
+          "portfolioId": "strangers-in-my-head",
+          "portfolioName":"Strangers In My Head",
+          "portfolioClasses":"sounddesign music scores musicfeat",
+          "bgImage": "SIMH-documentary_thumb.jpg"
+        },
+        {
+          "portfolioId": "strangers-in-my-head-app",
+          "portfolioName":"Strangers App",
+          "portfolioClasses":"sounddesign art code visualdesign data-visualization artfeat",
+          "bgImage": "SIMH-app_thumb.jpg"
+        },
+        {
+          "portfolioId": "no-bystanders",
+          "portfolioName":"No Bystanders",
+          "portfolioClasses":"music scores featured musicfeat",
+          "bgImage": "no-bystanders.jpg"
+        },
+        {
+          "portfolioId": "books-tsg-2020",
+          "portfolioName":"Books TSG 2020",
+          "portfolioClasses":"art visualdesign",
+          "bgImage": "tsg/TSG_2020_thumb.jpg"
+        },
+        {
+          "portfolioId": "landslide-app",
+          "portfolioName":"Landslide Voting App",
+          "portfolioClasses":"music scores ads",
+          "bgImage": "landslide-app.jpg"
+        },
+        {
+          "portfolioId": "last-chance-u-5",
+          "portfolioName":"Netflix - Last Chance U Season5",
+          "portfolioClasses":"music scores",
+          "bgImage": "last-chance-u-s5.jpg"
+        },
+        {
+          "portfolioId": "dream-mountain",
+          "portfolioName":"Dream Mountain",
+          "portfolioClasses":"music scores featured musicfeat",
+          "bgImage": "Dream-Mountain.jpg"
+        },
+        {
+        "portfolioId": "cheer",
+        "portfolioName":"Netflix - Cheer",
+        "portfolioClasses":"music scores",
+        "bgImage": "cheer-netflix.jpg"
+      },
+      {
+        "portfolioId": "last-chance-u-4",
+        "portfolioName":"Netflix - Last Chance U Season4",
+        "portfolioClasses":"music scores",
+        "bgImage": "last-chance-u-s4.jpg"
+      },
+      {
+        "portfolioId": "pb-catalog",
+        "portfolioName":"PatternBased Catalog",
+        "portfolioClasses":"music art code visualdesign artfeat",
+        "bgImage": "pbc_02.jpg"
+      },
+      {
+        "portfolioId": "the-well-tempered-machine",
+        "portfolioName":"The Well Tempered Machine",
+        "portfolioClasses":"music album art musicfeat",
+        "bgImage": "TheWellTemperedMachine.jpg"
+      },
+      {
+        "portfolioId": "onomatopedal",
+        "portfolioName":"OnomatoPedal",
+        "portfolioClasses":"music sounddesign art album code visualdesign featured musicfeat artfeat",
+        "bgImage": "onomatoPedal.gif"
+      },
+      {
+        "portfolioId": "onomatopedal-tshirts",
+        "portfolioName":"OnomatoPedal T-shirts",
+        "portfolioClasses":"art visualdesign",
+        "bgImage": "onomatopedal-merch/OP_Afterneath_C.jpg"
+      },
+      {
+        "portfolioId": "daewon",
+        "portfolioName":"Daewon",
+        "portfolioClasses":"music scores featured musicfeat",
+        "bgImage": "daewon.jpg"
+      },
+      {
+        "portfolioId": "daewon-summer",
+        "portfolioName":"Daewon Summer",
+        "portfolioClasses":"music album art visualdesign",
+        "bgImage": "Daewon-Summer.jpg"
+      },
+      {
+        "portfolioId": "this-is-what-i-hear",
+        "portfolioName":"This Is What I Hear",
+        "portfolioClasses":"music scores sounddesign musicfeat",
+        "bgImage": "TIWIH-title-page.jpg"
+      },
+      {
+        "portfolioId": "this-is-what-i-hear-sountrack",
+        "portfolioName":"This Is What I Hear Sountrack",
+        "portfolioClasses":"music album art visualdesign",
+        "bgImage": "TIWIH_cover.jpg"
+      },
+      {
+        "portfolioId": "tardigrade-t",
+        "portfolioName":"Tardigrade T-shirts",
+        "portfolioClasses":"art visualdesign data-visualization featured artfeat",
+        "bgImage": "PBAT_Tardigrade-1_02.jpg"
+      },
+      {
+        "portfolioId": "come-home-safely",
+        "portfolioName":"Come Home Safely",
+        "portfolioClasses":"music scores",
+        "bgImage": "Come_Home_Safely.jpg"
+      },
+      {
+        "portfolioId": "scientific-insects-t",
+        "portfolioName":"Scientific Insects T-shirts",
+        "portfolioClasses":"art visualdesign",
+        "bgImage": "Argyroneta-aquatica.jpg"
+
+      },
+      {
+        "portfolioId": "hay-top-heist",
+        "portfolioName":"Hay Top Heist",
+        "portfolioClasses":"music scores art",
+        "bgImage": "hay-top-heist.jpg"
+      },
+      {
+        "portfolioId": "singapore-reimagined",
+        "portfolioName":"Singapore Reimagined",
+        "portfolioClasses":"music scores sounddesign album",
+        "bgImage": "Singapore-Reimagined.jpg"
+      },
+      {
+        "portfolioId": "books-tsg",
+        "portfolioName":"Books TSG",
+        "portfolioClasses":"art visualdesign",
+        "bgImage": "TSG_Editorial.jpg"
+      },
+      {
+        "portfolioId": "upton-premiere",
+        "portfolioName":"Upton Premiere",
+        "portfolioClasses":"music scores sounddesign ads featured musicfeat",
+        "bgImage": "UptonSkull.jpg"
+      },
+      {
+        "portfolioId": "sunlight-and-happiness",
+        "portfolioName":"Sunlight, Fatness and Happiness",
+        "portfolioClasses":"art visualdesign data-visualization artfeat",
+        "bgImage": "happysun_thumb.jpg"
+      }
+    ]
+}

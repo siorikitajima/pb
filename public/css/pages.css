@@ -333,7 +333,11 @@ opacity: 0.6;
   }
 
   .portfolioTwoImages {
-    width: 49%;
+    width: 48%;
+    display: inline-block;
+  }
+  .imgcontainer {
+    text-align: center;
   }
 
   .img-pos {
@@ -372,6 +376,9 @@ opacity: 0.6;
       width: 100vw;
       margin-left: -10vw;
     } */
+    .artSquares {
+      max-width: 40%;
+    }
   }
   @media only screen and (max-width: 400px) {
     .bodyTextContainer iframe.squarePlaylist {
@@ -667,6 +674,11 @@ opacity: 0.6;
   transition-duration: 400ms;
 }
 
+.toolImage.multi img:hover {
+  opacity: 1;
+  transition-duration: 0;
+}
+
 .toolCopy {
   width: calc(100% - 230px);
   margin-left: 20px;
@@ -685,6 +697,11 @@ opacity: 0.6;
 .tool h2:hover {
   color: #FB3640;
   transition-duration: 400ms;
+}
+
+.tool.multi h2:hover {
+  color: #222222;
+  transition-duration: 0;
 }
 
 .tool h2::after {

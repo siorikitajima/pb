@@ -45,6 +45,8 @@
       
       .homeSlides h2 {
         font-size: 1.6em;
+        max-width: 90%;
+        margin: 20px auto;
       }
       
       .sliderSideButtons {
@@ -78,6 +80,9 @@
       @media only screen and (max-width: 600px) {
         .sliderSideButtons {
           display: none;
+        }
+        .homeSlides h4::before {
+          background: none;
         }
       }
       

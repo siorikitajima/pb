@@ -4,12 +4,15 @@ const home_get = async (req, res) => {
     language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
     res.render('index', { 
         title: 'Hello', 
         nav:'home', 
         slug: '',
         language: language,
-        pageData: pageData
+        pageData: pageData,
+        portfoliosData: portfoliosData
     });
 };
 
@@ -33,12 +36,15 @@ const music_get = async (req, res) => {
     language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
     res.render('music', { 
         title: 'Music', 
         nav:'music', 
         slug: 'music',
         language: language,
-        pageData: pageData
+        pageData: pageData,
+        portfoliosData: portfoliosData
     });
 };
 
@@ -46,12 +52,15 @@ const art_get = async (req, res) => {
     language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
     res.render('art', { 
         title: 'Art', 
         nav:'art', 
         slug: 'art',
         language: language,
-        pageData: pageData
+        pageData: pageData,
+        portfoliosData: portfoliosData
     });
 };
 
@@ -146,15 +155,123 @@ const apps_get = async (req, res) => {
     language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
-    let rawdata1 = fs.readFileSync('./json/portfolio.json');
-    let appsData = JSON.parse(rawdata1);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
     res.render('apps', { 
         title: 'Apps', 
         nav:'apps', 
         slug: 'apps',
         language: language,
         pageData: pageData,
-        appsData: appsData
+        portfoliosData: portfoliosData
+    });
+};
+
+const multimedia_get = async (req, res) => {
+    language = req.params.lang;
+    let rawdata = fs.readFileSync('./json/pages.json');
+    let pageData = JSON.parse(rawdata);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
+    res.render('multimedia', { 
+        title: 'Multimedia', 
+        nav:'multimedia', 
+        slug: 'multimedia',
+        language: language,
+        pageData: pageData,
+        portfoliosData: portfoliosData
+    });
+};
+
+const dataviz_get = async (req, res) => {
+    language = req.params.lang;
+    let rawdata = fs.readFileSync('./json/pages.json');
+    let pageData = JSON.parse(rawdata);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
+    res.render('dataviz', { 
+        title: 'Data Viz', 
+        nav:'multdatavizmedia', 
+        slug: 'dataviz',
+        language: language,
+        pageData: pageData,
+        portfoliosData: portfoliosData
+    });
+};
+
+const portfolios_get = async (req, res) => {
+    language = req.params.lang;
+    let rawdata = fs.readFileSync('./json/pages.json');
+    let pageData = JSON.parse(rawdata);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
+    res.render('portfolios', { 
+        title: 'Portfolios', 
+        nav:'portfolios', 
+        slug: 'portfolios',
+        language: language,
+        pageData: pageData,
+        portfoliosData: portfoliosData
+    });
+};
+
+const portfolio_get = async (req, res) => {
+    let theid = req.params.id;
+    language = req.params.lang;
+    let rawdata = fs.readFileSync('./json/pages.json');
+    let pageData = JSON.parse(rawdata);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
+    let rawdata2 = fs.readFileSync('./json/portfolio.json');
+    let portfolioData = JSON.parse(rawdata2);
+    let theItem, pftitle, tags, nextId, prevId;
+    for (let p = 0; p < portfoliosData.portfolio.length; p++) {
+        if (portfoliosData.portfolio[p].portfolioId == theid) {
+            pftitle = portfoliosData.portfolio[p].portfolioName;
+            tags = portfoliosData.portfolio[p].portfolioClasses;
+            if(p == portfoliosData.portfolio.length-1) {
+                nextId = portfoliosData.portfolio[0].portfolioId;;
+            } else {
+                nextId = portfoliosData.portfolio[p+1].portfolioId;
+            }
+            if(p == 0) {
+                let last = Number(portfoliosData.portfolio.length - 1);
+                prevId = portfoliosData.portfolio[last].portfolioId;
+            } else {
+                prevId = portfoliosData.portfolio[p-1].portfolioId;
+            }
+            break;
+        }
+    }
+    for (let p = 0; p < portfolioData.portfolio.length; p++) {
+        if (portfolioData.portfolio[p].id == theid) {
+            theItem = portfolioData.portfolio[p];
+            break;
+        }
+    }
+    // Remove Featured classes from the tag list
+    tags = tags.split(' ');
+    generalTags = [ 'featured', 'musicfeat', 'artfeat'];
+    for(let t =0; t< tags.length; t++) {
+        for (let g =0; g < generalTags.length; g++) {
+            if (tags[t] == generalTags[g]) {
+                tags.splice(t, 1);
+            }
+        }
+    }
+    res.render('portfolio', { 
+        title: 'Portfolio', 
+        nav:'portfolio', 
+        slug: 'portfolio',
+        language: language,
+        pageData: pageData,
+        portfoliosData: portfoliosData,
+        theid: theid, 
+        pftitle: pftitle,
+        tags: tags,
+        nextId: nextId,
+        prevId: prevId,
+        theItem: theItem
     });
 };
 
@@ -170,5 +287,9 @@ module.exports = {
     error_get,
     artists_get,
     tools_get,
-    apps_get
+    apps_get,
+    multimedia_get,
+    portfolios_get,
+    portfolio_get,
+    dataviz_get
 }

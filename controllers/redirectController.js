@@ -1,8 +1,14 @@
 var geoip = require('geoip-lite');
 
 const home_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup('60.77.210.96');
     // let loc = geoip.lookup(req.ip);
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';
+    console.log(ip, loc.country);
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -12,8 +18,13 @@ const home_get = async (req, res) => {
 };
 
 const about_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup('60.77.210.96');
     // let loc = geoip.lookup(req.ip);
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -23,8 +34,13 @@ const about_get = async (req, res) => {
 };
 
 const music_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup('60.77.210.96');
     // let loc = geoip.lookup(req.ip);
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -34,8 +50,13 @@ const music_get = async (req, res) => {
 };
 
 const art_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup('60.77.210.96');
     // let loc = geoip.lookup(req.ip);
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -45,8 +66,13 @@ const art_get = async (req, res) => {
 };
 
 const merch_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup('60.77.210.96');
     // let loc = geoip.lookup(req.ip);
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -56,8 +82,13 @@ const merch_get = async (req, res) => {
 };
 
 const contact_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup('60.77.210.96');
     // let loc = geoip.lookup(req.ip);
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -67,8 +98,13 @@ const contact_get = async (req, res) => {
 };
 
 const thanku_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup('60.77.210.96');
     // let loc = geoip.lookup(req.ip);
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -78,8 +114,13 @@ const thanku_get = async (req, res) => {
 };
 
 const error_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup('60.77.210.96');
     // let loc = geoip.lookup(req.ip);
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -89,8 +130,13 @@ const error_get = async (req, res) => {
 };
 
 const artists_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
-    // let loc = geoip.lookup(req.ip);
+    // let loc = geoip.lookup('60.77.210.96');
+        // let loc = geoip.lookup(req.ip);
+        let ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+        let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -100,8 +146,13 @@ const artists_get = async (req, res) => {
 };
 
 const tools_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
-    // let loc = geoip.lookup(req.ip);
+    // let loc = geoip.lookup('60.77.210.96');
+        // let loc = geoip.lookup(req.ip);
+        let ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+        let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
@@ -111,13 +162,67 @@ const tools_get = async (req, res) => {
 };
 
 const apps_get = async (req, res) => {
-    let loc = geoip.lookup('60.77.210.96');
-    // let loc = geoip.lookup(req.ip);
+    // let loc = geoip.lookup('60.77.210.96');
+        // let loc = geoip.lookup(req.ip);
+        let ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+        let loc = geoip.lookup(ip) || 'US';;
     let lang;
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
     let url = '/apps/' + lang;
+    res.redirect( url );
+};
+
+const multimedia_get = async (req, res) => {
+    // let loc = geoip.lookup('60.77.210.96');
+        // let loc = geoip.lookup(req.ip);
+        let ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+        let loc = geoip.lookup(ip) || 'US';;
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/multimedia/' + lang;
+    res.redirect( url );
+};
+
+const dataviz_get = async (req, res) => {
+    // let loc = geoip.lookup('60.77.210.96');
+        // let loc = geoip.lookup(req.ip);
+        let ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+        let loc = geoip.lookup(ip) || 'US';;
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/dataviz/' + lang;
+    res.redirect( url );
+};
+
+const portfolios_get = async (req, res) => {
+    // let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+
+        let ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+        let loc = geoip.lookup(ip) || 'US';;
+        let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/portfolios/' + lang;
     res.redirect( url );
 };
 
@@ -132,5 +237,8 @@ module.exports = {
     error_get,
     artists_get,
     tools_get,
-    apps_get
+    apps_get,
+    multimedia_get,
+    portfolios_get,
+    dataviz_get
 }

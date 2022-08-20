@@ -1,14 +1,14 @@
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
-var dotenv = require("dotenv");
+const dotenv = require("dotenv");
 dotenv.config();
 
 const contact_post = (req, res) => {
     language = req.params.lang;
     const GMAIL_USER = process.env.GMAIL_USER;
-    const GMAIL_PASS = process.env.GMAIL_PASS;
-    const GMAIL_PORT = process.env.GMAIL_PORT;
-    const GMAIL_HOST = process.env.GMAIL_HOST;
+    // const GMAIL_PASS = process.env.GMAIL_PASS;
+    // const GMAIL_PORT = process.env.GMAIL_PORT;
+    // const GMAIL_HOST = process.env.GMAIL_HOST;
     const CLIENT_ID = process.env.CLIENT_ID;
     const CLIENT_SECRET = process.env.CLIENT_SECRET;
     const REDIRECT_URI = process.env.REDIRECT_URI;

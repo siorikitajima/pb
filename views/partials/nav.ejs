@@ -11,7 +11,7 @@
     </div>
     <div class="headeritem" id="nav">
         <div class="headeritem" id="closeicon">
-          <img src="">
+          <img src="/images/global/Close_Icon.svg">
         </div>
         <div class="dropdownNav">
           <button class="dropbtnNav">
@@ -29,8 +29,9 @@
           </button>
           <div class="dropContentNav">
             <a class="navArt" href="/art/<%=language%>" class="dim"><%= pageData.global.nav.art[l] %></a>
-            <a class="dim" id="navMultimedia" href=""><%= pageData.global.nav.multimedia[l] %></a class="dim">
+            <a class="dim" id="navMultimedia" href="/multimedia/<%=language%>"><%= pageData.global.nav.multimedia[l] %></a class="dim">
             <a class="dim" id="navApps" href="/apps/<%=language%>" class="dim"><%= pageData.global.nav.pbApps[l] %></a>
+            <a class="dim" id="navApps" href="/dataviz/<%=language%>" class="dim"><%= pageData.global.nav.dataviz[l] %></a>
           </div>
         </div>
         <div class="dropdownNav">
@@ -70,4 +71,11 @@
       $('#EngLink').attr('href', newUrl + 'en');
       $('#JpnLink').attr('href', newUrl + 'jp');
 
+  $('#menuicon').on( "click", function() {
+    $('#nav').css({'right':'-130px', 'transition-duration':'300ms'});
+  });
+
+  $('#closeicon').on( "click", function() {
+    $('#nav').css({'right':'calc(-100vw - 150px)', 'transition-duration':'300ms'});
+  });
 </script>

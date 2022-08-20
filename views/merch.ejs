@@ -86,7 +86,6 @@ function w3AddClass(element, name) {
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
     if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];
-    console.log('added class to: ', element);
   }
   }
 }

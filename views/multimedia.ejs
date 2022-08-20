@@ -1,0 +1,46 @@
+<% let l; if (language == 'en') { l = 0; } else { l = 1; } %>
+
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<%- include('./partials/head.ejs') %>
+
+<body>
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="content">
+
+    <div class="spacerM"></div>
+
+    <div class="bodyTextContainer">
+      <img class="headingImg2" src="../images/about/multimediaart.svg">
+      <h2 class="textCenter"><%= portfoliosData.multiheading[l] %></h2>
+      <p class="textCenter"><%= portfoliosData.multicopy[l] %></p>
+    </div>
+  
+    <div class="spacerM"></div>
+  
+    <div class="bodyWideContainer toolContainer">
+
+    <% for (let a = 0; a < portfoliosData.multimedia.length; a++) { %>
+      <div class="tool multi">
+            <h2><%= portfoliosData.multimedia[a].multiName[l] %></h2>
+        <div class="flex">
+            <div class="toolImage multi">
+                <img src="../images/portfolio/<%= portfoliosData.multimedia[a].image %>">
+            </div>
+            <div class="toolCopy">
+                <p><%- portfoliosData.multimedia[a].multiCopy[l] %></p>
+            </div>
+        </div>
+      </div>
+    <% } %>
+
+    </div>
+
+<div class="spacerL"></div>
+
+<%- include('./partials/footer.ejs') %>
+
+</body>
+</html>

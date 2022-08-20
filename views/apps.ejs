@@ -14,26 +14,27 @@
 
     <div class="bodyTextContainer">
       <img class="headingImg2" src="../images/about/apps2.svg">
-      <h2 class="textCenter"><%= appsData.appsheading[l] %></h2>
+      <h2 class="textCenter"><%= portfoliosData.appsheading[l] %></h2>
+      <p class="textCenter"><%= portfoliosData.appscopy[l] %></p>
     </div>
   
     <div class="spacerM"></div>
   
     <div class="bodyWideContainer toolContainer">
 
-    <% for (let a = 0; a < appsData.apps.length; a++) { %>
+    <% for (let a = 0; a < portfoliosData.apps.length; a++) { %>
       <div class="tool">
-        <a href="<%= appsData.apps[a].url[l] %>" target="_blank">
-            <h2><%= appsData.apps[a].appName[l] %></h2>
+        <a href="<%= portfoliosData.apps[a].url[l] %>" target="_blank">
+            <h2><%= portfoliosData.apps[a].appName[l] %></h2>
         </a>
         <div class="flex">
             <div class="toolImage">
-                <a href="<%= appsData.apps[a].url[l] %>" target="_blank">
-                    <img src="../images/portfolio/<%= appsData.apps[a].image %>">
+                <a href="<%= portfoliosData.apps[a].url[l] %>" target="_blank">
+                    <img src="../images/portfolio/<%= portfoliosData.apps[a].image %>">
                 </a>
             </div>
             <div class="toolCopy">
-                <p><%- appsData.apps[a].appCopy[l] %></p>
+                <p><%- portfoliosData.apps[a].appCopy[l] %></p>
             </div>
         </div>
       </div>
