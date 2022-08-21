@@ -224,11 +224,12 @@ const portfolio_get = async (req, res) => {
     let portfoliosData = JSON.parse(rawdata1);
     let rawdata2 = fs.readFileSync('./json/portfolio.json');
     let portfolioData = JSON.parse(rawdata2);
-    let theItem, pftitle, tags, nextId, prevId;
+    let theItem, pftitle, tags, nextId, prevId, thumb;
     for (let p = 0; p < portfoliosData.portfolio.length; p++) {
         if (portfoliosData.portfolio[p].portfolioId == theid) {
             pftitle = portfoliosData.portfolio[p].portfolioName;
             tags = portfoliosData.portfolio[p].portfolioClasses;
+            thumb = portfoliosData.portfolio[p].bgImage;
             if(p == portfoliosData.portfolio.length-1) {
                 nextId = portfoliosData.portfolio[0].portfolioId;;
             } else {
@@ -266,9 +267,10 @@ const portfolio_get = async (req, res) => {
         language: language,
         pageData: pageData,
         portfoliosData: portfoliosData,
-        theid: theid, 
+        theid: theid,
         pftitle: pftitle,
         tags: tags,
+        thumb: thumb,
         nextId: nextId,
         prevId: prevId,
         theItem: theItem

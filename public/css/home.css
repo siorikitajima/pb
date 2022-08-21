@@ -84,6 +84,13 @@
         .homeSlides h4::before {
           background: none;
         }
+        .homeSlides h4 {
+          font-size: 0.9em;
+          letter-spacing: 0.1em;
+        }
+        .homeSlides h2 {
+          font-size: 1.4em;
+        }
       }
       
       #homeslide-1 {
@@ -103,7 +110,10 @@
       
       #homeslide-3 {
         background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/pages/cheertunes_slider.jpg);
-        background-position: center;
         background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
+        background-position: bottom left;
       }

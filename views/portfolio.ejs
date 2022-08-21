@@ -20,7 +20,8 @@
   </a>
         <div class="textCenter subHeading">
           <% for (let t =0; t< tags.length; t++) { %>
-          <a href="/portfolio/<%= language%>?category=<%= tags[t]%>"><%- tags[t].toUpperCase(); %></a> 
+          <!-- <a href="/portfolio/<%= language%>?category=<%= tags[t]%>"><%- tags[t].toUpperCase(); %></a>  -->
+          <span><%- tags[t].toUpperCase(); %></span>
           <%}%>
         </div>
   <a href="/portfolio/<%=nextId%>/<%= language %>">
