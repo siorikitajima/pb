@@ -1343,6 +1343,43 @@
             "cta": "op"
         },
         {
+            "id": "the-majority-must-vote",
+            "year": "2018",
+            "type":"Film Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/n5_4n_MgPk0"
+            },
+            "mainCopy": ["We are grateful to have produced the music on the film series <a href='https://www.youtube.com/channel/UC4Pn-sK-DM0cDp-6lFakldA/featured' target='_blank'>The Majority Must Vote</a>. Excellent work by Kyle and team as always.", 
+            "短編シリーズ<a href='https://www.youtube.com/channel/UC4Pn-sK-DM0cDp-6lFakldA/featured' target='_blank'>The Majority Must Vote</a>の音楽を担当しました。Kyleのチームによる素晴らしい作品です。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/80091742"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "Lines For Laney",
+                "url": "https://albums.patternbased.com/album/lines-for-laney",
+                "image": "../../images/portfolio/Cover_LCUS5_DP.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
             "id": "hay-top-heist",
             "year": "2018",
             "type":"Film",
@@ -1532,6 +1569,167 @@
             },
             "cta": "op"
         },
+        {
+            "id": "last-chance-u-3",
+            "year": "2018",
+            "type":"Documentary Series",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/S5GijgZTx5E"
+            },
+            "mainCopy": ["An honor to continue to score the Netflix show, Last Chance U for season 3.<br/>Thank you to Adam, Jody, Adam, Alex, Mark, Greg, Suzanne and everyone at <a href='http://www.onepotatoproductions.com/' target='_blank'>One Potato</a>, Boardwalk and Netflix as well as everyone who worked to make the show something truly special.<br/>We released the full set of cues for season 3 titled <a href='https://albums.patternbased.com/album/sounds-for-independence' target='_blank'>Sounds for Independence</a> available at Bandcamp and all the typical streaming services.", 
+            "Netflixのドキュメンタリーシリーズ「Last Chance U」シーズン3の作曲を全シーズンに引き続き担当しました。<br/>Adam、Jody、Adam、Alex、Mark、Greg、Suzanne、 <a href='http://www.onepotatoproductions.com/' target='_blank'>One Potato</a>、Boardwalk、Netflixのみなさん、この特別なシリーズに関わったすべての人たちに感謝します。<br/>シーズン3全曲が収録されたサウンドトラック<a href='https://albums.patternbased.com/album/sounds-for-independence' target='_blank'>Sounds for Independence</a>をリリースしました、Bandcampや他ストリーミングサービスで試聴できます。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/80091742"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Sounds For Independence",
+                "url": "https://albums.patternbased.com/album/sounds-for-independence",
+                "image": "../../images/portfolio/Cover_LCUS3_DP.jpg",
+                "subHead": "Soundtrack Available at Bandcamp",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "vrwandlung",
+            "year": "2018",
+            "type":"VR Experience",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "video",
+                "url": "https://www.youtube-nocookie.com/embed/ML8H69E6zB0"
+            },
+            "mainCopy": ["Awesome experience creating music for a <a href='https://www.goethe.de/en/uun/akt/21150235.html' target='_blank'>VR experience</a> based on Franz Kafka's metamorphosis (Verwandlung). Kafka is our favorite author collectively here at PatternBased and we are lucky to have worked on multiple Kafka projects.. but this is the first VR Kafka project! Thank you to director <a href='https://mikajohnson.com/' target='_blank'>Mika Johnson</a> and everyone at Goethe-Institut Prag.<br/>VRwandlung has been opening at various exhibits around Europe and the rest of the world.", 
+            "フランツ・カフカの「変身 (Verwandlung)」をテーマにしたVRの音楽を担当しました。PatternBasedはチーム全員がKafkaの作品の大ファンなので、Kafkaに深く関連するプロジェクトに取り組めたことを特に幸運に思います。ディレクターの<a href='https://mikajohnson.com/' target='_blank'>Mika Johnson</a>とGoethe-Institut Pragの皆さんに感謝します。<br/>VRwandlungはヨーロッパを中心に世界各地のさまざまな展覧会で展示されました。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/80091742"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Sounds For Independence",
+                "url": "https://albums.patternbased.com/album/sounds-for-the-village",
+                "image": "../../images/portfolio/sounds-for-the-village.jpg",
+                "subHead": "Sounds For The Village",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "sounds-for-the-village",
+            "year": "2018",
+            "type":"Album",
+            "credit": [
+                {
+                    "job": "MUSIC",
+                    "name": "Joseph Minadeo",
+                    "url": "https://catalog.patternbased.com/project/joseph-minadeo"
+                },
+                {
+                    "job": "ART",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com"
+                }
+            ],
+            "mainImg": {
+                "type": "playlist",
+                "url": "https://bandcamp.com/EmbeddedPlayer/album=58293003/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/",
+                "link": "http://albums.patternbased.com/album/sounds-for-the-village",
+                "name": "Sounds For The Village by Joseph Minadeo"
+            },
+            "mainCopy": ["This album is an extended version of multiple soundtracks for two Franz Kafka related projects both directed by <a href='https://mikajohnson.com/'>Mika Johnson</a>. The first was a VR experience based on Kafka's metamorphosis (Verwandlung) and the second was a shortfilm featuring artist Momus reading from Kafka's book The Castle.", 
+            "このアルバムは、<a href='https://mikajohnson.com/'>Mika Johnson</a>監督による2つのFranz Kafka関連プロジェクトのサウンドトラックです。1つ目は、カフカの「変身」 (Verwandlung) に基づくVR体験、2つ目は、カフカの本「城」を朗読するアーティストMomusをフィーチャーしたショートフィルムです。"],
+            "buttonDisplay": false,
+            "buttons": [
+                {
+                    "label": "Watch at Netflix",
+                    "url": "https://www.netflix.com/title/81046613"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": true,
+                "name": "Sounds For Independence",
+                "url": "https://albums.patternbased.com/album/sounds-for-the-village",
+                "image": "../../images/portfolio/sounds-for-the-village.jpg",
+                "subHead": "Sounds For The Village",
+                "byline": "by Joseph Minadeo"
+            },
+            "cta": "pbc"
+        },
+        {
+            "id": "heartbeats",
+            "year": 2020,
+            "type":"Web App",
+            "credit": [
+                {
+                    "job": "ART + CODE",
+                    "name": "Siori Kitajima",
+                    "url": "https://siorikitajima.com/"
+                },
+                {
+                    "job": "MUSIC",
+                    "name": "The PatternBased Corporation",
+                    "url": "https://catalog.patternbased.com/project/the-patternbased-corporation"
+                }
+            ],
+            "mainImg": {
+                "type": "image",
+                "url": "heartbeats_creen.jpg"
+            },
+            "mainCopy": ["<a href='http://heartbeats.patternbased.com/' target='_blank'>Heartbeats.</a> is an info-art / Data Visualization piece to make the heartbeats of animals visible and audible. Each animal in Heartbeats has a corresponding melody that plays to the speed of their hearts. Version 1 was released on April 2020, and we are hoping to add more animals as data is found.", 
+            "<a href='http://heartbeats.patternbased.com/' target='_blank'>Heartbeats.</a>は、動物の心拍を視覚化および聴覚化するためのインフォグラフィック／データ・ビジュアリゼーション作品です。Heartbeats.の各動物には、心臓の速度に合わせて再生される対応するメロディーが付いています。バージョン1は2020年4月にリリースされましたが、今後も動物の心拍データが見つかり次第追加していく予定です。"],
+            "buttonDisplay": true,
+            "buttons": [
+                {
+                    "label": "Play Online",
+                    "url": "http://heartbeats.patternbased.com/"
+                }
+            ],
+            "imageTiles": {
+                "display": false
+            },
+            "linkBanner": {
+                "display": false,
+                "name": "OnomatoPedal, the Album",
+                "url": "https://albums.patternbased.com/album/onomatopedal",
+                "image": "../../images/portfolio/onomatopedal_cover_v4.jpg",
+                "subHead": "Album Available at Bandcamp",
+                "byline": "by OnomatoPedal"
+            },
+            "cta": "op"
+        },
+
         {
             "id": "upton-premiere",
             "year": "2015",

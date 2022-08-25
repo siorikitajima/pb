@@ -1,36 +1,5 @@
 "portfolios": {
-    {
-    "portfolioId": "the-majority-must-vote",
-    "portfolioName":"The Majority Must Vote",
-    "portfolioClasses":"music scores ads",
-    "bgImage": "The_Majority_Must_Vote.jpg"
-    },
     
-
-    {
-    "portfolioId": "last-chance-u-3",
-    "portfolioName":"Netflix - Last Chance U Season3",
-    "portfolioClasses":"music scores",
-    "bgImage": "LCU_S3_03.jpg"
-    },
-    {
-    "portfolioId": "vrwandlung",
-    "portfolioName":"VRwandlung",
-    "portfolioClasses":"music scores sounddesign",
-    "bgImage": "Kafka_VR.jpg"
-    },
-    {
-    "portfolioId": "sounds-for-the-village",
-    "portfolioName":"Sounds for the Village",
-    "portfolioClasses":"music album art visualdesign",
-    "bgImage": "sounds-for-the-village.jpg"
-    },
-    {
-    "portfolioId": "heartbeats",
-    "portfolioName":"Heartbeats. (WIP)",
-    "portfolioClasses":"music sounddesign art code visualdesign data-visualization",
-    "bgImage": "heartbeats.jpg"
-    },
     {
     "portfolioId": "living-with-cancer",
     "portfolioName":"Living with Cancer",
