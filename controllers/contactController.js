@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
+const fetch = require("isomorphic-fetch");
 const dotenv = require("dotenv");
 dotenv.config();
 
@@ -11,9 +12,12 @@ const contact_post = (req, res) => {
     const REDIRECT_URI = process.env.REDIRECT_URI;
     const REFRESH_TOKEN = process.env.REFRESH_TOKEN;
 
+    const response_key = req.body["g-recaptcha-response"];
+    const secret_key = process.env.SECRET_KEY;
+    const url =
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${response_key}`;
     const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
     oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN })
-
 
     async function sendMail() {
         try {
@@ -89,15 +93,36 @@ const contact_post = (req, res) => {
             return error
         }
     }
-    sendMail()
-    .then(result => {
-        console.log('Email sent...', result)
-        res.redirect(`/thanku/${language}`)
-    })
-    .catch(error => {
-        console.log(error.message)
-        res.redirect(`/error/${language}`)
-    })
+
+    fetch(url, {
+        method: "post",
+      })
+        .then((response) => response.json())
+        .then((google_response) => {
+            console.log(google_response);
+          // google_response is the object return by
+          // google as a response
+          if (google_response.success == true) {
+            sendMail()
+            .then(result => {
+                console.log('Email sent...', result)
+                res.redirect(`/thanku/${language}`)
+            })
+            .catch(error => {
+                console.log(error.message)
+                res.redirect(`/error/${language}`)
+            })
+          } else {
+            // if captcha is not verified
+            console.log('ReCaptcha failed.')
+            res.redirect(`/error/${language}`)
+          }
+
+        })
+        .catch((error) => {
+            console.log(error.message)
+            res.redirect(`/error/${language}`)
+        });
 }
 
 module.exports = {

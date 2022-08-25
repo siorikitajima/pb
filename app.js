@@ -8,7 +8,8 @@ const redirectController = require('./controllers/redirectController');
 const contactController = require('./controllers/contactController');
 
 const app = express();
-const port = 8100;
+const port = 8100; // Dev
+// const port = 3100; // Prod
 app.listen(port, (err) => {
     console.log('Omar listening')
 })

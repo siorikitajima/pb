@@ -2,6 +2,9 @@
 
 <!DOCTYPE html>
 <html lang="<%= language %>">
+  <script src=
+  "https://www.google.com/recaptcha/api.js" async defer>
+  </script>
 
 <%- include('./partials/head.ejs') %>
 
@@ -38,9 +41,12 @@
              <!-- <label for="message">Message</label> -->
              <textarea id="message" name="message" placeholder="Message" required></textarea>
            </li>
+           <li>
+            <div class="g-recaptcha" data-sitekey="6Leas_wUAAAAAM-Fss5247oN7Nv1X-gW84S7evhf" style="margin: 0 auto; width: fit-content;"></div>
+           </li>
            <li class="button">
             <input type="hidden" name="language" value="<%= language %>">
-             <button class="buttonFill formButton" name="submit" type="submit" >SUBMIT</button>
+             <button class="buttonFill formButton" name="submit" type="submit" id="submitBtn" >SUBMIT</button>
               <!-- <button class="buttonFill formButton" onclick="checkRecaptcha();">SUBMIT</button> -->
           </li>
           </ul>
@@ -52,6 +58,22 @@
 
 <%- include('./partials/footer.ejs') %>
 
+  <!-- function getCaptchaToken(token) {
+      // get token from Google reCAPTCHA Server
+      if (token) {
+        // document.getElementById('submitBtn').disabled = false;
+        console.log('success');
+      }
+  }
 
+  // Initialize JSSDK of Google reCAPTCHA v2
+  GoogleReCaptcha.init({
+      siteKey: '6Leas_wUAAAAAM-Fss5247oN7Nv1X-gW84S7evhf',
+      callback: getCaptchaToken
+  })
+
+  var element = document.getElementById('submitBtn');
+  element.onclick = GoogleReCaptcha.validate;
+</script> -->
 </body>
 </html>
