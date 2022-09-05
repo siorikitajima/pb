@@ -13,18 +13,18 @@
 <div class="spacerM"></div>
 
 <div class="portfolioNav top">
-  <a href="/portfolio/<%=prevId%>/<%= language %>">
+  <a href="/<%= language %>/portfolio/<%=prevId%>">
     <div class="pfnavPrev">
       <img src="../../images/global/left-icon.svg" width="18">
     </div>
   </a>
         <div class="textCenter subHeading">
           <% for (let t =0; t< tags.length; t++) { %>
-          <!-- <a href="/portfolio/<%= language%>?category=<%= tags[t]%>"><%- tags[t].toUpperCase(); %></a>  -->
-          <span><%- tags[t].toUpperCase(); %></span>
+          <a href="/<%= language %>/category?categ=<%= tags[t]%>"><%- tags[t].toUpperCase(); %></a> 
+          <!-- <span><%- tags[t].toUpperCase(); %></span> -->
           <%}%>
         </div>
-  <a href="/portfolio/<%=nextId%>/<%= language %>">
+  <a href="/<%= language %>/portfolio/<%=nextId%>">
     <div class="pfnavNext">
       <img src="../../images/global/right-icon.svg" width="18">
     </div>
@@ -103,7 +103,7 @@
     <% if (theItem.buttonDisplay == 'lang') { %>
 
       <% for (let b =0; b < theItem.buttons.length; b++) { %>
-        <a href="<%= theItem.buttons[b].url %>/<%= language %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+        <a href="/<%= language %>/<%= theItem.buttons[b].url %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
       <% } %>
 
     <% } else if (theItem.buttonDisplay == true) { %>
@@ -133,7 +133,7 @@
       <% if (theItem.buttonDisplay == 'lang') { %>
 
         <% for (let b =0; b < theItem.buttons.length; b++) { %>
-          <a href="<%= theItem.buttons[b].url %>/<%= language %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+          <a href="/<%= language %>/<%= theItem.buttons[b].url %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
         <% } %>
   
       <% } else if (theItem.buttonDisplay == true) { %>
@@ -154,7 +154,7 @@
         <% if (theItem.buttonDisplay == 'lang') { %>
 
           <% for (let b =0; b < theItem.buttons.length; b++) { %>
-            <a href="<%= theItem.buttons[b].url %>/<%= language %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
+            <a href="/<%= language %>/<%= theItem.buttons[b].url %>"><button class="portfolioBtn"><%= theItem.buttons[b].label %></button></a>
           <% } %>
     
         <% } else if (theItem.buttonDisplay == true) { %>
@@ -197,17 +197,17 @@
 <!-- ///////////// PORTFOLIO BOTTOM NAV ///////////// -->
 
 <div class="portfolioNav">
-  <a href="/portfolio/<%=prevId%>/<%= language %>">
+  <a href="/<%= language %>/portfolio/<%=prevId%>">
     <div class="pfnavPrev">
       <img src="../../images/global/left-icon.svg" width="18">
     </div>
   </a>
-  <a href="/portfolios/<%= language %>">
+  <a href="/<%= language %>/portfolios">
       <div id="pfnavAll">
       <img src="../../images/global/PatternBased_black_icon.svg" width="18">
       </div>
   </a>
-  <a href="/portfolio/<%=nextId%>/<%= language %>">
+  <a href="/<%= language %>/portfolio/<%=nextId%>">
     <div class="pfnavNext">
       <img src="../../images/global/right-icon.svg" width="18">
     </div>

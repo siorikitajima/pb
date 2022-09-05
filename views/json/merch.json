@@ -1,0 +1,265 @@
+{
+    "merch" : [
+            {
+                "merchId": "tsg-tshirt",
+                "lang": false,
+                "merchName":"TSG T-shirts",
+                "merchDesc":"$30 (Amazon) / Standard T-shirt (Port and Company)",
+                "merchClasses":"t-shirt collab",
+                "url":"https://www.amazon.com/s?rh=n%3A7141123011%2Cp_4%3AThe+Sager+Group&ref=bl_sl_s_ap_web_7141123011",
+                "bgImage": "TSG-T-shirts.gif"
+            },
+            {
+                "merchId": "tardigrade-pl",
+                "lang": true,
+                "merchName":["Polygon Tardigrade","ポリゴンクマムシT"],
+                "merchDesc":["$25 (Amazon) / Standard T-shirt (Port and Company)","¥2800 (Amazon) / Standard T-shirt (Port and Company)"],
+                "merchClasses":"t-shirt science featured",
+                "url": ["https://www.amazon.com/dp/B08RD7HF64", "https://www.amazon.co.jp/dp/B08RD9N4QL"],
+                "bgImage": "PBAT_Tardigrade-PL.gif"
+            },
+            {
+                "merchId": "tardigrade-og",
+                "lang": false,
+                "merchName":"Tardigrade OG",
+                "merchDesc":"$25 (Amazon) / Standard T-shirt (Port and Company)",
+                "merchClasses":"t-shirt science",
+                "url":"https://www.amazon.com/dp/B07LG928FM",
+                "bgImage": "PBAT_Tardigrade-RL.gif"
+            },
+            {
+                "merchId": "tardigrade-psyche",
+                "lang": true,
+                "merchName":["Psychedelic Tardigrade", "サイケクマムシT"],
+                "merchDesc":["$25 (Amazon) / Standard T-shirt (Port and Company)", "¥2800 (Amazon) / Standard T-shirt (Port and Company)"],
+                "merchClasses":"t-shirt science",
+                "url": ["https://www.amazon.com/dp/B07RPH8BF9", "https://www.amazon.co.jp/dp/B08RD8JWH6"],
+                "bgImage": "PBAT_Tardigrade-SC.gif"
+            },
+            {
+                "merchId": "line-of-white-diamond",
+                "lang": false,
+                "merchName":"Lines of White Thread – ‘Diamonds’ Series",
+                "merchDesc":"from $40 (Saatchi Art) / Prints",
+                "merchClasses":"poster",
+                "url":"https://www.saatchiart.com/print/Painting-Lines-of-White-Thread-Diamonds-Series/1253993/4981884/view?sku=P212-U1253993-A6130449-T2-F",
+                "bgImage": "Beats-and-Repeats.jpg"
+            },
+            {
+                "merchId": "a-shared-rainbow",
+                "lang": false,
+                "merchName":"A Shared Rainbow",
+                "merchDesc":"$10 (Bandcamp) / Compact Disc",
+                "merchClasses":"cd featured",
+                "url":"http://albums.patternbased.com/album/a-shared-rainbow",
+                "bgImage": "A-Shared-Rainbow_CD.jpg"
+            },
+            {
+                "merchId": "onomatopedal-merch",
+                "lang": false,
+                "merchName":"OnomatoPedal Merch",
+                "merchDesc":"at EarthQuakerDevices / Mugs, Neck gaiters and more.",
+                "merchClasses":"collab",
+                "url":"https://eqdmerch.com/onomatopedal",
+                "bgImage": "OP-merch.gif"
+            },
+            {
+                "merchId": "onomatopedal-tshirt",
+                "lang": false,
+                "merchName":"OnomatoPedal T-shirt",
+                "merchDesc":"at EarthQuakerDevices / T-shirts",
+                "merchClasses":"t-shirt collab featured",
+                "url":"https://eqdmerch.com/onomatopedal",
+                "bgImage": "PBAT_OnomatoPedalMerch.gif"
+            },
+            {
+                "merchId": "onomatopedal-poster",
+                "lang": false,
+                "merchName":"OnomatoPedal Poster",
+                "merchDesc":"at EarthQuakerDevices / Posters",
+                "merchClasses":"collab poster",
+                "url":"https://eqdmerch.com/onomatopedal-poster/",
+                "bgImage": "OP-poster.jpg"
+            },
+            {
+                "merchId": "tardigrade-og",
+                "lang": false,
+                "merchName":"'Argyroneta aquatica' a.k.a. Water spider",
+                "merchDesc":"$25 (Amazon) / Standard T-shirt (Port and Company)",
+                "merchClasses":"t-shirt science",
+                "url":"https://www.amazon.com/dp/B07R6FNCPW",
+                "bgImage": "PBAT_WaterSpider.gif"
+            },
+            {
+                "merchId": "si_mutillidae",
+                "lang": false,
+                "merchName":"'Mutillidae' a.k.a. Velvet ants",
+                "merchDesc":"$25 (Amazon) / Standard T-shirt (Port and Company)",
+                "merchClasses":"t-shirt science",
+                "url":"https://www.amazon.com/dp/B07R53RJ3G",
+                "bgImage": "PBAT_Mutillidae.gif"
+            },
+            {
+                "merchId": "counting-on-you-william",
+                "lang": false,
+                "merchName":"We Are All Counting On You, William",
+                "merchDesc":"$10 (Bandcamp) / Compact Disc",
+                "merchClasses":"cd featured",
+                "url":"http://albums.patternbased.com/album/we-are-all-counting-on-you-william",
+                "bgImage": "WEACOY-William_CD.jpg"
+            },
+            {
+                "merchId": "lattice-diamond",
+                "lang": false,
+                "merchName":"Lattice – ‘Diamonds’ Series",
+                "merchDesc":"from $40 (Saatchi Art) / Prints",
+                "merchClasses":"poster featured",
+                "url":"https://www.saatchiart.com/print/Painting-Lattice-Diamonds-Series/1253993/4981975/view?sku=P212-U1253993-A6130631-T2-F",
+                "bgImage": "PBA_Lattice.jpg"
+            },
+            {
+                "merchId": "low-in-the-sky-kenmore",
+                "lang": false,
+                "merchName":"Low In The Sky – Kenmore",
+                "merchDesc":"$25 (Amazon) / Standard T-shirt (Port and Company)",
+                "merchClasses":"t-shirt featured",
+                "url":"https://www.amazon.com/dp/B07L76WJYK",
+                "bgImage": "PBAT_LITS-Kenmore.gif"
+            },
+            {
+                "merchId": "sounds-for-the-village",
+                "lang": false,
+                "merchName":"Sounds For The Village",
+                "merchDesc":"$5 (Bandcamp) / Compact Disc",
+                "merchClasses":"cd",
+                "url":"http://albums.patternbased.com/album/sounds-for-the-village",
+                "bgImage": "Sounds-for-Village_CD.jpg"
+            },
+            {
+                "merchId": "happiness-sunlight",
+                "lang": false,
+                "merchName":"Happiness, Fatness and Sunlight",
+                "merchDesc":"from $40 (Saatchi Art) / Infographics / Prints",
+                "merchClasses":"poster science featured",
+                "url":"https://www.saatchiart.com/print/New-Media-Happiness-Fatness-and-Sunlight/1253993/7269137/view?sku=P205-U1253993-A7269137-T2-F",
+                "bgImage": "PBA_DataVisualization-01.jpg"
+            },
+            {
+                "merchId": "desert-bunny",
+                "lang": true,
+                "merchName": ["Desert Bunny","砂漠のうさぎ"],
+                "merchDesc": ["$27 (Amazon) / Premium T-shirt (Bella + Canvas)", "￥2,800 (Amazon) / Standard T-shirt (Bella + Canvas)"],
+                "merchClasses":"t-shirt animals featured",
+                "url": ["https://www.amazon.com/dp/B07KS1DHDL", "https://www.amazon.co.jp/dp/B08RD8HQG4"],
+                "bgImage": "PBAT_Desert-Bunny.gif"
+            },
+            {
+                "merchId": "variations-of-grace",
+                "lang": false,
+                "merchName":"Variations of Grace",
+                "merchDesc":"$5 (Bandcamp) / Compact Disc",
+                "merchClasses":"cd",
+                "url":"https://patternbased.bandcamp.com/album/variations-of-grace",
+                "bgImage": "variations-of-grace.jpg"
+            },
+            {
+                "merchId": "bocydium-globulare",
+                "lang": false,
+                "merchName":"'Bocydium globulare' Brazilian treehopper",
+                "merchDesc":"$25 (Amazon) / Standard T-shirt (Port and Company)",
+                "merchClasses":"t-shirt science",
+                "url":"https://www.amazon.com/dp/B07RBQ3XTF",
+                "bgImage": "PBAT_Bocydium-globulare.gif"
+            },
+            {
+                "merchId": "theoretics-diamonds",
+                "lang": false,
+                "merchName":"Theoretics – ‘Diamonds’ Series",
+                "merchDesc":"from $40 (Saatchi Art) / Prints",
+                "merchClasses":"poster",
+                "url":"https://www.saatchiart.com/print/Painting-Theoretics-Diamonds-Series/1253993/4981946/view?sku=P212-U1253993-A6130573-T2-F",
+                "bgImage": "157_Theoretics.jpg"
+            },
+            {
+                "merchId": "diamond-white-lines",
+                "lang": false,
+                "merchName":"Diamond – White Lines of Thread",
+                "merchDesc":"$27 (Amazon) / Premium T-shirt (Bella + Canvas)",
+                "merchClasses":"t-shirt",
+                "url":"https://www.amazon.com/dp/B07KS129Y6",
+                "bgImage": "PBAT_Diamond-Thread-WH.gif"
+            },
+            {
+                "merchId": "outside-diamond",
+                "lang": false,
+                "merchName":"Outside – ‘Diamonds’ Series",
+                "merchDesc":"from $40 (Saatchi Art) / Prints",
+                "merchClasses":"poster",
+                "url":"https://www.saatchiart.com/print/Painting-Outside-Diamonds-Series/1253993/4992125/view?sku=P212-U1253993-A6150943-T2-F",
+                "bgImage": "134_Outside.jpg"
+            },
+            {
+                "merchId": "salt-flats-a",
+                "lang": false,
+                "merchName":"Salt Flats -A-",
+                "merchDesc":"from $40 (Saatchi Art) / Prints",
+                "merchClasses":"poster",
+                "url":"https://www.saatchiart.com/print/Drawing-Salt-Flats-A/1253993/4992305/view?sku=P212-U1253993-A6151303-T2-F",
+                "bgImage": "PBAT_Salt-flats-A.jpg"
+            },
+            {
+                "merchId": "salt-flats-b",
+                "lang": false,
+                "merchName":"Salt Flats -B-",
+                "merchDesc":"from $40 (Saatchi Art) / Prints",
+                "merchClasses":"poster",
+                "url":"https://www.saatchiart.com/print/Drawing-Salt-Flats-B/1253993/4992291/view?sku=P212-U1253993-A6151275-T2-F",
+                "bgImage": "PBAT_Salt-flats-B.jpg"
+            },
+            {
+                "merchId": "bunny-dots",
+                "lang": false,
+                "merchName":"Bunny Dots",
+                "merchDesc":"$32.50 (Amazon) / Premium T-shirt (Bella + Canvas) / Front and Back Print",
+                "merchClasses":"t-shirt animals",
+                "url":"https://www.amazon.com/dp/B07KRZM83K",
+                "bgImage": "Bunny-Dot.gif"
+            },
+            {
+                "merchId": "sounds-for-a-photograph",
+                "lang": false,
+                "merchName":"Sounds for a Photograph",
+                "merchDesc":"$6 (Bandcamp) / Compact Disc",
+                "merchClasses":"cd",
+                "url":"http://albums.patternbased.com/album/sounds-for-a-photograph",
+                "bgImage": "Sounds-for-a-Photograph_CD.jpg"
+            },
+            {
+                "merchId": "when-we-have-you",
+                "lang": false,
+                "merchName":"When We Have You",
+                "merchDesc":"$8 (Bandcamp) / Compact Disc",
+                "merchClasses":"cd",
+                "url":"http://albums.patternbased.com/album/when-we-have-you",
+                "bgImage": "When-We-Have-You_CD.jpg"
+            },
+            {
+                "merchId": "complete-works",
+                "lang": false,
+                "merchName":"Complete Works",
+                "merchDesc":"$8 (Bandcamp) / Compact Disc",
+                "merchClasses":"cd",
+                "url":"http://albums.patternbased.com/album/complete-works",
+                "bgImage": "Complete-Works_CD.jpg"
+            },
+            {
+                "merchId": "the-current-administration",
+                "lang": false,
+                "merchName":"The Current Administration",
+                "merchDesc":"$6 (Bandcamp) / Compact Disc",
+                "merchClasses":"cd",
+                "url":"http://albums.patternbased.com/album/the-current-administration",
+                "bgImage": "The-current-administration_CD.jpg"
+            }
+    ]
+}

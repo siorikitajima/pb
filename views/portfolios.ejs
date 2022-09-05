@@ -16,22 +16,77 @@
       <h2 class="textCenter"><%= portfoliosData.portfolioheading[l] %></h2>
     </div>
     <div class="filters" id="filterContainer">
+      <% if (category) { %>
+        <button class="filterItem" id="all">ALL</button>
+      <% } else { %>
         <button class="filterItem active" id="all">ALL</button>
+      <% } %>
+
+      <% if (category && categ == "music") { %>
+        <button class="filterItem active" id="music">Music</button>
+      <% } else { %>
         <button class="filterItem" id="music">Music</button>
+      <% } %>
+
+      <% if (category && categ == "scores") { %>
+        <button class="filterItem active" id="scores">Scores</button>
+      <% } else { %>
         <button class="filterItem" id="scores">Scores</button>
+      <% } %>
+
+      <% if (category && categ == "sounddesign") { %>
+        <button class="filterItem active" id="sounddesign">Sound Design</button>
+      <% } else { %>
         <button class="filterItem" id="sounddesign">Sound Design</button>
+      <% } %>
+
+      <% if (category && categ == "ads") { %>
+        <button class="filterItem active" id="ads">Ads</button>
+      <% } else { %>
         <button class="filterItem" id="ads">Ads</button>
+      <% } %>
+
+      <% if (category && categ == "album") { %>
+        <button class="filterItem active" id="album">Album</button>
+      <% } else { %>
         <button class="filterItem" id="album">Album</button>
+      <% } %>
+
+      <% if (category && categ == "art") { %>
+        <button class="filterItem active" id="art">Art</button>
+      <% } else { %>
         <button class="filterItem" id="art">Art</button>
+      <% } %>
+
+      <% if (category && categ == "code") { %>
+        <button class="filterItem active" id="code">Code</button>
+      <% } else { %>
         <button class="filterItem" id="code">Code</button>
+      <% } %>
+
+      <% if (category && categ == "data-visualization") { %>
+        <button class="filterItem active" id="data-visualization">Data Visualization</button>
+      <% } else { %>
         <button class="filterItem" id="data-visualization">Data Visualization</button>
+      <% } %>
+      
+      <% if (category && categ == "visualdesign") { %>
+        <button class="filterItem active" id="visualdesign">Design</button>
+      <% } else { %>
         <button class="filterItem" id="visualdesign">Design</button>
+      <% } %>
+
+      <% if (category && categ == "featured") { %>
+        <button class="filterItem active" id="featured">Featured</button>
+      <% } else { %>
         <button class="filterItem" id="featured">Featured</button>
+      <% } %>
+
     </div>
 
     <div class="gridWideBlock" id="portfolioList">
         <% for (let a = 0; a < portfoliosData.portfolio.length; a++) { %>
-            <a href="/portfolio/<%= portfoliosData.portfolio[a].portfolioId %>/<%= language %>">
+            <a href="/<%= language %>/portfolio/<%= portfoliosData.portfolio[a].portfolioId %>">
                 <div class="portfolio <%= portfoliosData.portfolio[a].portfolioClasses %>" id="<%= portfoliosData.portfolio[a].portfolioId %>" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('../images/portfolio/<%= portfoliosData.portfolio[a].bgImage %>'); background-size:cover;">
                 <h3><%= portfoliosData.portfolio[a].portfolioName %></h3>
                 </div>
@@ -44,8 +99,13 @@
 <%- include('./partials/footer.ejs') %>
 
 <script>
-    // Filtering Portfolio
 
+  // if(category) {
+  //   let theCat = '#' + categ;
+  //   $('button.active').removeClass('active');
+  //   $('button').find(theCat).addClass('active');
+  // }
+    // Filtering Portfolio
     var activeFilter = $('button.active');
     var filterId = activeFilter.attr('id');
   

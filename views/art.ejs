@@ -40,7 +40,7 @@
 
 <div class="bodyWideContainer">
     <div class="filters" id="filterContainer">
-        <button class="filterItem" id="art">Art</button>
+        <button class="filterItem" id="art">All Art</button>
         <button class="filterItem" id="visualdesign">Design</button>
         <button class="filterItem" id="code">Code</button>
         <button class="filterItem" id="dataviz">Data Viz</button>
@@ -51,7 +51,7 @@
 
   <div class="gridWideBlock" id="portfolioList">
     <% for (let a = 0; a < portfoliosData.portfolio.length; a++) { %>
-      <a href="/portfolio/<%= portfoliosData.portfolio[a].portfolioId %>/<%= language %>">
+      <a href="/<%= language %>/portfolio/<%= portfoliosData.portfolio[a].portfolioId %>">
           <div class="portfolio <%= portfoliosData.portfolio[a].portfolioClasses %>" id="<%= portfoliosData.portfolio[a].portfolioId %>" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('../images/portfolio/<%= portfoliosData.portfolio[a].bgImage %>'); background-size:cover;">
           <h3><%= portfoliosData.portfolio[a].portfolioName %></h3>
           </div>

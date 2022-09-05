@@ -29,7 +29,7 @@ const about_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/about/' + lang;
+    let url = '/' + lang + '/about';
     res.redirect( url );
 };
 
@@ -45,7 +45,7 @@ const music_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/music/' + lang;
+    let url = '/' + lang + '/music';
     res.redirect( url );
 };
 
@@ -61,7 +61,7 @@ const art_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/art/' + lang;
+    let url = '/' + lang + '/art';
     res.redirect( url );
 };
 
@@ -77,7 +77,7 @@ const merch_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/merch/' + lang;
+    let url = '/' + lang + '/merch';
     res.redirect( url );
 };
 
@@ -93,7 +93,7 @@ const contact_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/contact/' + lang;
+    let url = '/' + lang + '/contact';
     res.redirect( url );
 };
 
@@ -109,7 +109,7 @@ const thanku_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/thanku/' + lang;
+    let url = '/' + lang + '/thanku';
     res.redirect( url );
 };
 
@@ -125,7 +125,7 @@ const error_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/error/' + lang;
+    let url = '/' + lang + '/error';
     res.redirect( url );
 };
 
@@ -141,7 +141,7 @@ const artists_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/artists/' + lang;
+    let url = '/' + lang + '/artists';
     res.redirect( url );
 };
 
@@ -157,7 +157,7 @@ const tools_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/tools/' + lang;
+    let url = '/' + lang + '/tools';
     res.redirect( url );
 };
 
@@ -173,7 +173,7 @@ const apps_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/apps/' + lang;
+    let url = '/' + lang + '/apps';
     res.redirect( url );
 };
 
@@ -189,7 +189,7 @@ const multimedia_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/multimedia/' + lang;
+    let url = '/' + lang + '/multimedia';
     res.redirect( url );
 };
 
@@ -205,7 +205,7 @@ const dataviz_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/dataviz/' + lang;
+    let url = '/' + lang + '/dataviz';
     res.redirect( url );
 };
 
@@ -222,7 +222,45 @@ const portfolios_get = async (req, res) => {
     if (loc.country == 'JP') { lang = 'jp' }
     else { lang = 'en' }
 
-    let url = '/portfolios/' + lang;
+    let url = '/' + lang + '/portfolios';
+    res.redirect( url );
+};
+
+const portfolio_get = async (req, res) => {
+    // let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+        let ogUrl = req.url;
+        let ids = ogUrl.split('/');
+        let id = ids[2];
+        let ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+        let loc = geoip.lookup(ip) || 'US';;
+        let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+    console.log(ids, id, loc, lang, ogUrl);
+
+    let url = '/' + lang + '/portfolio/' + id;
+    res.redirect( url );
+};
+
+const category_get = async (req, res) => {
+    // let loc = geoip.lookup('60.77.210.96');
+    // let loc = geoip.lookup(req.ip);
+
+        let key = req.query.categ;
+        let ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+        let loc = geoip.lookup(ip) || 'US';;
+        let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+
+    let url = '/' + lang + '/category?categ=' + key;
     res.redirect( url );
 };
 
@@ -240,5 +278,7 @@ module.exports = {
     apps_get,
     multimedia_get,
     portfolios_get,
-    dataviz_get
+    dataviz_get,
+    portfolio_get,
+    category_get
 }

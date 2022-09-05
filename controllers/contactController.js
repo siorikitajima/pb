@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const contact_post = (req, res) => {
-    language = req.params.lang;
+    const language = req.params.lang;
     const GMAIL_USER = process.env.GMAIL_USER;
     const CLIENT_ID = process.env.CLIENT_ID;
     const CLIENT_SECRET = process.env.CLIENT_SECRET;
@@ -106,22 +106,22 @@ const contact_post = (req, res) => {
             sendMail()
             .then(result => {
                 console.log('Email sent...', result)
-                res.redirect(`/thanku/${language}`)
+                res.redirect(`/${language}/thanku`)
             })
             .catch(error => {
                 console.log(error.message)
-                res.redirect(`/error/${language}`)
+                res.redirect(`/${language}/error`)
             })
           } else {
             // if captcha is not verified
             console.log('ReCaptcha failed.')
-            res.redirect(`/error/${language}`)
+            res.redirect(`/${language}/error`)
           }
 
         })
         .catch((error) => {
             console.log(error.message)
-            res.redirect(`/error/${language}`)
+            res.redirect(`/${language}/error`)
         });
 }
 

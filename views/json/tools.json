@@ -1,0 +1,56 @@
+{
+    "heading": ["To The Toolmakers", "作品を作るための作品を作る方々へ"],
+    "copy": ["The tools that we use to create things are their own unique creations. Remarkably, they are pieces of art that one can use to make more art with. We want to give thanks and acknowledgement to the builders, coders and creatives who make the things that we use to make more things. Below is a selection of some of the builders we love and tools we use on a daily basis.", "私たちが作品を作るために使うツールは、それ自体がユニークな作品です。より多くの芸術作品を作るために作られた芸術作品。それらを作っているビルダー、コーダー、クリエイティブの方々に感謝と敬意を表し、敬愛するビルダーと日常的に使用するツールの一部をまとめました。"],
+    "otherHeading": ["Other Tools","他にもこんなツールを使っています。"],
+    "otherCopy": "Open Source, MIDI, MPE, Ableton, Reaper, Reason, Reaktor, Omnisphere, Equator, SunVox, Push 2, UVI, Omnichord, Zoom, Arturia, iZotope, Modartt Modelling, Synplant, Output, FXPansion, Valhalla, Sugar Bytes, Roland, iConnectivity, Supercollider, Max/MSP, Paul Stretch, Borderlands, Sector, TC-11, OP-1, Yamaha HS8/HS5/HS3, Koma Field Kit/FX, Fender Amps, Fender Jazz Bass, Variax, Windows, Linux, ChromeOS, MacOS, Beyer Dynamic DT 770 Pro, AKG C 3000 B, JavaScript, MongoDB, AWS, Vue, Node.js, D3.js, Tone.js, P5.js, Github, Visual Studio Code, Adobe CS, Cinema 4D, Google, PC Parts Picker, Newegg, Patreon, Composerly, Steadler, Sakura Pigma Micron",
+    "tools" : [
+        {
+            "toolName": ["Ikutaro Kakehashi","梯 郁太郎"],
+            "toolCopy": ["Kakehashi Ikutaro was the founder of Roland as well as the inventor of the modern drum machine (and therefore modern button based step sequencing) and a mind boggling array of affordable musical instruments and effects devices that helped bring music closer to the worldwide masses. Oh ya, and he helped create MIDI. Kakehashi wanted to make music producing available to amateurs as well as professionals. Bringing music to everyone. It is hard to think of a more noble endeavor behind what would become a giant international company and it is hard to think of a builder or musician who has had as much of an impact as Kakehashi has had on modern music and modern music production.", "梯郁太郎は、ローランドの創設者であり、現代のドラムマシン (と主流であるボタンベースのステップシークエンサー) や驚異的な種類の手頃な価格の楽器、ひいては音楽自体を世界中の人々にとって身近なものに近づけてくれた発明者です。それから彼はMIDIの作成も手がけました。梯氏は、プロだけでなくアマチュアにも音楽制作を提供したいと考えていました。この音楽へのすばらしい貢献が、将来偉大な国際企業となるローランドの根幹を支えたのだなあと実感しますし、梯氏ほどの大きな影響を現代音楽や現代音楽の制作に与えたビルダーやミュージシャンを他に考えるのは難しいほどです。"],
+            "url": ["https://en.wikipedia.org/wiki/Ikutaro_Kakehashi", "https://ja.wikipedia.org/wiki/%E6%A2%AF%E9%83%81%E5%A4%AA%E9%83%8E"],
+            "image": "Kakehashi.jpg"
+        },
+        {
+            "toolName": ["Bandcamp","Bandcamp"],
+            "toolCopy": ["For us, <a href='https://bandcamp.com/' target='_blank'>Bandcamp</a> has been far and away the best place to distribute/share music since it became available over a decade ago. It was developed and implemented so well that it still hasn’t needed an update. It doesn’t feel as restrictive as most of the other music sharing services. You want a release with 200 tracks each 20 seconds long? Or a release that is compilation of various artists? Or you want to release every track with a different artist name? You want to use non standard spllng or cAPS? All these scenarios are cake on Bandcamp and simply not possible on most of the other services. As long as it continues to exist, Bandcamp will always be the place to find the most complete and accurate selection of <a href='https://albums.patternbased.com/' target='_blank'>PatternBased’s music</a>.", "PatternBasedにとって<a href='https://bandcamp.com/' target='_blank'>Bandcamp</a>は、サービス開始以降10年以上、音楽を配信/共有の最高のパートナーです。初期バージョンから非常によくデザイン・開発されていて、アップデートの必要がほとんどなかったほどです。他の音楽共有サービスのような制限もありません。各20秒の200トラックのコレクション、色々なアーティストの作品を集めたコンピレーションアルバム、各曲を違うアーティスト名でリリースする、あまり使われていない綴りや変わった大文字小文字の組み合わせを使いたい、など、他のサービスではほぼ不可能なことも、Bandcampでは全く問題ありません。これからもBandcampが変わらず<a href='https://albums.patternbased.com/' target='_blank'>PatternBasedの完璧な居場所</a>であり続けてくれることを願います。"],
+            "url": ["https://bandcamp.com/", "https://bandcamp.com/"],
+            "image": "bandcamp.png"
+        },
+        {
+            "toolName": ["EarthQuaker Devices","EarthQuaker Devices"],
+            "toolCopy": ["<a href='https://www.earthquakerdevices.com/' target='_blank'>EarthQuaker Devices</a> are the outboard processors of choice at the PB HQ. They comprise a huge variety of highly playable effects made by the coolest team of peoples we know of starting with the founders Jamie and Julie and radiating out through the company. The effects range from bread and butter distortion/fuzz/overdrive to wild, spacey modulations. Made in Akron, Ohio with a lifetime warranty. EQD Rules and PatternBased would not exist in its form without them.", "<a href='https://www.earthquakerdevices.com/' target='_blank'>EarthQuaker Devices</a>は、PatternBasedが日常的に最もよく使っているアウトボードプロセッサのブランドです。創設者のジェイミーとジュリーをはじめとした、私たちが知りうる中で最高にクールな人々のチームによって、ひとつひとつ丁寧に作られ、幅広くパワフルで多種多様なエフェクトを生み出します。効果は、ディストーション/ファズ/オーバードライブから、ワイルドでスペーシーな変調までと多岐にわたります。オハイオ州アクロンでミュージシャン達の手によって製造・テストされていて、生涯保証も付いてきます。PatternBasedの音楽は、EQDなくては存在しえません。"],
+            "url": ["https://www.earthquakerdevices.com/", "https://www.earthquakerdevices.jp/"],
+            "image": "EQD.jpg"
+        },
+        {
+            "toolName": ["VCV Rack","VCV Rack"],
+            "toolCopy": ["Open source and free, <a href='http://www.vcvrack.com/' target='_blank'>VCV Rack</a> is one of the most significant developments in electronic music making in years. Essentially a virtual eurorack system with way more power, recall and flexibility. VCV Rack is a tool that we find we are using more and more with each passing day. Andrew Belt, the creator of VCV, gave a unique musical gift to the world. Dozens of devs jumped on board to create a huge array of modules (well over 1000 as of July 2019). Now it is up to the users to make interesting things with it. We are looking forward to building a dedicated Linux box for this tool.", "オープンソースで無料の<a href='http://www.vcvrack.com/' target='_blank'>VCV Rack</a>は、ここ数年の電子音楽制作における最も重要な開発の1つです。端的に言えば、強力なリコールと柔軟性を備えた仮想ユーロラックシステムです。私たちにとって最も新しいジャンルのツールで、使う機会・プロジェクトは日を追うごとにどんどん増えてきています。VCVの作成者であるAndrew Belt氏は、音楽の世界に何ともユニークな作品を贈りました。また、世界中の開発者が参加して、膨大な数のモジュールを作成しはじめました (2019年7月の時点で1000をはるかに超えています)。今、それを使って何を作るかは、ユーザー次第です。このツール専用のLinuxボックスを構築してしまおうかと計画しています。"],
+            "url": ["http://www.vcvrack.com/", "http://www.vcvrack.com/"],
+            "image": "VCV.png"
+        },
+        {
+            "toolName": ["Modartt Pianoteq","Modartt Pianoteq"],
+            "toolCopy": ["The first time we played with <a href='https://www.pianoteq.com/' target='_blank'>Pianoteq</a> was the last time we used sample based libraries when needing Piano-like sounds from within the box. Modartt's advanced implementation of physical modelling has no equal and things like sympathetic resonance are accounted for in the modelling which makes it feel quite organic. Pianoteq has become an absolutely invaluable tool that we used on almost every piece of music that we produce.", "<a href='https://www.pianoteq.com/' target='_blank'>Pianoteq</a>を初めてプレイして以来、ピアノの音が必要なときにサンプルベースのライブラリを使わなくなりました。Modartt Pianoteqのような高度な物理的モデリングは他に類を見ません。たとえば、弦の共鳴音などがモデリングで考慮されているため、非常に有機的な音を作り出せるのです。今ではPianoteqは制作に欠かせない貴重なツールになりました。"],
+            "url": ["https://www.pianoteq.com/", "https://www.pianoteq.com/"],
+            "image": "Pianoteq.jpg"
+        },
+        {
+            "toolName": ["Roli","Roli"],
+            "toolCopy": ["<a href='http://www.roli.com/' target='_blank'>Roli</a>’s Seaboard unlocks new expressiveness in the modern studio. Its brilliant design allows one to take advantage of the traditional layout of the musical keyboard while adding new ways to play it. It is also a huge step forward for writing delicate music as the key-presses are silent unlike most keyboard controllers. It feels great to play and the squish of the keys feels perfect for even some traditional instruments like samples of upright bass. It is a highly portable device that can take a beating during travel. Roli makes other expressive instruments as well as a framework for coding audio applications called <a href='https://juce.com/discover' target='_blank'>Juce</a>.", "<a href='http://www.roli.com/' target='_blank'>Roli</a>は最新作のキーボード「Seaboard」で、今までになかった新しい表現方法を作りあげました。その秀逸なデザインにより、音楽キーボードの従来のレイアウトをそのままに、感覚的に使える全く新しい演奏方法を加えることに成功しています。キーを押す音が大変静かであるため、繊細な音楽を演奏するのにもとても適しています。演奏感は素晴らしく、押し返しのある柔らかな質感は、アップライトベースのような伝統的な楽器の再現にもいいと思います。移動などの衝撃にも強く、携帯性の高いデバイスでもあります。Roliは、Seaboardの他にも様々な表現力豊かな楽器や、<a href='https://juce.com/discover' target='_blank'>Juce</a>と呼ばれるオーディオアプリのフレームワークなども制作しています。"],
+            "url": ["http://www.roli.com/", "http://www.roli.com/"],
+            "image": "Roli.jpg"
+        },
+        {
+            "toolName": ["Slate + Ash Auras","Slate + Ash Auras"],
+            "toolCopy": ["<a href='https://slateandash.com/' target='_blank'>Auras</a> is an Incredible Kontakt instrument that takes advantage of Midi Polyphonic Expression (MPE). Auras is an ultra playable, hand crafted textural engine from some brilliant Bristol artists. Because you are playing the sounds in multiple dimensions and they are so well done, each 'preset' is a fully realized instrument but it is also easy to dig in and build new playable textures with the individual layers and controls they provide.", "<a href='https://slateandash.com/' target='_blank'>Auras</a>は、Kontaktが作った、MIDI・ポリフォニック・エクスプレッション (MPE) を利用したとんでもなく優秀な楽器です。手作りのテクスチャエンジンは、優秀なブリストルアーティスト達による世界最高峰の演奏の音源をもとに作られています。サウンドの多次元化が非常によく出来ていて、それぞれのプリセットはそれ自体が完成された楽器のようです。それをもとに新しいオリジナルのテクスチャを構築することも簡単に出来ます。"],
+            "url": ["https://slateandash.com/", "https://slateandash.com/"],
+            "image": "auras.png"
+        },
+        {
+            "toolName": ["Dillon Bastan's Iota","Dillon Bastan's Iota"],
+            "toolCopy": ["<a href='https://www.dillonbastan.com/iota-2' target='_blank'>Iota 2</a> is a unique granular looper that is great for generating textures from samples. You can create unlimited loops of varying size within a sample of audio and have those loops play in unique ways allowing you an easy way to create non repeating textures. Dillon Bastan, creator of Iota, is a sound artist and developer based in Los Angeles and more of his work is at <a href='https://www.dillonbastan.com/' target='_blank'>his website</a>.", "<a href='https://www.dillonbastan.com/iota-2' target='_blank'>Iota 2</a>は、サンプルからテクスチャを作るのに最適な、オリジナルのGranularルーパーです。オーディオサンプルに色々なサイズのループを作って、それぞれ別々に再生し、繰り返しのないオーガニックなテクスチャを簡単に作ることができます。Iotaの作成者であるDillon Bastan氏は、ロサンゼルスを拠点とするサウンドアーティスト兼開発者です。<a href='https://www.dillonbastan.com/iota-2' target='_blank'>ウェブサイト</a>に他の作品も掲載されています。"],
+            "url": ["https://www.dillonbastan.com/", "https://www.dillonbastan.com/"],
+            "image": "iota.jpg"
+        }
+    ]
+}

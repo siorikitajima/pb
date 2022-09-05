@@ -1,7 +1,8 @@
 const fs = require('fs');
+const { language } = require('googleapis/build/src/apis/language');
 
 const home_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
@@ -17,7 +18,7 @@ const home_get = async (req, res) => {
 };
 
 const about_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/artists.json');
@@ -33,7 +34,7 @@ const about_get = async (req, res) => {
 };
 
 const music_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
@@ -49,7 +50,7 @@ const music_get = async (req, res) => {
 };
 
 const art_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
@@ -65,7 +66,7 @@ const art_get = async (req, res) => {
 };
 
 const merch_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/merch.json');
@@ -81,7 +82,7 @@ const merch_get = async (req, res) => {
 };
 
 const contact_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     res.render('contact', { 
@@ -94,7 +95,7 @@ const contact_get = async (req, res) => {
 };
 
 const thanku_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     res.render('thanku', { 
@@ -107,7 +108,7 @@ const thanku_get = async (req, res) => {
 };
 
 const error_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     res.render('error', { 
@@ -120,7 +121,7 @@ const error_get = async (req, res) => {
 };
 
 const artists_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/artists.json');
@@ -136,7 +137,7 @@ const artists_get = async (req, res) => {
 };
 
 const tools_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/tools.json');
@@ -152,7 +153,7 @@ const tools_get = async (req, res) => {
 };
 
 const apps_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
@@ -168,7 +169,7 @@ const apps_get = async (req, res) => {
 };
 
 const multimedia_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
@@ -184,7 +185,7 @@ const multimedia_get = async (req, res) => {
 };
 
 const dataviz_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
@@ -200,7 +201,7 @@ const dataviz_get = async (req, res) => {
 };
 
 const portfolios_get = async (req, res) => {
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
@@ -211,13 +212,15 @@ const portfolios_get = async (req, res) => {
         slug: 'portfolios',
         language: language,
         pageData: pageData,
-        portfoliosData: portfoliosData
+        portfoliosData: portfoliosData,
+        category: false
     });
 };
 
 const portfolio_get = async (req, res) => {
+
     let theid = req.params.id;
-    language = req.params.lang;
+    let language = req.params.lang;
     let rawdata = fs.readFileSync('./json/pages.json');
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
@@ -251,7 +254,7 @@ const portfolio_get = async (req, res) => {
         }
     }
     // Remove Featured classes from the tag list
-    tags = tags.split(' ');
+    tags =  tags.split(' ');
     generalTags = [ 'featured', 'musicfeat', 'artfeat'];
     for(let t =0; t< tags.length; t++) {
         for (let g =0; g < generalTags.length; g++) {
@@ -274,8 +277,29 @@ const portfolio_get = async (req, res) => {
         nextId: nextId,
         prevId: prevId,
         theItem: theItem
-    });
+        });
+
 };
+
+const category_get = async (req, res) => {
+    let categ = req.query.categ;
+    let language = req.params.lang;
+    let rawdata = fs.readFileSync('./json/pages.json');
+    let pageData = JSON.parse(rawdata);
+    let rawdata1 = fs.readFileSync('./json/portfolios.json');
+    let portfoliosData = JSON.parse(rawdata1);
+    res.render('portfolios', { 
+        title: 'Portfolios', 
+        nav:'portfolios', 
+        slug: 'portfolios',
+        language: language,
+        pageData: pageData,
+        portfoliosData: portfoliosData,
+        categ: categ,
+        category: true
+    });
+}
+
 
 module.exports = {
     // lang_post,
@@ -293,5 +317,6 @@ module.exports = {
     multimedia_get,
     portfolios_get,
     portfolio_get,
-    dataviz_get
+    dataviz_get,
+    category_get
 }
