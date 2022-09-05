@@ -1,4 +1,5 @@
 var geoip = require('geoip-lite');
+const fs = require('fs');
 
 const home_get = async (req, res) => {
     // let loc = geoip.lookup('60.77.210.96');
@@ -264,6 +265,27 @@ const category_get = async (req, res) => {
     res.redirect( url );
 };
 
+const fourohfour_get = async (req, res) => {
+    let rawdata = fs.readFileSync('./json/pages.json');
+    let pageData = JSON.parse(rawdata);
+
+    let ip = req.headers['x-forwarded-for'] ||
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
+    let loc = geoip.lookup(ip) || 'US';;
+    let lang;
+    if (loc.country == 'JP') { lang = 'jp' }
+    else { lang = 'en' }
+    res.render('page404', { 
+        title: '404', 
+        nav:'404', 
+        slug: '404',
+        pageData: pageData,
+        language: lang
+    });
+}
+
 module.exports = {
     home_get,
     about_get,
@@ -280,5 +302,6 @@ module.exports = {
     portfolios_get,
     dataviz_get,
     portfolio_get,
-    category_get
+    category_get,
+    fourohfour_get
 }

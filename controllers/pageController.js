@@ -7,14 +7,18 @@ const home_get = async (req, res) => {
     let pageData = JSON.parse(rawdata);
     let rawdata1 = fs.readFileSync('./json/portfolios.json');
     let portfoliosData = JSON.parse(rawdata1);
-    res.render('index', { 
-        title: 'Hello', 
-        nav:'home', 
-        slug: '',
-        language: language,
-        pageData: pageData,
-        portfoliosData: portfoliosData
-    });
+    if(language !== 'en' && language !== 'jp') {
+        res.redirect('404/notfound');
+    } else {
+        res.render('index', { 
+            title: 'Hello', 
+            nav:'home', 
+            slug: '',
+            language: language,
+            pageData: pageData,
+            portfoliosData: portfoliosData
+        });
+    }
 };
 
 const about_get = async (req, res) => {
@@ -299,6 +303,8 @@ const category_get = async (req, res) => {
         category: true
     });
 }
+
+
 
 
 module.exports = {

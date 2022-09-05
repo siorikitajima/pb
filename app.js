@@ -62,4 +62,5 @@ app.get('/:lang/category', pageCotroller.category_get);
 // Portfolio items
 app.get('/:lang/portfolio/:id', pageCotroller.portfolio_get);
 
+app.get('*', redirectController.fourohfour_get);
 
